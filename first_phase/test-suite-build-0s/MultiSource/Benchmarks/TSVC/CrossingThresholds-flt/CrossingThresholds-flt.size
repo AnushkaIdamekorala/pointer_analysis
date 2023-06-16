@@ -1,0 +1,13 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/MultiSource/Benchmarks/TSVC/CrossingThresholds-flt/CrossingThresholds-flt  :
+section              size         addr
+__text              27032   4294971704
+__stubs                96   4294998736
+__const               148   4294998832
+__cstring             997   4294998980
+__unwind_info          80   4294999980
+__got                  64   4295000064
+__data                  8   4295016448
+__bss             1951184   4295016464
+Total             1979609
+
+

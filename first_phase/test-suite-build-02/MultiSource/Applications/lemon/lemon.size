@@ -1,0 +1,13 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/MultiSource/Applications/lemon/lemon  :
+section            size         addr
+__text            36144   4294973996
+__stubs             516   4295010140
+__const             192   4295010656
+__cstring          5373   4295010848
+__unwind_info       224   4295016224
+__got               376   4295016448
+__data              325   4295032832
+__bss               184   4295033160
+Total             43334
+
+

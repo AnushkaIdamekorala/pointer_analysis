@@ -1,0 +1,14 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/MultiSource/Benchmarks/MiBench/consumer-lame/consumer-lame  :
+section             size         addr
+__text             78896   4294977664
+__stubs              576   4295056560
+__const            47256   4295057136
+__cstring          10035   4295104392
+__unwind_info        312   4295114428
+__got                416   4295114752
+__const             2616   4295115168
+__data             24788   4295131136
+__bss             500516   4295155936
+Total             665411
+
+

@@ -1,0 +1,11 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/SingleSource/Benchmarks/Misc/oourafft  :
+section            size         addr
+__text            17332   4294982400
+__stubs             108   4294999732
+__const              40   4294999840
+__cstring            52   4294999880
+__unwind_info       128   4294999932
+__got                72   4295000064
+Total             17732
+
+

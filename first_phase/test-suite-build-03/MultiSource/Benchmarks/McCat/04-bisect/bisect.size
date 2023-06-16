@@ -1,0 +1,11 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/MultiSource/Benchmarks/McCat/04-bisect/bisect  :
+section           size         addr
+__text            2016   4294981340
+__stubs             84   4294983356
+__const             32   4294983440
+__cstring          122   4294983472
+__unwind_info       72   4294983596
+__got               64   4294983680
+Total             2390
+
+

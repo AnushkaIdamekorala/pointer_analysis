@@ -1,0 +1,13 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/MultiSource/Benchmarks/TSVC/IndirectAddressing-dbl/IndirectAddressing-dbl  :
+section              size         addr
+__text              23860   4294974924
+__stubs                96   4294998784
+__const               112   4294998880
+__cstring             985   4294998992
+__unwind_info          80   4294999980
+__got                  64   4295000064
+__data                  8   4295016448
+__bss             3901960   4295016480
+Total             3927165
+
+

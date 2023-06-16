@@ -1,0 +1,12 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/SingleSource/Benchmarks/Misc/perlin  :
+section           size         addr
+__text             904   4294981556
+__stubs             12   4294982460
+__const           1112   4294982472
+__cstring            4   4294983584
+__unwind_info       88   4294983588
+__got                8   4294983680
+__bss             2048   4295000064
+Total             4176
+
+

@@ -1,0 +1,12 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/SingleSource/Benchmarks/Adobe-C++/loop_unroll  :
+section             size         addr
+__text            123404   4294974092
+__stubs              120   4295097496
+__cstring            523   4295097616
+__unwind_info        228   4295098140
+__got                 80   4295098368
+__data                16   4295114752
+__common           99232   4295114768
+Total             223603
+
+

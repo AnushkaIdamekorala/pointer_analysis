@@ -1,0 +1,11 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/SingleSource/Benchmarks/Shootout-C++/Shootout-C++-sieve  :
+section               size         addr
+__text               14480   4294983812
+__stubs                564   4294998292
+__gcc_except_tab       404   4294998856
+__cstring               15   4294999260
+__unwind_info          788   4294999276
+__got                  448   4295000064
+Total                16699
+
+

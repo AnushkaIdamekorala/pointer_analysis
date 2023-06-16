@@ -1,0 +1,18 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/MultiSource/Benchmarks/7zip/7zip-benchmark  :
+section                size         addr
+__text               847380   4294979960
+__stubs                1248   4295827340
+__init_offsets          148   4295828588
+__const               23064   4295828736
+__gcc_except_tab      43212   4295851800
+__cstring              6092   4295895012
+__unwind_info         16376   4295901104
+__eh_frame               76   4295917480
+__got                  1768   4295917568
+__const               35144   4295919336
+__data                 2968   4295966720
+__bss                 17088   4295969688
+__common              10136   4295986784
+Total               1004700
+
+

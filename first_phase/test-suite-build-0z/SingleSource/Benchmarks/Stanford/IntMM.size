@@ -1,0 +1,11 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/SingleSource/Benchmarks/Stanford/IntMM  :
+section            size         addr
+__text              392   4294983192
+__stubs              12   4294983584
+__cstring             4   4294983596
+__unwind_info        80   4294983600
+__got                 8   4294983680
+__bss             20180   4295000064
+Total             20676
+
+

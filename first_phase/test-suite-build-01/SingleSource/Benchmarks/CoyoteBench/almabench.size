@@ -1,0 +1,11 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/SingleSource/Benchmarks/CoyoteBench/almabench  :
+section           size         addr
+__text            1728   4294976956
+__stubs            108   4294978684
+__const           4800   4294978792
+__cstring           10   4294983592
+__unwind_info       72   4294983604
+__got               88   4294983680
+Total             6806
+
+

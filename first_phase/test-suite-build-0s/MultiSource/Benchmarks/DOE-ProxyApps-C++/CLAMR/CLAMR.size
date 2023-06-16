@@ -1,0 +1,17 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/MultiSource/Benchmarks/DOE-ProxyApps-C++/CLAMR/CLAMR  :
+section                size         addr
+__text               462108   4294984848
+__stubs                1524   4295446956
+__init_offsets            4   4295448480
+__gcc_except_tab      25052   4295448484
+__const                1100   4295473536
+__cstring             27981   4295474636
+__unwind_info          5344   4295502620
+__got                  1248   4295507968
+__const                1880   4295509216
+__data                   84   4295524352
+__bss                  2265   4295524440
+__common                400   4295526712
+Total                528990
+
+

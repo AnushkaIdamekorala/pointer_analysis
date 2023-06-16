@@ -1,0 +1,16 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/MultiSource/Benchmarks/tramp3d-v4/tramp3d-v4  :
+section               size         addr
+__text             1098444   4294974712
+__stubs              69588   4296073156
+__init_offsets          24   4296142744
+__const              16143   4296142768
+__cstring             4340   4296158911
+__unwind_info           72   4296163252
+__got                47472   4296163328
+__const               7432   4296210800
+__data                 292   4296228864
+__bss                  408   4296229160
+__common               736   4296229568
+Total              1244951
+
+

@@ -1,0 +1,11 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/MultiSource/Benchmarks/McCat/03-testtrie/testtrie  :
+section           size         addr
+__text            1580   4294981756
+__stubs            156   4294983336
+__cstring          101   4294983492
+__unwind_info       84   4294983596
+__got              120   4294983680
+__bss               32   4295000064
+Total             2073
+
+

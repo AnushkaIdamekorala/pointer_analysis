@@ -1,0 +1,11 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/SingleSource/Benchmarks/BenchmarkGame/partialsums  :
+section           size         addr
+__text            1028   4294982396
+__stubs             48   4294983424
+__const              8   4294983472
+__cstring          110   4294983480
+__unwind_info       88   4294983592
+__got               32   4294983680
+Total             1314
+
+

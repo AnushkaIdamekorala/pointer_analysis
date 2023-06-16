@@ -1,0 +1,13 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/MultiSource/Benchmarks/TSVC/Reductions-dbl/Reductions-dbl  :
+section              size         addr
+__text              39776   4294975280
+__stubs                96   4295015056
+__const               112   4295015152
+__cstring            1099   4295015264
+__unwind_info          80   4295016364
+__got                  64   4295016448
+__data                  8   4295032832
+__bss             3901960   4295032864
+Total             3943195
+
+

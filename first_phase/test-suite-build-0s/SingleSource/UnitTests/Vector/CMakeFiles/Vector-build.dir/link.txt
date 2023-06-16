@@ -1,0 +1,1 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/tools/timeit --summary Vector-build.link.time /opt/homebrew/opt/llvm@14/bin/clang -flto     -Os -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names "CMakeFiles/Vector-build.dir/build.c.o" -o Vector-build 

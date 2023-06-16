@@ -1,0 +1,15 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/MultiSource/Benchmarks/Prolangs-C++/city/city  :
+section               size         addr
+__text               14936   4294983552
+__stubs                636   4294998488
+__init_offsets           4   4294999124
+__gcc_except_tab       216   4294999128
+__cstring              289   4294999344
+__const                 22   4294999633
+__unwind_info          408   4294999656
+__got                  472   4295000064
+__const                160   4295000536
+__common                36   4295016448
+Total                17179
+
+

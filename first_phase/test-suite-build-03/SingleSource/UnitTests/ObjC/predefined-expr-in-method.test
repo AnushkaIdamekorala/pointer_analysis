@@ -1,0 +1,2 @@
+RUN: cd %S ; %S/predefined-expr-in-method 
+VERIFY: %b/fpcmp-target %o %S/predefined-expr-in-method.reference_output

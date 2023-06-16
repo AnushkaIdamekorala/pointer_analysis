@@ -1,0 +1,4 @@
+
+--cfl-steens-aa+--globals-aa no 9603119 partial 123639 may 47656033 must 158485 time 135 memory  6144
+--cfl-steens-aa+--scev-aa no 8893849 partial 123643 may 48364483 must 159301 time 162 memory  6592
+--globals-aa+--scev-aa no 9571455 partial 123643 may 47686877 must 159301 time 165 memory  6576

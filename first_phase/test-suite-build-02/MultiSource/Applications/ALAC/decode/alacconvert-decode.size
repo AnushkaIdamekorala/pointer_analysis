@@ -1,0 +1,14 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/MultiSource/Applications/ALAC/decode/alacconvert-decode  :
+section               size         addr
+__text               30432   4294984496
+__stubs                240   4295014928
+__const                376   4295015168
+__cstring              463   4295015544
+__gcc_except_tab        48   4295016008
+__unwind_info          308   4295016056
+__eh_frame              76   4295016368
+__got                  200   4295016448
+__const                 80   4295016648
+Total                32223
+
+

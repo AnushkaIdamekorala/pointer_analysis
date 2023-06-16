@@ -1,0 +1,14 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/SingleSource/UnitTests/block-copied-in-cxxobj-1  :
+section              size         addr
+__text                252   4294983200
+__stubs                60   4294983452
+__const                 8   4294983512
+__gcc_except_tab       40   4294983520
+__cstring               6   4294983560
+__unwind_info         108   4294983568
+__got                  56   4294983680
+__const                48   4294983736
+__bss                   4   4295000064
+Total                 582
+
+

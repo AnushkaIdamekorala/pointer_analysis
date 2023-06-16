@@ -1,0 +1,12 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/SingleSource/Regression/C++/Regression-C++-global_ctor  :
+section            size         addr
+__text              360   4294983144
+__stubs              36   4294983504
+__init_offsets        4   4294983540
+__cstring            46   4294983544
+__unwind_info        88   4294983592
+__got                40   4294983680
+__common             17   4295000064
+Total               591
+
+

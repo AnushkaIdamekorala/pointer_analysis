@@ -1,0 +1,14 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/SingleSource/Benchmarks/Misc-C++-EH/spirit  :
+section               size         addr
+__text               53264   4294978260
+__stubs                432   4295031524
+__gcc_except_tab      2268   4295031956
+__const              23124   4295034224
+__cstring            88680   4295057348
+__unwind_info         1484   4295146028
+__got                 1024   4295147520
+__const               5256   4295148544
+__data                  80   4295163904
+Total               175612
+
+

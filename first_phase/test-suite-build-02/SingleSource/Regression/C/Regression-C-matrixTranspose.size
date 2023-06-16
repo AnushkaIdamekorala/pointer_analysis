@@ -1,0 +1,12 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/SingleSource/Regression/C/Regression-C-matrixTranspose  :
+section           size         addr
+__text             304   4294983236
+__stubs             12   4294983540
+__const              8   4294983552
+__cstring           46   4294983560
+__unwind_info       72   4294983608
+__got                8   4294983680
+__bss             8192   4295000064
+Total             8642
+
+

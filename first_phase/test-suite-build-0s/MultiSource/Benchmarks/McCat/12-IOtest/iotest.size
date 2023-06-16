@@ -1,0 +1,12 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/MultiSource/Benchmarks/McCat/12-IOtest/iotest  :
+section           size         addr
+__text            1204   4294982244
+__stubs             24   4294983448
+__const             16   4294983472
+__cstring           99   4294983488
+__unwind_info       80   4294983588
+__got               16   4294983680
+__bss               16   4295000064
+Total             1455
+
+

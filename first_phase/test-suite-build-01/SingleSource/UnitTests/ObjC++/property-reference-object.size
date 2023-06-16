@@ -1,0 +1,24 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/SingleSource/UnitTests/ObjC++/property-reference-object  :
+section              size         addr
+__text                752   4294982128
+__stubs                72   4294982880
+__objc_methlist       116   4294982952
+__gcc_except_tab       32   4294983068
+__objc_methname       293   4294983100
+__objc_classname       10   4294983393
+__objc_methtype       120   4294983403
+__cstring              26   4294983523
+__unwind_info         128   4294983552
+__got                  56   4294983680
+__objc_classlist        8   4294983736
+__objc_imageinfo        8   4294983744
+__objc_const          304   4295000064
+__objc_selrefs         80   4295000368
+__objc_classrefs       16   4295000448
+__objc_superrefs        8   4295000464
+__objc_ivar            12   4295000472
+__objc_data            80   4295000488
+__common                4   4295000568
+Total                2125
+
+

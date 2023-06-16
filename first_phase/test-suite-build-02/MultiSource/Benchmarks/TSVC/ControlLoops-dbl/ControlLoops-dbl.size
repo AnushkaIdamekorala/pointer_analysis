@@ -1,0 +1,13 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/MultiSource/Benchmarks/TSVC/ControlLoops-dbl/ControlLoops-dbl  :
+section              size         addr
+__text              31180   4294983896
+__stubs               108   4295015076
+__const               112   4295015184
+__cstring            1062   4295015296
+__unwind_info          80   4295016360
+__got                  72   4295016448
+__data                  8   4295032832
+__bss             4157960   4295032864
+Total             4190582
+
+

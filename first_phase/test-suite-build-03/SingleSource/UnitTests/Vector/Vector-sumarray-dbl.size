@@ -1,0 +1,12 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/SingleSource/UnitTests/Vector/Vector-sumarray-dbl  :
+section           size         addr
+__text             204   4294983352
+__stubs             12   4294983556
+__const              8   4294983568
+__cstring           25   4294983576
+__unwind_info       72   4294983604
+__got                8   4294983680
+__bss             6400   4295000064
+Total             6729
+
+

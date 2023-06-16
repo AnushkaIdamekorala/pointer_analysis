@@ -1,0 +1,10 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/SingleSource/UnitTests/2003-07-09-SignedArgs  :
+section           size         addr
+__text             956   4294982568
+__stubs             12   4294983524
+__cstring           71   4294983536
+__unwind_info       72   4294983608
+__got                8   4294983680
+Total             1119
+
+

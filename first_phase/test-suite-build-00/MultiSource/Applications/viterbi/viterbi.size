@@ -1,0 +1,11 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/MultiSource/Applications/viterbi/viterbi  :
+section           size         addr
+__text            5408   4294977884
+__stubs            156   4294983292
+__const             13   4294983448
+__cstring          123   4294983461
+__unwind_info       96   4294983584
+__got              112   4294983680
+Total             5908
+
+

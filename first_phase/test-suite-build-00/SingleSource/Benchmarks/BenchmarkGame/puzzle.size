@@ -1,0 +1,12 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/SingleSource/Benchmarks/BenchmarkGame/puzzle  :
+section           size         addr
+__text             968   4294982532
+__stubs             36   4294983500
+__const              8   4294983536
+__cstring           21   4294983544
+__unwind_info      108   4294983568
+__got               24   4294983680
+__data               8   4295000064
+Total             1173
+
+

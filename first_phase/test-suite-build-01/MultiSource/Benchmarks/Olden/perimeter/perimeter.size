@@ -1,0 +1,12 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/MultiSource/Benchmarks/Olden/perimeter/perimeter  :
+section           size         addr
+__text            2000   4294981404
+__stubs             48   4294983404
+__const             40   4294983452
+__cstring           79   4294983492
+__unwind_info      108   4294983572
+__got               32   4294983680
+__bss                4   4295000064
+Total             2311
+
+

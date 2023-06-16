@@ -1,0 +1,11 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/SingleSource/Regression/C/gcc-c-torture/execute/GCC-C-execute-simd-1  :
+section           size         addr
+__text              32   4294983540
+__stubs             12   4294983572
+__const             16   4294983584
+__unwind_info       72   4294983600
+__got                8   4294983680
+__bss               16   4295000064
+Total              156
+
+

@@ -1,0 +1,11 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/SingleSource/UnitTests/2009-04-16-BitfieldInitialization  :
+section           size         addr
+__text             368   4294983072
+__stubs             12   4294983440
+__cstring          153   4294983452
+__unwind_info       72   4294983608
+__got                8   4294983680
+__data               8   4295000064
+Total              621
+
+

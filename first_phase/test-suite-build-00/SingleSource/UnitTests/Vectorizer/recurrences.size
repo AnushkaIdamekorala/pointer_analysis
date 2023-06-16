@@ -1,0 +1,15 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/SingleSource/UnitTests/Vectorizer/recurrences  :
+section               size         addr
+__text               54488   4294973968
+__stubs                564   4295028456
+__init_offsets           4   4295029020
+__gcc_except_tab       776   4295029024
+__cstring               94   4295029800
+__const                554   4295029894
+__unwind_info         2384   4295030448
+__got                  464   4295032832
+__const                936   4295033296
+__bss                 2504   4295049216
+Total                62768
+
+

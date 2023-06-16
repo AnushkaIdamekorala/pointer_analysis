@@ -1,0 +1,13 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/MultiSource/Benchmarks/TSVC/LoopRerolling-flt/LoopRerolling-flt  :
+section              size         addr
+__text               6984   4294975572
+__stubs                72   4294982556
+__const                 8   4294982628
+__cstring             938   4294982636
+__unwind_info         104   4294983576
+__got                  48   4294983680
+__data                  8   4295000064
+__bss             1951184   4295000080
+Total             1959346
+
+

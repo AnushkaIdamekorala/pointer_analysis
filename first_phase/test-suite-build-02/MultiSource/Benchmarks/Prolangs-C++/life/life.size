@@ -1,0 +1,11 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/MultiSource/Benchmarks/Prolangs-C++/life/life  :
+section           size         addr
+__text            2500   4294980996
+__stubs             36   4294983496
+__const             35   4294983532
+__unwind_info      112   4294983568
+__got               32   4294983680
+__const            240   4294983712
+Total             2955
+
+

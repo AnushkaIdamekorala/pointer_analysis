@@ -1,0 +1,14 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/MultiSource/Benchmarks/Prolangs-C/assembler/assembler  :
+section            size         addr
+__text            24568   4294970920
+__stubs             348   4294995488
+__const             194   4294995836
+__cstring          3894   4294996030
+__unwind_info       140   4294999924
+__got               240   4295000064
+__const            1920   4295000304
+__data               40   4295016448
+__bss               385   4295016488
+Total             31729
+
+

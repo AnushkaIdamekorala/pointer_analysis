@@ -1,0 +1,15 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/SingleSource/Benchmarks/Misc-C++/Large/ray  :
+section              size         addr
+__text               3964   4294979140
+__stubs               192   4294983104
+__gcc_except_tab      152   4294983296
+__cstring              12   4294983448
+__const                22   4294983460
+__unwind_info         196   4294983484
+__got                 168   4294983680
+__const               144   4294983848
+__data                 16   4295000064
+__common                1   4295000080
+Total                4867
+
+

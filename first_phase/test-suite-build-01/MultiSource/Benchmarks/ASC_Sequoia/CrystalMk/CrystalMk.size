@@ -1,0 +1,11 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/MultiSource/Benchmarks/ASC_Sequoia/CrystalMk/CrystalMk  :
+section           size         addr
+__text            2240   4294981116
+__stubs             84   4294983356
+__const             48   4294983440
+__cstring          105   4294983488
+__unwind_info       72   4294983596
+__got               64   4294983680
+Total             2613
+
+

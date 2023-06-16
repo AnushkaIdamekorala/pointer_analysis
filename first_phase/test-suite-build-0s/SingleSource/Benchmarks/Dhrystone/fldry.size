@@ -1,0 +1,12 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/SingleSource/Benchmarks/Dhrystone/fldry  :
+section            size         addr
+__text              256   4294983220
+__stubs              36   4294983476
+__const               8   4294983512
+__cstring            84   4294983520
+__unwind_info        72   4294983604
+__got                24   4294983680
+__bss             20832   4295000064
+Total             21312
+
+

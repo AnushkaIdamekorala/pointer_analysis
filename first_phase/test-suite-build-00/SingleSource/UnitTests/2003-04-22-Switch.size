@@ -1,0 +1,11 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/SingleSource/UnitTests/2003-04-22-Switch  :
+section           size         addr
+__text             224   4294983348
+__stubs             12   4294983572
+__const             10   4294983584
+__cstring           12   4294983594
+__unwind_info       72   4294983608
+__got                8   4294983680
+Total              338
+
+

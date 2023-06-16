@@ -1,0 +1,14 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/MultiSource/Benchmarks/MiBench/consumer-jpeg/consumer-jpeg  :
+section            size         addr
+__text            69932   4294985792
+__stubs             276   4295055724
+__const            1756   4295056000
+__cstring          7231   4295057756
+__unwind_info       528   4295064988
+__eh_frame           76   4295065520
+__got               224   4295065600
+__const            1344   4295065824
+__bss                21   4295081984
+Total             81388
+
+

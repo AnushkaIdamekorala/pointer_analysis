@@ -1,0 +1,13 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/MultiSource/Benchmarks/Prolangs-C++/objects/objects  :
+section              size         addr
+__text               2108   4294981148
+__stubs                72   4294983256
+__gcc_except_tab       64   4294983328
+__const                34   4294983392
+__cstring              22   4294983426
+__unwind_info         232   4294983448
+__got                  64   4294983680
+__const               520   4294983744
+Total                3116
+
+

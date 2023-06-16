@@ -1,0 +1,13 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/SingleSource/Benchmarks/Misc/flops-4  :
+section           size         addr
+__text             476   4294982824
+__stubs             36   4294983300
+__const             96   4294983336
+__cstring          175   4294983432
+__unwind_info       72   4294983608
+__got               24   4294983680
+__data              16   4295000064
+__bss               32   4295000080
+Total              927
+
+

@@ -1,0 +1,11 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/SingleSource/Regression/C/Regression-C-DuffsDevice  :
+section           size         addr
+__text             420   4294982948
+__stubs             24   4294983368
+__const            200   4294983392
+__cstring           11   4294983592
+__unwind_info       72   4294983604
+__got               24   4294983680
+Total              751
+
+

@@ -1,0 +1,10 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/SingleSource/Regression/C/gcc-c-torture/execute/GCC-C-execute-ashrdi-1  :
+section           size         addr
+__text            1568   4294980912
+__stubs             24   4294982480
+__const           1088   4294982504
+__unwind_info       84   4294983592
+__got               16   4294983680
+Total             2780
+
+

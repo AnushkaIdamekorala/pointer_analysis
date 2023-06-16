@@ -1,0 +1,13 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/MultiSource/Benchmarks/mafft/pairlocalalign  :
+section               size         addr
+__text              129852   4294981052
+__stubs                504   4295110904
+__const              14608   4295111408
+__cstring             4918   4295126016
+__unwind_info          188   4295130936
+__got                  376   4295131136
+__data                2176   4295147520
+__bss             14514080   4295149696
+Total             14666702
+
+

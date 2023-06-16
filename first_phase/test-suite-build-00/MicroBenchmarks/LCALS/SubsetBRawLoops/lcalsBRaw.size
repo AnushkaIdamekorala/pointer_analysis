@@ -1,0 +1,17 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/MicroBenchmarks/LCALS/SubsetBRawLoops/lcalsBRaw  :
+section                size         addr
+__text               555708   4294986296
+__stubs                4152   4295542004
+__init_offsets           84   4295546156
+__gcc_except_tab      13608   4295546240
+__cstring              6552   4295559848
+__const                5560   4295566400
+__unwind_info         17928   4295571960
+__got                  3104   4295589888
+__const                3904   4295592992
+__data                   48   4295606272
+__bss                   356   4295606320
+__common                384   4295606680
+Total                611388
+
+

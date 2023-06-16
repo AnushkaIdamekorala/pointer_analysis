@@ -1,0 +1,11 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/MultiSource/Benchmarks/Olden/bisort/bisort  :
+section           size         addr
+__text            1368   4294982044
+__stubs             48   4294983412
+__cstring          136   4294983460
+__unwind_info       84   4294983596
+__got               32   4294983680
+__bss               16   4295000064
+Total             1684
+
+

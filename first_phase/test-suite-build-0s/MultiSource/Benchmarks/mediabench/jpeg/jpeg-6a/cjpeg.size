@@ -1,0 +1,14 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/MultiSource/Benchmarks/mediabench/jpeg/jpeg-6a/cjpeg  :
+section            size         addr
+__text            53092   4294985888
+__stubs             252   4295038980
+__const            1920   4295039232
+__cstring          7478   4295041152
+__unwind_info       492   4295048632
+__eh_frame           76   4295049128
+__got               208   4295049216
+__const            1320   4295049424
+__bss                21   4295065600
+Total             64859
+
+

@@ -1,0 +1,12 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/MultiSource/Benchmarks/MiBench/network-dijkstra/network-dijkstra  :
+section            size         addr
+__text              916   4294982328
+__stubs             132   4294983244
+__const              32   4294983376
+__cstring           187   4294983408
+__unwind_info        80   4294983596
+__got               104   4294983680
+__bss             40820   4295000064
+Total             42271
+
+

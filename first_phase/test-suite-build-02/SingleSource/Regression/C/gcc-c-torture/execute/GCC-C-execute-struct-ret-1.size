@@ -1,0 +1,11 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/SingleSource/Regression/C/gcc-c-torture/execute/GCC-C-execute-struct-ret-1  :
+section           size         addr
+__text             228   4294983256
+__stubs             60   4294983484
+__cstring           63   4294983544
+__unwind_info       72   4294983608
+__got               40   4294983680
+__bss              100   4295000064
+Total              563
+
+

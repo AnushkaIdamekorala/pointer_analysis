@@ -1,0 +1,14 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/MultiSource/Applications/obsequi/Obsequi  :
+section             size         addr
+__text             22140   4294975244
+__stubs              456   4294997384
+__const               64   4294997840
+__cstring           1906   4294997904
+__unwind_info        172   4294999812
+__eh_frame            76   4294999984
+__got                352   4295000064
+__data               108   4295016448
+__bss             900760   4295016560
+Total             926034
+
+

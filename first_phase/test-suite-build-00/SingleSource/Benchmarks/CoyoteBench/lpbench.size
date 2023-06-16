@@ -1,0 +1,12 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/SingleSource/Benchmarks/CoyoteBench/lpbench  :
+section           size         addr
+__text            3212   4294980248
+__stubs             60   4294983460
+__const             16   4294983520
+__cstring           40   4294983536
+__unwind_info      104   4294983576
+__got               48   4294983680
+__data               8   4295000064
+Total             3488
+
+

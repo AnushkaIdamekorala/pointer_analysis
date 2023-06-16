@@ -1,0 +1,23 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/SingleSource/UnitTests/ObjC/protocols  :
+section              size         addr
+__text                796   4294982280
+__stubs                36   4294983076
+__objc_methlist        20   4294983112
+__objc_classname       14   4294983132
+__objc_methname       116   4294983146
+__objc_methtype        38   4294983262
+__cstring             298   4294983300
+__unwind_info          80   4294983600
+__got                  24   4294983680
+__objc_classlist        8   4294983704
+__objc_protolist       32   4294983712
+__objc_imageinfo        8   4294983744
+__objc_const          496   4295000064
+__objc_selrefs         16   4295000560
+__objc_protorefs       32   4295000576
+__objc_classrefs        8   4295000608
+__objc_data            80   4295000616
+__data                384   4295000696
+Total                2486
+
+

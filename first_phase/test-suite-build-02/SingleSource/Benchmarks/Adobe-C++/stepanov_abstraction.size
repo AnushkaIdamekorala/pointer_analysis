@@ -1,0 +1,12 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/SingleSource/Benchmarks/Adobe-C++/stepanov_abstraction  :
+section            size         addr
+__text            10852   4294972196
+__stubs             144   4294983048
+__cstring           352   4294983192
+__unwind_info       136   4294983544
+__got                96   4294983680
+__data              208   4295000064
+__common          96032   4295000272
+Total            107820
+
+

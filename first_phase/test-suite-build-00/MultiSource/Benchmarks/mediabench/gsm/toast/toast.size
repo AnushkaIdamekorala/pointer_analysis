@@ -1,0 +1,13 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/MultiSource/Benchmarks/mediabench/gsm/toast/toast  :
+section            size         addr
+__text            36684   4294979856
+__stubs             504   4295016540
+__const           13678   4295017044
+__cstring          1834   4295030722
+__unwind_info       276   4295032556
+__got               376   4295032832
+__data              264   4295049216
+__bss               352   4295049480
+Total             53968
+
+

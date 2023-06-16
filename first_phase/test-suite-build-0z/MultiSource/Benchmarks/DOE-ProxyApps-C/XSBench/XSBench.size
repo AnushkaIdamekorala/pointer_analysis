@@ -1,0 +1,12 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/MultiSource/Benchmarks/DOE-ProxyApps-C/XSBench/XSBench  :
+section           size         addr
+__text            3816   4294975888
+__stubs            216   4294979704
+__const           1812   4294979920
+__cstring         1831   4294981732
+__unwind_info      112   4294983564
+__got              168   4294983680
+__data               8   4295000064
+Total             7963
+
+

@@ -1,0 +1,11 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/SingleSource/UnitTests/conditional-gnu-ext-cxx  :
+section           size         addr
+__text             432   4294983152
+__stubs             12   4294983584
+__unwind_info       84   4294983596
+__got                8   4294983680
+__data               4   4295000064
+__bss                8   4295000068
+Total              548
+
+

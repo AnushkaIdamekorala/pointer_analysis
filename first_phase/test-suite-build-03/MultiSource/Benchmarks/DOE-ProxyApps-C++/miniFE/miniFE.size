@@ -1,0 +1,13 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/MultiSource/Benchmarks/DOE-ProxyApps-C++/miniFE/miniFE  :
+section               size         addr
+__text               76748   4294980724
+__stubs                972   4295057472
+__gcc_except_tab      3396   4295058444
+__const                499   4295061840
+__cstring             2308   4295062339
+__unwind_info          952   4295064648
+__got                  888   4295065600
+__const               1456   4295066488
+Total                87219
+
+

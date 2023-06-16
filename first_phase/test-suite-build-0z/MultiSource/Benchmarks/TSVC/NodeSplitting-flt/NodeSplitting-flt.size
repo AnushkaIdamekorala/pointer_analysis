@@ -1,0 +1,13 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/MultiSource/Benchmarks/TSVC/NodeSplitting-flt/NodeSplitting-flt  :
+section              size         addr
+__text               7328   4294975188
+__stubs                72   4294982516
+__const                20   4294982588
+__cstring             967   4294982608
+__unwind_info         104   4294983576
+__got                  48   4294983680
+__data                  8   4295000064
+__bss             1951176   4295000080
+Total             1959723
+
+

@@ -1,0 +1,2 @@
+RUN: cd %S ; %S/exceptions 
+VERIFY: %b/fpcmp-target %o %S/exceptions.reference_output

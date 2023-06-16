@@ -1,0 +1,10 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/SingleSource/UnitTests/2003-05-26-Shorts  :
+section           size         addr
+__text             652   4294982184
+__stubs             24   4294982836
+__cstring          745   4294982860
+__unwind_info       72   4294983608
+__got               16   4294983680
+Total             1509
+
+

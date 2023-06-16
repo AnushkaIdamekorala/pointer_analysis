@@ -1,0 +1,14 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/MultiSource/Benchmarks/nbench/nbench  :
+section            size         addr
+__text            39012   4294972852
+__stubs             408   4295011864
+__const             272   4295012272
+__cstring          3703   4295012544
+__unwind_info       192   4295016248
+__got               280   4295016448
+__const             896   4295016728
+__data                8   4295032832
+__bss             14768   4295032848
+Total             59539
+
+

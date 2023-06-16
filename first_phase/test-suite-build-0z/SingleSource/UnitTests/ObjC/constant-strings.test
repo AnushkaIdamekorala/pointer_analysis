@@ -1,0 +1,2 @@
+RUN: cd %S ; %S/constant-strings 
+VERIFY: %b/fpcmp-target %o %S/constant-strings.reference_output

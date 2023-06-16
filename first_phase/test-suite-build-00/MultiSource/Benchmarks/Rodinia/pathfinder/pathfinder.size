@@ -1,0 +1,11 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/MultiSource/Benchmarks/Rodinia/pathfinder/pathfinder  :
+section           size         addr
+__text            2204   4294981352
+__stubs             24   4294983556
+__cstring            4   4294983580
+__unwind_info       96   4294983584
+__got               16   4294983680
+__bss             1380   4295000064
+Total             3724
+
+

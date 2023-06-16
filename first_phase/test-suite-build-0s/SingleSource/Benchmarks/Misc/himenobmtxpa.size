@@ -1,0 +1,12 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/SingleSource/Benchmarks/Misc/himenobmtxpa  :
+section           size         addr
+__text            2652   4294980720
+__stubs             36   4294983372
+__const             76   4294983408
+__cstring          106   4294983484
+__unwind_info       80   4294983592
+__got               24   4294983680
+__bss              168   4295000064
+Total             3142
+
+

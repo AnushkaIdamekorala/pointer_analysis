@@ -1,0 +1,11 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/SingleSource/Benchmarks/Polybench/stencils/fdtd-2d/fdtd-2d  :
+section           size         addr
+__text            3744   4294979712
+__stubs             72   4294983456
+__const              8   4294983528
+__cstring           51   4294983536
+__unwind_info       92   4294983588
+__got               56   4294983680
+Total             4023
+
+

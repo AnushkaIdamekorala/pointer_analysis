@@ -1,0 +1,11 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/SingleSource/Benchmarks/Stanford/Bubblesort  :
+section            size         addr
+__text              408   4294983152
+__stubs              24   4294983560
+__cstring            22   4294983584
+__unwind_info        72   4294983608
+__got                16   4294983680
+__bss             20012   4295000064
+Total             20554
+
+

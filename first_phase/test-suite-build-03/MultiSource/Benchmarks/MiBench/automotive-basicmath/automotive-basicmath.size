@@ -1,0 +1,11 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/MultiSource/Benchmarks/MiBench/automotive-basicmath/automotive-basicmath  :
+section           size         addr
+__text            3888   4294979388
+__stubs             84   4294983276
+__const             16   4294983360
+__cstring          226   4294983376
+__unwind_info       72   4294983604
+__got               64   4294983680
+Total             4350
+
+

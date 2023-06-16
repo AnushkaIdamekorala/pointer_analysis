@@ -1,0 +1,11 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/SingleSource/Regression/C/gcc-c-torture/execute/GCC-C-execute-builtin-prefetch-2  :
+section           size         addr
+__text             368   4294983200
+__stubs             24   4294983568
+__unwind_info       88   4294983592
+__got               24   4294983680
+__data               4   4295000064
+__bss             1232   4295000072
+Total             1740
+
+

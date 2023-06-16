@@ -1,0 +1,11 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/SingleSource/Benchmarks/Polybench/linear-algebra/kernels/gemver/gemver  :
+section           size         addr
+__text            2024   4294981432
+__stubs             48   4294983456
+__const             16   4294983504
+__cstring           61   4294983520
+__unwind_info       92   4294983584
+__got               40   4294983680
+Total             2281
+
+

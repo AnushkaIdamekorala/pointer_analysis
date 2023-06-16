@@ -1,0 +1,13 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/MultiSource/Benchmarks/Prolangs-C++/employ/employ  :
+section              size         addr
+__text               9496   4294972728
+__stubs               396   4294982224
+__gcc_except_tab      228   4294982620
+__const               187   4294982848
+__cstring             183   4294983035
+__unwind_info         460   4294983220
+__got                 304   4294983680
+__const               696   4294983984
+Total               11950
+
+

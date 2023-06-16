@@ -1,0 +1,12 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/MultiSource/Benchmarks/Olden/voronoi/voronoi  :
+section           size         addr
+__text            9856   4294973216
+__stubs             72   4294983072
+__const              8   4294983144
+__cstring          318   4294983152
+__unwind_info      204   4294983472
+__got               48   4294983680
+__bss               29   4295000064
+Total            10535
+
+

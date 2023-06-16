@@ -1,0 +1,11 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/SingleSource/Benchmarks/Polybench/stencils/seidel-2d/seidel-2d  :
+section           size         addr
+__text             960   4294982348
+__stubs             84   4294983308
+__const             64   4294983392
+__cstring          127   4294983456
+__unwind_info       88   4294983584
+__got               64   4294983680
+Total             1387
+
+

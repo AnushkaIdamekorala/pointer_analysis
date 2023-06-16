@@ -1,0 +1,11 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/SingleSource/Benchmarks/Polybench/linear-algebra/kernels/symm/symm  :
+section           size         addr
+__text            2020   4294981420
+__stubs             72   4294983440
+__const             16   4294983512
+__cstring           51   4294983528
+__unwind_info      100   4294983580
+__got               56   4294983680
+Total             2315
+
+

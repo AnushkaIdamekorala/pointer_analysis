@@ -1,0 +1,13 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/MultiSource/Benchmarks/TSVC/Equivalencing-flt/Equivalencing-flt  :
+section              size         addr
+__text              21392   4294977552
+__stubs                48   4294998944
+__const                16   4294998992
+__cstring             955   4294999008
+__unwind_info          96   4294999964
+__got                  32   4295000064
+__data                  8   4295016448
+__bss             1951192   4295016464
+Total             1973739
+
+

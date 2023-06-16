@@ -1,0 +1,13 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/SingleSource/Regression/C/gcc-c-torture/execute/GCC-C-execute-strlen-2  :
+section            size         addr
+__text            11412   4294986008
+__stubs              36   4294997420
+__const              26   4294997456
+__cstring          2510   4294997482
+__unwind_info        72   4294999992
+__got                24   4295000064
+__data                8   4295016448
+__bss                 4   4295016456
+Total             14092
+
+

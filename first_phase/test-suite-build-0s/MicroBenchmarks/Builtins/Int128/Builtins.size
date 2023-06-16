@@ -1,0 +1,17 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/MicroBenchmarks/Builtins/Int128/Builtins  :
+section                size         addr
+__text               154092   4294973656
+__stubs                1680   4295127748
+__init_offsets           80   4295129428
+__gcc_except_tab       7180   4295129508
+__const                2072   4295136688
+__cstring              4727   4295138760
+__unwind_info          4024   4295143488
+__got                  1440   4295147520
+__const                4048   4295148960
+__data                   40   4295163904
+__bss                   248   4295163944
+__common                384   4295164192
+Total                180015
+
+

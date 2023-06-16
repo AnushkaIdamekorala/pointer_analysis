@@ -1,0 +1,11 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/SingleSource/UnitTests/Vector/Vector-constpool  :
+section             size         addr
+__text            145988   4294985408
+__stubs               12   4295131396
+__const            16000   4295131408
+__cstring             21   4295147408
+__unwind_info         80   4295147432
+__got                  8   4295147520
+Total             162109
+
+

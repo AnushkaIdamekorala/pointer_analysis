@@ -1,0 +1,12 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/SingleSource/Benchmarks/McGill/exptree  :
+section           size         addr
+__text            1948   4294981392
+__stubs            132   4294983340
+__const             32   4294983472
+__cstring           85   4294983504
+__unwind_info       80   4294983592
+__got              112   4294983680
+__bss               56   4295000064
+Total             2445
+
+

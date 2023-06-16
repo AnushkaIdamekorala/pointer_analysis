@@ -1,0 +1,2 @@
+RUN: cd %S ; %S/block-byref-aggr 
+VERIFY: %b/fpcmp-target %o %S/block-byref-aggr.reference_output

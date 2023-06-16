@@ -1,0 +1,10 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/SingleSource/Benchmarks/Shootout/Shootout-lists  :
+section           size         addr
+__text            2388   4294980840
+__stubs             60   4294983228
+__cstring          264   4294983288
+__unwind_info      128   4294983552
+__got               40   4294983680
+Total             2880
+
+

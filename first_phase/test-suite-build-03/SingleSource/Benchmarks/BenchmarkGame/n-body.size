@@ -1,0 +1,11 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/SingleSource/Benchmarks/BenchmarkGame/n-body  :
+section           size         addr
+__text            1884   4294981704
+__stubs             12   4294983588
+__cstring            6   4294983600
+__unwind_info       72   4294983608
+__got                8   4294983680
+__data             280   4295000064
+Total             2262
+
+

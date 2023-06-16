@@ -1,0 +1,2 @@
+RUN: cd %S ; %S/trivial-interface 
+VERIFY: %b/fpcmp-target %o %S/trivial-interface.reference_output

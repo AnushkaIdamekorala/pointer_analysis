@@ -1,0 +1,11 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/SingleSource/Benchmarks/McGill/queens  :
+section           size         addr
+__text            1076   4294982048
+__stubs             84   4294983124
+__cstring          398   4294983208
+__unwind_info       72   4294983608
+__got               72   4294983680
+__bss             2432   4295000064
+Total             4134
+
+

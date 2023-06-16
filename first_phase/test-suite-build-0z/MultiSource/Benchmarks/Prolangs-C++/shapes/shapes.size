@@ -1,0 +1,13 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/MultiSource/Benchmarks/Prolangs-C++/shapes/shapes  :
+section              size         addr
+__text               3136   4294979860
+__stubs               180   4294982996
+__const                57   4294983176
+__gcc_except_tab      200   4294983236
+__unwind_info         244   4294983436
+__got                 152   4294983680
+__const               376   4294983832
+__common              968   4295000064
+Total                5313
+
+

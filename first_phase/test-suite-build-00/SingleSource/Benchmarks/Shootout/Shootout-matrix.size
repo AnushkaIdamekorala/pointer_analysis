@@ -1,0 +1,10 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/SingleSource/Benchmarks/Shootout/Shootout-matrix  :
+section           size         addr
+__text             860   4294982672
+__stubs             48   4294983532
+__cstring           13   4294983580
+__unwind_info       84   4294983596
+__got               32   4294983680
+Total             1037
+
+

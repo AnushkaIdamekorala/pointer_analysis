@@ -1,0 +1,13 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/MultiSource/Benchmarks/MiBench/security-blowfish/security-blowfish  :
+section            size         addr
+__text            17464   4294981476
+__stubs              96   4294998940
+__const              24   4294999036
+__cstring           899   4294999060
+__unwind_info       104   4294999960
+__got                72   4295000064
+__const              16   4295000136
+__data             9595   4295016448
+Total             28270
+
+

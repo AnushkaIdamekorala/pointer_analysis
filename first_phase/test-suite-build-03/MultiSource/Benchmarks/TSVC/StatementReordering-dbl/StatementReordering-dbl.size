@@ -1,0 +1,13 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/MultiSource/Benchmarks/TSVC/StatementReordering-dbl/StatementReordering-dbl  :
+section              size         addr
+__text              37996   4294977236
+__stubs                96   4295015232
+__const               112   4295015328
+__cstring             924   4295015440
+__unwind_info          72   4295016364
+__got                  64   4295016448
+__data                  8   4295032832
+__bss             3901960   4295032864
+Total             3941232
+
+

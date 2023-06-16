@@ -1,0 +1,9 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/SingleSource/Regression/C/gcc-c-torture/execute/GCC-C-execute-multi-ix  :
+section           size         addr
+__text            4032   4294979512
+__stubs             48   4294983544
+__unwind_info       88   4294983592
+__got               40   4294983680
+Total             4208
+
+

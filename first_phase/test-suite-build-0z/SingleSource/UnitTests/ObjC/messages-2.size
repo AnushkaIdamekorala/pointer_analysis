@@ -1,0 +1,22 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/SingleSource/UnitTests/ObjC/messages-2  :
+section              size         addr
+__text               2032   4294980440
+__stubs                48   4294982472
+__objc_methlist       320   4294982520
+__const                24   4294982840
+__cstring             442   4294982864
+__objc_classname        4   4294983306
+__objc_methname       115   4294983310
+__objc_methtype        93   4294983425
+__unwind_info         156   4294983520
+__got                  32   4294983680
+__objc_classlist       16   4294983712
+__objc_imageinfo        8   4294983728
+__objc_const          288   4295000064
+__objc_selrefs         48   4295000352
+__objc_classrefs       16   4295000400
+__objc_superrefs       16   4295000416
+__objc_data           160   4295000432
+Total                3818
+
+

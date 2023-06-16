@@ -1,0 +1,13 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/MultiSource/Benchmarks/TSVC/LoopRestructuring-dbl/LoopRestructuring-dbl  :
+section              size         addr
+__text              23460   4294975420
+__stubs                48   4294998880
+__const                24   4294998928
+__cstring            1013   4294998952
+__unwind_info          96   4294999968
+__got                  32   4295000064
+__data                  8   4295016448
+__bss             3901960   4295016480
+Total             3926641
+
+

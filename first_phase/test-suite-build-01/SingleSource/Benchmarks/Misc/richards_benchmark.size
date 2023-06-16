@@ -1,0 +1,12 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/SingleSource/Benchmarks/Misc/richards_benchmark  :
+section           size         addr
+__text            2448   4294980784
+__stubs             48   4294983232
+__const            144   4294983280
+__cstring          165   4294983424
+__unwind_info       88   4294983592
+__got               32   4294983680
+__bss              144   4295000064
+Total             3069
+
+

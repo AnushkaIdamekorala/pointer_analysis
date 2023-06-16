@@ -1,0 +1,13 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/SingleSource/Regression/C/gcc-c-torture/execute/GCC-C-execute-20180921-1  :
+section           size         addr
+__text            1868   4294981036
+__stubs             48   4294982904
+__const            636   4294982952
+__cstring            3   4294983588
+__unwind_info       88   4294983592
+__got               40   4294983680
+__data              16   4295000064
+__bss               52   4295000080
+Total             2751
+
+

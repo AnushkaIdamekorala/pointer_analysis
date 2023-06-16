@@ -1,0 +1,12 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/MultiSource/Benchmarks/Olden/health/health  :
+section           size         addr
+__text            3780   4294979436
+__stubs             72   4294983216
+__const             28   4294983288
+__cstring          264   4294983316
+__unwind_info      100   4294983580
+__got               56   4294983680
+__bss               24   4295000064
+Total             4324
+
+

@@ -1,0 +1,2 @@
+RUN: cd %S ; %S/reference-in-block-args 
+VERIFY: %b/fpcmp-target %o %S/reference-in-block-args.reference_output

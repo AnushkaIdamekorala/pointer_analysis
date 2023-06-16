@@ -1,0 +1,12 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/MultiSource/Benchmarks/Rodinia/hotspot/hotspot  :
+section           size         addr
+__text            4332   4294979104
+__stubs             36   4294983436
+__const             72   4294983472
+__cstring           30   4294983544
+__unwind_info      104   4294983576
+__got               40   4294983680
+__bss             1380   4295000064
+Total             5994
+
+

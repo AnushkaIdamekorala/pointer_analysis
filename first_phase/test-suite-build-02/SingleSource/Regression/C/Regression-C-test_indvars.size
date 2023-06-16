@@ -1,0 +1,11 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/SingleSource/Regression/C/Regression-C-test_indvars  :
+section           size         addr
+__text             684   4294982448
+__stubs             36   4294983132
+__const            416   4294983168
+__cstring           18   4294983584
+__unwind_info       72   4294983604
+__got               32   4294983680
+Total             1258
+
+

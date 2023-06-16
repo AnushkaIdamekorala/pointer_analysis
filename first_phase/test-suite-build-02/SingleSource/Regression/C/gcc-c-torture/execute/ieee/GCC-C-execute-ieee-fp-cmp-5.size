@@ -1,0 +1,10 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/SingleSource/Regression/C/gcc-c-torture/execute/ieee/GCC-C-execute-ieee-fp-cmp-5  :
+section           size         addr
+__text             348   4294982996
+__stubs             24   4294983344
+__const            240   4294983368
+__unwind_info       72   4294983608
+__got               16   4294983680
+Total              700
+
+

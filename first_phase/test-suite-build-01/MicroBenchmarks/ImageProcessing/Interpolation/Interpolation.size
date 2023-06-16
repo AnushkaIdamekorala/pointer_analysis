@@ -1,0 +1,17 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/MicroBenchmarks/ImageProcessing/Interpolation/Interpolation  :
+section                size         addr
+__text               166108   4294978944
+__stubs                1656   4295145052
+__init_offsets           80   4295146708
+__gcc_except_tab       6784   4295146788
+__cstring              4411   4295153572
+__const                2571   4295157984
+__unwind_info          3344   4295160556
+__got                  1416   4295163904
+__const                3952   4295165320
+__data                   40   4295180288
+__common                392   4295180328
+__bss                  1584   4295180720
+Total                192338
+
+

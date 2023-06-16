@@ -1,0 +1,10 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/MultiSource/Benchmarks/McCat/08-main/main  :
+section           size         addr
+__text            3452   4294979704
+__stubs             60   4294983156
+__cstring          351   4294983216
+__unwind_info      112   4294983568
+__got               40   4294983680
+Total             4015
+
+

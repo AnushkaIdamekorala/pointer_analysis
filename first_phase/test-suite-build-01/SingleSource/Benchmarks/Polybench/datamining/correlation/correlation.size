@@ -1,0 +1,11 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/SingleSource/Benchmarks/Polybench/datamining/correlation/correlation  :
+section           size         addr
+__text            1224   4294982192
+__stubs             72   4294983416
+__const             64   4294983488
+__cstring           51   4294983552
+__unwind_info       72   4294983604
+__got               56   4294983680
+Total             1539
+
+

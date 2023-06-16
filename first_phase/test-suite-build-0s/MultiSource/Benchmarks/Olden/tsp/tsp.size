@@ -1,0 +1,12 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/MultiSource/Benchmarks/Olden/tsp/tsp  :
+section           size         addr
+__text            2280   4294981112
+__stubs             72   4294983392
+__const             20   4294983464
+__cstring          102   4294983484
+__unwind_info       88   4294983588
+__got               48   4294983680
+__bss                8   4295000064
+Total             2618
+
+

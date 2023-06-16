@@ -1,0 +1,10 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/SingleSource/Regression/C/Regression-C-casts  :
+section           size         addr
+__text            1112   4294981104
+__stubs             36   4294982216
+__cstring         1353   4294982252
+__unwind_info       72   4294983608
+__got               24   4294983680
+Total             2597
+
+

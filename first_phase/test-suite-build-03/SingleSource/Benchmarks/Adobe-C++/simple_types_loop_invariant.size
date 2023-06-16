@@ -1,0 +1,12 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/SingleSource/Benchmarks/Adobe-C++/simple_types_loop_invariant  :
+section             size         addr
+__text            100932   4294975500
+__stubs              132   4295076432
+__cstring           5229   4295076564
+__unwind_info        188   4295081796
+__got                 88   4295081984
+__data                16   4295098368
+__common          336032   4295098384
+Total             442617
+
+

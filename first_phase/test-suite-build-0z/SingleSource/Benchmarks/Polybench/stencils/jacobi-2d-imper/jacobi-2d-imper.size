@@ -1,0 +1,11 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/SingleSource/Benchmarks/Polybench/stencils/jacobi-2d-imper/jacobi-2d-imper  :
+section           size         addr
+__text            1108   4294982184
+__stubs             84   4294983292
+__const             80   4294983376
+__cstring          127   4294983456
+__unwind_info       96   4294983584
+__got               64   4294983680
+Total             1559
+
+

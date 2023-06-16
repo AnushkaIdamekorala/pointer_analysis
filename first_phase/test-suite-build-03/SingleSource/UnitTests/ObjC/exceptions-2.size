@@ -1,0 +1,17 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/SingleSource/UnitTests/ObjC/exceptions-2  :
+section              size         addr
+__text                 84   4294983396
+__stubs                72   4294983480
+__gcc_except_tab       28   4294983552
+__objc_classname        8   4294983580
+__objc_methname         4   4294983588
+__cstring               3   4294983592
+__unwind_info          84   4294983596
+__got                  72   4294983680
+__objc_imageinfo        8   4294983752
+__objc_selrefs          8   4295000064
+__objc_classrefs        8   4295000072
+__data                 24   4295000080
+Total                 403
+
+

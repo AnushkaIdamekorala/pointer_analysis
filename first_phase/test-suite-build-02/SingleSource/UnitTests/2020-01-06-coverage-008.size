@@ -1,0 +1,12 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/SingleSource/UnitTests/2020-01-06-coverage-008  :
+section           size         addr
+__text             196   4294983312
+__stubs             12   4294983508
+__const             16   4294983520
+__cstring           58   4294983536
+__unwind_info       72   4294983596
+__got                8   4294983680
+__bss               33   4295000064
+Total              395
+
+

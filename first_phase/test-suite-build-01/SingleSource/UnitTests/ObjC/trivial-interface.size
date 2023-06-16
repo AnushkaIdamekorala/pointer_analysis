@@ -1,0 +1,16 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/SingleSource/UnitTests/ObjC/trivial-interface  :
+section              size         addr
+__text                  8   4294983440
+__objc_classname       28   4294983448
+__objc_methname        46   4294983476
+__objc_methtype        83   4294983522
+__unwind_info          72   4294983608
+__objc_classlist        8   4294983680
+__objc_protolist       16   4294983688
+__objc_imageinfo        8   4294983704
+__objc_const          288   4295000064
+__objc_data            80   4295000352
+__data                192   4295000432
+Total                 829
+
+

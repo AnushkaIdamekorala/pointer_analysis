@@ -1,0 +1,13 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/MultiSource/Benchmarks/TSVC/LinearDependence-dbl/LinearDependence-dbl  :
+section              size         addr
+__text              25684   4294973004
+__stubs                96   4294998688
+__const               112   4294998784
+__cstring            1086   4294998896
+__unwind_info          80   4294999984
+__got                  64   4295000064
+__data                  8   4295016448
+__bss             3901960   4295016480
+Total             3929090
+
+

@@ -1,0 +1,11 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/SingleSource/Benchmarks/Polybench/linear-algebra/solvers/dynprog/dynprog  :
+section           size         addr
+__text            1612   4294981796
+__stubs             48   4294983408
+__const              8   4294983456
+__cstring          117   4294983464
+__unwind_info       92   4294983584
+__got               40   4294983680
+Total             1917
+
+

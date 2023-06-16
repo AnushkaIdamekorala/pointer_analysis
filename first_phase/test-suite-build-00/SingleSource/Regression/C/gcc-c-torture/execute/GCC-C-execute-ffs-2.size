@@ -1,0 +1,10 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/SingleSource/Regression/C/gcc-c-torture/execute/GCC-C-execute-ffs-2  :
+section           size         addr
+__text             140   4294983380
+__stubs             24   4294983520
+__const             64   4294983544
+__unwind_info       72   4294983608
+__got               16   4294983680
+Total              316
+
+

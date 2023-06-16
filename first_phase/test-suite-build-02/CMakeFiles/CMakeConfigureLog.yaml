@@ -1,0 +1,1885 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.26.0/share/cmake/Modules/CMakeDetermineSystem.cmake:204 (message)"
+      - "CMakeLists.txt:6 (project)"
+    message: |
+      The system is: Darwin - 21.6.0 - arm64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.26.0/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/opt/homebrew/Cellar/cmake/3.26.0/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/opt/homebrew/Cellar/cmake/3.26.0/share/cmake/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:6 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: /opt/homebrew/opt/llvm@14/bin/clang 
+      Build flags: -flto
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+      
+      The C compiler identification is Clang, found in:
+        /Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/CMakeFiles/3.26.0/CompilerIdC/a.out
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.26.0/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/opt/homebrew/Cellar/cmake/3.26.0/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/opt/homebrew/Cellar/cmake/3.26.0/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:6 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: /opt/homebrew/opt/llvm@14/bin/clang++ 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+      
+      The CXX compiler identification is Clang, found in:
+        /Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/CMakeFiles/3.26.0/CompilerIdCXX/a.out
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.26.0/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.26.0/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:6 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build-02/CMakeFiles/CMakeScratch/TryCompile-mGnmMo"
+      binary: "/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build-02/CMakeFiles/CMakeScratch/TryCompile-mGnmMo"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-flto"
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: /Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/CMakeFiles/CMakeScratch/TryCompile-mGnmMo
+        
+        Run Build Command(s):/opt/homebrew/Cellar/cmake/3.26.0/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_06d7c/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_06d7c.dir/build.make CMakeFiles/cmTC_06d7c.dir/build
+        Building C object CMakeFiles/cmTC_06d7c.dir/CMakeCCompilerABI.c.o
+        /opt/homebrew/opt/llvm@14/bin/clang   -flto  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk   -v -Wl,-v -MD -MT CMakeFiles/cmTC_06d7c.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_06d7c.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_06d7c.dir/CMakeCCompilerABI.c.o -c /opt/homebrew/Cellar/cmake/3.26.0/share/cmake/Modules/CMakeCCompilerABI.c
+        Homebrew clang version 14.0.6
+        Target: arm64-apple-darwin21.6.0
+        Thread model: posix
+        InstalledDir: /opt/homebrew/opt/llvm@14/bin
+        clang-14: warning: -Wl,-v: 'linker' input unused [-Wunused-command-line-argument]
+         (in-process)
+         "/opt/homebrew/Cellar/llvm@14/14.0.6/bin/clang-14" -cc1 -triple arm64-apple-macosx12.0.0 -Wundef-prefix=TARGET_OS_ -Werror=undef-prefix -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -emit-llvm-bc -flto=full -flto-unit -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -ffp-contract=on -fno-rounding-math -funwind-tables=2 -target-sdk-version=12.3 -fcompatibility-qualified-id-block-type-checking -fvisibility-inlines-hidden-static-local-var -target-cpu apple-m1 -target-feature +v8.5a -target-feature +fp-armv8 -target-feature +neon -target-feature +crc -target-feature +crypto -target-feature +dotprod -target-feature +fp16fml -target-feature +ras -target-feature +lse -target-feature +rdm -target-feature +rcpc -target-feature +zcm -target-feature +zcz -target-feature +fullfp16 -target-feature +sha2 -target-feature +aes -target-abi darwinpcs -fallow-half-arguments-and-returns -mllvm -treat-scalable-fixed-error-as-warning -debugger-tuning=lldb -target-linker-version 820.1 -v -fcoverage-compilation-dir=/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/CMakeFiles/CMakeScratch/TryCompile-mGnmMo -resource-dir /opt/homebrew/Cellar/llvm@14/14.0.6/lib/clang/14.0.6 -dependency-file CMakeFiles/cmTC_06d7c.dir/CMakeCCompilerABI.c.o.d -MT CMakeFiles/cmTC_06d7c.dir/CMakeCCompilerABI.c.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/local/include -internal-isystem /opt/homebrew/Cellar/llvm@14/14.0.6/lib/clang/14.0.6/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include -fdebug-compilation-dir=/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/CMakeFiles/CMakeScratch/TryCompile-mGnmMo -ferror-limit 19 -stack-protector 1 -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fmax-type-align=16 -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_06d7c.dir/CMakeCCompilerABI.c.o -x c /opt/homebrew/Cellar/cmake/3.26.0/share/cmake/Modules/CMakeCCompilerABI.c
+        clang -cc1 version 14.0.6 based upon LLVM 14.0.6 default target arm64-apple-darwin21.6.0
+        ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/local/include"
+        ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/Library/Frameworks"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /opt/homebrew/Cellar/llvm@14/14.0.6/lib/clang/14.0.6/include
+         /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include
+         /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/System/Library/Frameworks (framework directory)
+        End of search list.
+        Linking C executable cmTC_06d7c
+        /opt/homebrew/Cellar/cmake/3.26.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_06d7c.dir/link.txt --verbose=1
+        /opt/homebrew/opt/llvm@14/bin/clang -flto  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_06d7c.dir/CMakeCCompilerABI.c.o -o cmTC_06d7c 
+        Homebrew clang version 14.0.6
+        Target: arm64-apple-darwin21.6.0
+        Thread model: posix
+        InstalledDir: /opt/homebrew/opt/llvm@14/bin
+         "/usr/bin/ld" -demangle -lto_library /opt/homebrew/Cellar/llvm@14/14.0.6/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 12.0.0 12.3 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.sdk -o cmTC_06d7c -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_06d7c.dir/CMakeCCompilerABI.c.o -lSystem /opt/homebrew/Cellar/llvm@14/14.0.6/lib/clang/14.0.6/lib/darwin/libclang_rt.osx.a
+        @(#)PROGRAM:ld  PROJECT:ld64-819.6
+        BUILD 14:58:44 Aug  5 2022
+        configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em
+        Library search paths:
+        	/Library/Developer/CommandLineTools/SDKs/MacOSX12.sdk/usr/lib
+        Framework search paths:
+        	/Library/Developer/CommandLineTools/SDKs/MacOSX12.sdk/System/Library/Frameworks/
+        LLVM version 14.0.6
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.26.0/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:127 (message)"
+      - "/opt/homebrew/Cellar/cmake/3.26.0/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:6 (project)"
+    message: |
+      Parsed C implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/opt/homebrew/Cellar/llvm@14/14.0.6/lib/clang/14.0.6/include]
+          add: [/Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include]
+        end of search list found
+        collapse include dir [/opt/homebrew/Cellar/llvm@14/14.0.6/lib/clang/14.0.6/include] ==> [/opt/homebrew/Cellar/llvm@14/14.0.6/lib/clang/14.0.6/include]
+        collapse include dir [/Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include]
+        implicit include dirs: [/opt/homebrew/Cellar/llvm@14/14.0.6/lib/clang/14.0.6/include;/Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.26.0/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:152 (message)"
+      - "/opt/homebrew/Cellar/cmake/3.26.0/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:6 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        ignore line: [Change Dir: /Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/CMakeFiles/CMakeScratch/TryCompile-mGnmMo]
+        ignore line: []
+        ignore line: [Run Build Command(s):/opt/homebrew/Cellar/cmake/3.26.0/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_06d7c/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_06d7c.dir/build.make CMakeFiles/cmTC_06d7c.dir/build]
+        ignore line: [Building C object CMakeFiles/cmTC_06d7c.dir/CMakeCCompilerABI.c.o]
+        ignore line: [/opt/homebrew/opt/llvm@14/bin/clang   -flto  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk   -v -Wl -v -MD -MT CMakeFiles/cmTC_06d7c.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_06d7c.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_06d7c.dir/CMakeCCompilerABI.c.o -c /opt/homebrew/Cellar/cmake/3.26.0/share/cmake/Modules/CMakeCCompilerABI.c]
+        ignore line: [Homebrew clang version 14.0.6]
+        ignore line: [Target: arm64-apple-darwin21.6.0]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /opt/homebrew/opt/llvm@14/bin]
+        ignore line: [clang-14: warning: -Wl -v: 'linker' input unused [-Wunused-command-line-argument]]
+        ignore line: [ (in-process)]
+        ignore line: [ "/opt/homebrew/Cellar/llvm@14/14.0.6/bin/clang-14" -cc1 -triple arm64-apple-macosx12.0.0 -Wundef-prefix=TARGET_OS_ -Werror=undef-prefix -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -emit-llvm-bc -flto=full -flto-unit -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -ffp-contract=on -fno-rounding-math -funwind-tables=2 -target-sdk-version=12.3 -fcompatibility-qualified-id-block-type-checking -fvisibility-inlines-hidden-static-local-var -target-cpu apple-m1 -target-feature +v8.5a -target-feature +fp-armv8 -target-feature +neon -target-feature +crc -target-feature +crypto -target-feature +dotprod -target-feature +fp16fml -target-feature +ras -target-feature +lse -target-feature +rdm -target-feature +rcpc -target-feature +zcm -target-feature +zcz -target-feature +fullfp16 -target-feature +sha2 -target-feature +aes -target-abi darwinpcs -fallow-half-arguments-and-returns -mllvm -treat-scalable-fixed-error-as-warning -debugger-tuning=lldb -target-linker-version 820.1 -v -fcoverage-compilation-dir=/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/CMakeFiles/CMakeScratch/TryCompile-mGnmMo -resource-dir /opt/homebrew/Cellar/llvm@14/14.0.6/lib/clang/14.0.6 -dependency-file CMakeFiles/cmTC_06d7c.dir/CMakeCCompilerABI.c.o.d -MT CMakeFiles/cmTC_06d7c.dir/CMakeCCompilerABI.c.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/local/include -internal-isystem /opt/homebrew/Cellar/llvm@14/14.0.6/lib/clang/14.0.6/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include -fdebug-compilation-dir=/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/CMakeFiles/CMakeScratch/TryCompile-mGnmMo -ferror-limit 19 -stack-protector 1 -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fmax-type-align=16 -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_06d7c.dir/CMakeCCompilerABI.c.o -x c /opt/homebrew/Cellar/cmake/3.26.0/share/cmake/Modules/CMakeCCompilerABI.c]
+        ignore line: [clang -cc1 version 14.0.6 based upon LLVM 14.0.6 default target arm64-apple-darwin21.6.0]
+        ignore line: [ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/local/include"]
+        ignore line: [ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/Library/Frameworks"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /opt/homebrew/Cellar/llvm@14/14.0.6/lib/clang/14.0.6/include]
+        ignore line: [ /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include]
+        ignore line: [ /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/System/Library/Frameworks (framework directory)]
+        ignore line: [End of search list.]
+        ignore line: [Linking C executable cmTC_06d7c]
+        ignore line: [/opt/homebrew/Cellar/cmake/3.26.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_06d7c.dir/link.txt --verbose=1]
+        ignore line: [/opt/homebrew/opt/llvm@14/bin/clang -flto  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -Wl -search_paths_first -Wl -headerpad_max_install_names  -v -Wl -v CMakeFiles/cmTC_06d7c.dir/CMakeCCompilerABI.c.o -o cmTC_06d7c ]
+        ignore line: [Homebrew clang version 14.0.6]
+        ignore line: [Target: arm64-apple-darwin21.6.0]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /opt/homebrew/opt/llvm@14/bin]
+        link line: [ "/usr/bin/ld" -demangle -lto_library /opt/homebrew/Cellar/llvm@14/14.0.6/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 12.0.0 12.3 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.sdk -o cmTC_06d7c -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_06d7c.dir/CMakeCCompilerABI.c.o -lSystem /opt/homebrew/Cellar/llvm@14/14.0.6/lib/clang/14.0.6/lib/darwin/libclang_rt.osx.a]
+          arg [/usr/bin/ld] ==> ignore
+          arg [-demangle] ==> ignore
+          arg [-lto_library] ==> ignore, skip following value
+          arg [/opt/homebrew/Cellar/llvm@14/14.0.6/lib/libLTO.dylib] ==> skip value of -lto_library
+          arg [-dynamic] ==> ignore
+          arg [-arch] ==> ignore
+          arg [arm64] ==> ignore
+          arg [-platform_version] ==> ignore
+          arg [macos] ==> ignore
+          arg [12.0.0] ==> ignore
+          arg [12.3] ==> ignore
+          arg [-syslibroot] ==> ignore
+          arg [/Library/Developer/CommandLineTools/SDKs/MacOSX12.sdk] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_06d7c] ==> ignore
+          arg [-search_paths_first] ==> ignore
+          arg [-headerpad_max_install_names] ==> ignore
+          arg [-v] ==> ignore
+          arg [CMakeFiles/cmTC_06d7c.dir/CMakeCCompilerABI.c.o] ==> ignore
+          arg [-lSystem] ==> lib [System]
+          arg [/opt/homebrew/Cellar/llvm@14/14.0.6/lib/clang/14.0.6/lib/darwin/libclang_rt.osx.a] ==> lib [/opt/homebrew/Cellar/llvm@14/14.0.6/lib/clang/14.0.6/lib/darwin/libclang_rt.osx.a]
+        Library search paths: [;/Library/Developer/CommandLineTools/SDKs/MacOSX12.sdk/usr/lib]
+        Framework search paths: [;/Library/Developer/CommandLineTools/SDKs/MacOSX12.sdk/System/Library/Frameworks/]
+        remove lib [System]
+        remove lib [/opt/homebrew/Cellar/llvm@14/14.0.6/lib/clang/14.0.6/lib/darwin/libclang_rt.osx.a]
+        collapse library dir [/Library/Developer/CommandLineTools/SDKs/MacOSX12.sdk/usr/lib] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX12.sdk/usr/lib]
+        collapse framework dir [/Library/Developer/CommandLineTools/SDKs/MacOSX12.sdk/System/Library/Frameworks/] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX12.sdk/System/Library/Frameworks]
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: [/Library/Developer/CommandLineTools/SDKs/MacOSX12.sdk/usr/lib]
+        implicit fwks: [/Library/Developer/CommandLineTools/SDKs/MacOSX12.sdk/System/Library/Frameworks]
+      
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.26.0/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.26.0/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:6 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build-02/CMakeFiles/CMakeScratch/TryCompile-IEESOe"
+      binary: "/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build-02/CMakeFiles/CMakeScratch/TryCompile-IEESOe"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: /Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/CMakeFiles/CMakeScratch/TryCompile-IEESOe
+        
+        Run Build Command(s):/opt/homebrew/Cellar/cmake/3.26.0/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_77b1e/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_77b1e.dir/build.make CMakeFiles/cmTC_77b1e.dir/build
+        Building CXX object CMakeFiles/cmTC_77b1e.dir/CMakeCXXCompilerABI.cpp.o
+        /opt/homebrew/opt/llvm@14/bin/clang++   -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk   -v -Wl,-v -MD -MT CMakeFiles/cmTC_77b1e.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_77b1e.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_77b1e.dir/CMakeCXXCompilerABI.cpp.o -c /opt/homebrew/Cellar/cmake/3.26.0/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+        Homebrew clang version 14.0.6
+        Target: arm64-apple-darwin21.6.0
+        Thread model: posix
+        InstalledDir: /opt/homebrew/opt/llvm@14/bin
+        clang-14: warning: -Wl,-v: 'linker' input unused [-Wunused-command-line-argument]
+         (in-process)
+         "/opt/homebrew/Cellar/llvm@14/14.0.6/bin/clang-14" -cc1 -triple arm64-apple-macosx12.0.0 -Wundef-prefix=TARGET_OS_ -Werror=undef-prefix -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -ffp-contract=on -fno-rounding-math -funwind-tables=2 -target-sdk-version=12.3 -fcompatibility-qualified-id-block-type-checking -fvisibility-inlines-hidden-static-local-var -target-cpu apple-m1 -target-feature +v8.5a -target-feature +fp-armv8 -target-feature +neon -target-feature +crc -target-feature +crypto -target-feature +dotprod -target-feature +fp16fml -target-feature +ras -target-feature +lse -target-feature +rdm -target-feature +rcpc -target-feature +zcm -target-feature +zcz -target-feature +fullfp16 -target-feature +sha2 -target-feature +aes -target-abi darwinpcs -fallow-half-arguments-and-returns -mllvm -treat-scalable-fixed-error-as-warning -debugger-tuning=lldb -target-linker-version 820.1 -v -fcoverage-compilation-dir=/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/CMakeFiles/CMakeScratch/TryCompile-IEESOe -resource-dir /opt/homebrew/Cellar/llvm@14/14.0.6/lib/clang/14.0.6 -dependency-file CMakeFiles/cmTC_77b1e.dir/CMakeCXXCompilerABI.cpp.o.d -MT CMakeFiles/cmTC_77b1e.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -stdlib=libc++ -internal-isystem /opt/homebrew/opt/llvm@14/bin/../include/c++/v1 -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/local/include -internal-isystem /opt/homebrew/Cellar/llvm@14/14.0.6/lib/clang/14.0.6/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include -fdeprecated-macro -fdebug-compilation-dir=/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/CMakeFiles/CMakeScratch/TryCompile-IEESOe -ferror-limit 19 -stack-protector 1 -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fcxx-exceptions -fexceptions -fmax-type-align=16 -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_77b1e.dir/CMakeCXXCompilerABI.cpp.o -x c++ /opt/homebrew/Cellar/cmake/3.26.0/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+        clang -cc1 version 14.0.6 based upon LLVM 14.0.6 default target arm64-apple-darwin21.6.0
+        ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/local/include"
+        ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/Library/Frameworks"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /opt/homebrew/opt/llvm@14/bin/../include/c++/v1
+         /opt/homebrew/Cellar/llvm@14/14.0.6/lib/clang/14.0.6/include
+         /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include
+         /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/System/Library/Frameworks (framework directory)
+        End of search list.
+        Linking CXX executable cmTC_77b1e
+        /opt/homebrew/Cellar/cmake/3.26.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_77b1e.dir/link.txt --verbose=1
+        /opt/homebrew/opt/llvm@14/bin/clang++  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_77b1e.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_77b1e 
+        Homebrew clang version 14.0.6
+        Target: arm64-apple-darwin21.6.0
+        Thread model: posix
+        InstalledDir: /opt/homebrew/opt/llvm@14/bin
+         "/usr/bin/ld" -demangle -lto_library /opt/homebrew/Cellar/llvm@14/14.0.6/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 12.0.0 12.3 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.sdk -o cmTC_77b1e -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_77b1e.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /opt/homebrew/Cellar/llvm@14/14.0.6/lib/clang/14.0.6/lib/darwin/libclang_rt.osx.a
+        @(#)PROGRAM:ld  PROJECT:ld64-819.6
+        BUILD 14:58:44 Aug  5 2022
+        configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em
+        Library search paths:
+        	/Library/Developer/CommandLineTools/SDKs/MacOSX12.sdk/usr/lib
+        Framework search paths:
+        	/Library/Developer/CommandLineTools/SDKs/MacOSX12.sdk/System/Library/Frameworks/
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.26.0/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:127 (message)"
+      - "/opt/homebrew/Cellar/cmake/3.26.0/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:6 (project)"
+    message: |
+      Parsed CXX implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/opt/homebrew/opt/llvm@14/bin/../include/c++/v1]
+          add: [/opt/homebrew/Cellar/llvm@14/14.0.6/lib/clang/14.0.6/include]
+          add: [/Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include]
+        end of search list found
+        collapse include dir [/opt/homebrew/opt/llvm@14/bin/../include/c++/v1] ==> [/opt/homebrew/opt/llvm@14/include/c++/v1]
+        collapse include dir [/opt/homebrew/Cellar/llvm@14/14.0.6/lib/clang/14.0.6/include] ==> [/opt/homebrew/Cellar/llvm@14/14.0.6/lib/clang/14.0.6/include]
+        collapse include dir [/Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include]
+        implicit include dirs: [/opt/homebrew/opt/llvm@14/include/c++/v1;/opt/homebrew/Cellar/llvm@14/14.0.6/lib/clang/14.0.6/include;/Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.26.0/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:152 (message)"
+      - "/opt/homebrew/Cellar/cmake/3.26.0/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:6 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        ignore line: [Change Dir: /Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/CMakeFiles/CMakeScratch/TryCompile-IEESOe]
+        ignore line: []
+        ignore line: [Run Build Command(s):/opt/homebrew/Cellar/cmake/3.26.0/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_77b1e/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_77b1e.dir/build.make CMakeFiles/cmTC_77b1e.dir/build]
+        ignore line: [Building CXX object CMakeFiles/cmTC_77b1e.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [/opt/homebrew/opt/llvm@14/bin/clang++   -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk   -v -Wl -v -MD -MT CMakeFiles/cmTC_77b1e.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_77b1e.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_77b1e.dir/CMakeCXXCompilerABI.cpp.o -c /opt/homebrew/Cellar/cmake/3.26.0/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Homebrew clang version 14.0.6]
+        ignore line: [Target: arm64-apple-darwin21.6.0]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /opt/homebrew/opt/llvm@14/bin]
+        ignore line: [clang-14: warning: -Wl -v: 'linker' input unused [-Wunused-command-line-argument]]
+        ignore line: [ (in-process)]
+        ignore line: [ "/opt/homebrew/Cellar/llvm@14/14.0.6/bin/clang-14" -cc1 -triple arm64-apple-macosx12.0.0 -Wundef-prefix=TARGET_OS_ -Werror=undef-prefix -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -ffp-contract=on -fno-rounding-math -funwind-tables=2 -target-sdk-version=12.3 -fcompatibility-qualified-id-block-type-checking -fvisibility-inlines-hidden-static-local-var -target-cpu apple-m1 -target-feature +v8.5a -target-feature +fp-armv8 -target-feature +neon -target-feature +crc -target-feature +crypto -target-feature +dotprod -target-feature +fp16fml -target-feature +ras -target-feature +lse -target-feature +rdm -target-feature +rcpc -target-feature +zcm -target-feature +zcz -target-feature +fullfp16 -target-feature +sha2 -target-feature +aes -target-abi darwinpcs -fallow-half-arguments-and-returns -mllvm -treat-scalable-fixed-error-as-warning -debugger-tuning=lldb -target-linker-version 820.1 -v -fcoverage-compilation-dir=/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/CMakeFiles/CMakeScratch/TryCompile-IEESOe -resource-dir /opt/homebrew/Cellar/llvm@14/14.0.6/lib/clang/14.0.6 -dependency-file CMakeFiles/cmTC_77b1e.dir/CMakeCXXCompilerABI.cpp.o.d -MT CMakeFiles/cmTC_77b1e.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -stdlib=libc++ -internal-isystem /opt/homebrew/opt/llvm@14/bin/../include/c++/v1 -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/local/include -internal-isystem /opt/homebrew/Cellar/llvm@14/14.0.6/lib/clang/14.0.6/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include -fdeprecated-macro -fdebug-compilation-dir=/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/CMakeFiles/CMakeScratch/TryCompile-IEESOe -ferror-limit 19 -stack-protector 1 -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fcxx-exceptions -fexceptions -fmax-type-align=16 -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_77b1e.dir/CMakeCXXCompilerABI.cpp.o -x c++ /opt/homebrew/Cellar/cmake/3.26.0/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [clang -cc1 version 14.0.6 based upon LLVM 14.0.6 default target arm64-apple-darwin21.6.0]
+        ignore line: [ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/local/include"]
+        ignore line: [ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/Library/Frameworks"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /opt/homebrew/opt/llvm@14/bin/../include/c++/v1]
+        ignore line: [ /opt/homebrew/Cellar/llvm@14/14.0.6/lib/clang/14.0.6/include]
+        ignore line: [ /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include]
+        ignore line: [ /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/System/Library/Frameworks (framework directory)]
+        ignore line: [End of search list.]
+        ignore line: [Linking CXX executable cmTC_77b1e]
+        ignore line: [/opt/homebrew/Cellar/cmake/3.26.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_77b1e.dir/link.txt --verbose=1]
+        ignore line: [/opt/homebrew/opt/llvm@14/bin/clang++  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -Wl -search_paths_first -Wl -headerpad_max_install_names  -v -Wl -v CMakeFiles/cmTC_77b1e.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_77b1e ]
+        ignore line: [Homebrew clang version 14.0.6]
+        ignore line: [Target: arm64-apple-darwin21.6.0]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /opt/homebrew/opt/llvm@14/bin]
+        link line: [ "/usr/bin/ld" -demangle -lto_library /opt/homebrew/Cellar/llvm@14/14.0.6/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 12.0.0 12.3 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.sdk -o cmTC_77b1e -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_77b1e.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /opt/homebrew/Cellar/llvm@14/14.0.6/lib/clang/14.0.6/lib/darwin/libclang_rt.osx.a]
+          arg [/usr/bin/ld] ==> ignore
+          arg [-demangle] ==> ignore
+          arg [-lto_library] ==> ignore, skip following value
+          arg [/opt/homebrew/Cellar/llvm@14/14.0.6/lib/libLTO.dylib] ==> skip value of -lto_library
+          arg [-dynamic] ==> ignore
+          arg [-arch] ==> ignore
+          arg [arm64] ==> ignore
+          arg [-platform_version] ==> ignore
+          arg [macos] ==> ignore
+          arg [12.0.0] ==> ignore
+          arg [12.3] ==> ignore
+          arg [-syslibroot] ==> ignore
+          arg [/Library/Developer/CommandLineTools/SDKs/MacOSX12.sdk] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_77b1e] ==> ignore
+          arg [-search_paths_first] ==> ignore
+          arg [-headerpad_max_install_names] ==> ignore
+          arg [-v] ==> ignore
+          arg [CMakeFiles/cmTC_77b1e.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [-lc++] ==> lib [c++]
+          arg [-lSystem] ==> lib [System]
+          arg [/opt/homebrew/Cellar/llvm@14/14.0.6/lib/clang/14.0.6/lib/darwin/libclang_rt.osx.a] ==> lib [/opt/homebrew/Cellar/llvm@14/14.0.6/lib/clang/14.0.6/lib/darwin/libclang_rt.osx.a]
+        Library search paths: [;/Library/Developer/CommandLineTools/SDKs/MacOSX12.sdk/usr/lib]
+        Framework search paths: [;/Library/Developer/CommandLineTools/SDKs/MacOSX12.sdk/System/Library/Frameworks/]
+        remove lib [System]
+        remove lib [/opt/homebrew/Cellar/llvm@14/14.0.6/lib/clang/14.0.6/lib/darwin/libclang_rt.osx.a]
+        collapse library dir [/Library/Developer/CommandLineTools/SDKs/MacOSX12.sdk/usr/lib] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX12.sdk/usr/lib]
+        collapse framework dir [/Library/Developer/CommandLineTools/SDKs/MacOSX12.sdk/System/Library/Frameworks/] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX12.sdk/System/Library/Frameworks]
+        implicit libs: [c++]
+        implicit objs: []
+        implicit dirs: [/Library/Developer/CommandLineTools/SDKs/MacOSX12.sdk/usr/lib]
+        implicit fwks: [/Library/Developer/CommandLineTools/SDKs/MacOSX12.sdk/System/Library/Frameworks]
+      
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.26.0/share/cmake/Modules/FindOpenMP.cmake:219 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.26.0/share/cmake/Modules/FindOpenMP.cmake:483 (_OPENMP_GET_FLAGS)"
+      - "CMakeLists.txt:239 (find_package)"
+    description: "Detecting C OpenMP compiler info"
+    directories:
+      source: "/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build-02/CMakeFiles/CMakeScratch/TryCompile-AX7rBz"
+      binary: "/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build-02/CMakeFiles/CMakeScratch/TryCompile-AX7rBz"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-flto   "
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: "   "
+      CMAKE_MODULE_PATH: "/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/cmake;/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/cmake/modules"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk"
+    buildResult:
+      variable: "OpenMP_COMPILE_RESULT_C_fopenmplibomp"
+      cached: true
+      stdout: |
+        Change Dir: /Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/CMakeFiles/CMakeScratch/TryCompile-AX7rBz
+        
+        Run Build Command(s):/opt/homebrew/Cellar/cmake/3.26.0/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_b0ef4/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_b0ef4.dir/build.make CMakeFiles/cmTC_b0ef4.dir/build
+        Building C object CMakeFiles/cmTC_b0ef4.dir/OpenMPTryFlag.c.o
+        /opt/homebrew/opt/llvm@14/bin/clang   -flto    -fopenmp=libomp -v -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -MD -MT CMakeFiles/cmTC_b0ef4.dir/OpenMPTryFlag.c.o -MF CMakeFiles/cmTC_b0ef4.dir/OpenMPTryFlag.c.o.d -o CMakeFiles/cmTC_b0ef4.dir/OpenMPTryFlag.c.o -c /Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/CMakeFiles/CMakeScratch/TryCompile-AX7rBz/OpenMPTryFlag.c
+        Homebrew clang version 14.0.6
+        Target: arm64-apple-darwin21.6.0
+        Thread model: posix
+        InstalledDir: /opt/homebrew/opt/llvm@14/bin
+         (in-process)
+         "/opt/homebrew/Cellar/llvm@14/14.0.6/bin/clang-14" -cc1 -triple arm64-apple-macosx12.0.0 -Wundef-prefix=TARGET_OS_ -Werror=undef-prefix -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -emit-llvm-bc -flto=full -flto-unit -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name OpenMPTryFlag.c -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -ffp-contract=on -fno-rounding-math -funwind-tables=2 -target-sdk-version=12.3 -fcompatibility-qualified-id-block-type-checking -fvisibility-inlines-hidden-static-local-var -target-cpu apple-m1 -target-feature +v8.5a -target-feature +fp-armv8 -target-feature +neon -target-feature +crc -target-feature +crypto -target-feature +dotprod -target-feature +fp16fml -target-feature +ras -target-feature +lse -target-feature +rdm -target-feature +rcpc -target-feature +zcm -target-feature +zcz -target-feature +fullfp16 -target-feature +sha2 -target-feature +aes -target-abi darwinpcs -fallow-half-arguments-and-returns -mllvm -treat-scalable-fixed-error-as-warning -debugger-tuning=lldb -target-linker-version 820.1 -v -fcoverage-compilation-dir=/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/CMakeFiles/CMakeScratch/TryCompile-AX7rBz -resource-dir /opt/homebrew/Cellar/llvm@14/14.0.6/lib/clang/14.0.6 -dependency-file CMakeFiles/cmTC_b0ef4.dir/OpenMPTryFlag.c.o.d -MT CMakeFiles/cmTC_b0ef4.dir/OpenMPTryFlag.c.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/local/include -internal-isystem /opt/homebrew/Cellar/llvm@14/14.0.6/lib/clang/14.0.6/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include -fdebug-compilation-dir=/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/CMakeFiles/CMakeScratch/TryCompile-AX7rBz -ferror-limit 19 -fopenmp -fopenmp-target-new-runtime -stack-protector 1 -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fmax-type-align=16 -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_b0ef4.dir/OpenMPTryFlag.c.o -x c /Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/CMakeFiles/CMakeScratch/TryCompile-AX7rBz/OpenMPTryFlag.c
+        clang -cc1 version 14.0.6 based upon LLVM 14.0.6 default target arm64-apple-darwin21.6.0
+        ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/local/include"
+        ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/Library/Frameworks"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /opt/homebrew/Cellar/llvm@14/14.0.6/lib/clang/14.0.6/include
+         /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include
+         /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/System/Library/Frameworks (framework directory)
+        End of search list.
+        Linking C executable cmTC_b0ef4
+        /opt/homebrew/Cellar/cmake/3.26.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b0ef4.dir/link.txt --verbose=1
+        /opt/homebrew/opt/llvm@14/bin/clang -flto    -fopenmp=libomp -v -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_b0ef4.dir/OpenMPTryFlag.c.o -o cmTC_b0ef4  -v -Wl,-v 
+        Homebrew clang version 14.0.6
+        Target: arm64-apple-darwin21.6.0
+        Thread model: posix
+        InstalledDir: /opt/homebrew/opt/llvm@14/bin
+         "/usr/bin/ld" -demangle -lto_library /opt/homebrew/Cellar/llvm@14/14.0.6/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 12.0.0 12.3 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.sdk -o cmTC_b0ef4 -search_paths_first -headerpad_max_install_names CMakeFiles/cmTC_b0ef4.dir/OpenMPTryFlag.c.o -v -lomp -rpath /opt/homebrew/Cellar/llvm@14/14.0.6/lib -L/opt/homebrew/Cellar/llvm@14/14.0.6/lib -lSystem /opt/homebrew/Cellar/llvm@14/14.0.6/lib/clang/14.0.6/lib/darwin/libclang_rt.osx.a
+        @(#)PROGRAM:ld  PROJECT:ld64-819.6
+        BUILD 14:58:44 Aug  5 2022
+        configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em
+        Library search paths:
+        	/opt/homebrew/Cellar/llvm@14/14.0.6/lib
+        	/Library/Developer/CommandLineTools/SDKs/MacOSX12.sdk/usr/lib
+        Framework search paths:
+        	/Library/Developer/CommandLineTools/SDKs/MacOSX12.sdk/System/Library/Frameworks/
+        LLVM version 14.0.6
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.26.0/share/cmake/Modules/FindOpenMP.cmake:262 (message)"
+      - "/opt/homebrew/Cellar/cmake/3.26.0/share/cmake/Modules/FindOpenMP.cmake:483 (_OPENMP_GET_FLAGS)"
+      - "CMakeLists.txt:239 (find_package)"
+    message: |
+      Parsed C OpenMP implicit link information from above output:
+        link line regex: [^( *|.*[/\\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        ignore line: [Change Dir: /Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/CMakeFiles/CMakeScratch/TryCompile-AX7rBz]
+        ignore line: []
+        ignore line: [Run Build Command(s):/opt/homebrew/Cellar/cmake/3.26.0/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_b0ef4/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_b0ef4.dir/build.make CMakeFiles/cmTC_b0ef4.dir/build]
+        ignore line: [Building C object CMakeFiles/cmTC_b0ef4.dir/OpenMPTryFlag.c.o]
+        ignore line: [/opt/homebrew/opt/llvm@14/bin/clang   -flto    -fopenmp=libomp -v -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -MD -MT CMakeFiles/cmTC_b0ef4.dir/OpenMPTryFlag.c.o -MF CMakeFiles/cmTC_b0ef4.dir/OpenMPTryFlag.c.o.d -o CMakeFiles/cmTC_b0ef4.dir/OpenMPTryFlag.c.o -c /Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/CMakeFiles/CMakeScratch/TryCompile-AX7rBz/OpenMPTryFlag.c]
+        ignore line: [Homebrew clang version 14.0.6]
+        ignore line: [Target: arm64-apple-darwin21.6.0]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /opt/homebrew/opt/llvm@14/bin]
+        ignore line: [ (in-process)]
+        ignore line: [ "/opt/homebrew/Cellar/llvm@14/14.0.6/bin/clang-14" -cc1 -triple arm64-apple-macosx12.0.0 -Wundef-prefix=TARGET_OS_ -Werror=undef-prefix -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -emit-llvm-bc -flto=full -flto-unit -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name OpenMPTryFlag.c -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -ffp-contract=on -fno-rounding-math -funwind-tables=2 -target-sdk-version=12.3 -fcompatibility-qualified-id-block-type-checking -fvisibility-inlines-hidden-static-local-var -target-cpu apple-m1 -target-feature +v8.5a -target-feature +fp-armv8 -target-feature +neon -target-feature +crc -target-feature +crypto -target-feature +dotprod -target-feature +fp16fml -target-feature +ras -target-feature +lse -target-feature +rdm -target-feature +rcpc -target-feature +zcm -target-feature +zcz -target-feature +fullfp16 -target-feature +sha2 -target-feature +aes -target-abi darwinpcs -fallow-half-arguments-and-returns -mllvm -treat-scalable-fixed-error-as-warning -debugger-tuning=lldb -target-linker-version 820.1 -v -fcoverage-compilation-dir=/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/CMakeFiles/CMakeScratch/TryCompile-AX7rBz -resource-dir /opt/homebrew/Cellar/llvm@14/14.0.6/lib/clang/14.0.6 -dependency-file CMakeFiles/cmTC_b0ef4.dir/OpenMPTryFlag.c.o.d -MT CMakeFiles/cmTC_b0ef4.dir/OpenMPTryFlag.c.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/local/include -internal-isystem /opt/homebrew/Cellar/llvm@14/14.0.6/lib/clang/14.0.6/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include -fdebug-compilation-dir=/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/CMakeFiles/CMakeScratch/TryCompile-AX7rBz -ferror-limit 19 -fopenmp -fopenmp-target-new-runtime -stack-protector 1 -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fmax-type-align=16 -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_b0ef4.dir/OpenMPTryFlag.c.o -x c /Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/CMakeFiles/CMakeScratch/TryCompile-AX7rBz/OpenMPTryFlag.c]
+        ignore line: [clang -cc1 version 14.0.6 based upon LLVM 14.0.6 default target arm64-apple-darwin21.6.0]
+        ignore line: [ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/local/include"]
+        ignore line: [ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/Library/Frameworks"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /opt/homebrew/Cellar/llvm@14/14.0.6/lib/clang/14.0.6/include]
+        ignore line: [ /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include]
+        ignore line: [ /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/System/Library/Frameworks (framework directory)]
+        ignore line: [End of search list.]
+        ignore line: [Linking C executable cmTC_b0ef4]
+        ignore line: [/opt/homebrew/Cellar/cmake/3.26.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b0ef4.dir/link.txt --verbose=1]
+        ignore line: [/opt/homebrew/opt/llvm@14/bin/clang -flto    -fopenmp=libomp -v -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -Wl -search_paths_first -Wl -headerpad_max_install_names CMakeFiles/cmTC_b0ef4.dir/OpenMPTryFlag.c.o -o cmTC_b0ef4  -v -Wl -v ]
+        ignore line: [Homebrew clang version 14.0.6]
+        ignore line: [Target: arm64-apple-darwin21.6.0]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /opt/homebrew/opt/llvm@14/bin]
+        link line: [ "/usr/bin/ld" -demangle -lto_library /opt/homebrew/Cellar/llvm@14/14.0.6/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 12.0.0 12.3 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.sdk -o cmTC_b0ef4 -search_paths_first -headerpad_max_install_names CMakeFiles/cmTC_b0ef4.dir/OpenMPTryFlag.c.o -v -lomp -rpath /opt/homebrew/Cellar/llvm@14/14.0.6/lib -L/opt/homebrew/Cellar/llvm@14/14.0.6/lib -lSystem /opt/homebrew/Cellar/llvm@14/14.0.6/lib/clang/14.0.6/lib/darwin/libclang_rt.osx.a]
+          arg [/usr/bin/ld] ==> ignore
+          arg [-demangle] ==> ignore
+          arg [-lto_library] ==> ignore, skip following value
+          arg [/opt/homebrew/Cellar/llvm@14/14.0.6/lib/libLTO.dylib] ==> skip value of -lto_library
+          arg [-dynamic] ==> ignore
+          arg [-arch] ==> ignore
+          arg [arm64] ==> ignore
+          arg [-platform_version] ==> ignore
+          arg [macos] ==> ignore
+          arg [12.0.0] ==> ignore
+          arg [12.3] ==> ignore
+          arg [-syslibroot] ==> ignore
+          arg [/Library/Developer/CommandLineTools/SDKs/MacOSX12.sdk] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_b0ef4] ==> ignore
+          arg [-search_paths_first] ==> ignore
+          arg [-headerpad_max_install_names] ==> ignore
+          arg [CMakeFiles/cmTC_b0ef4.dir/OpenMPTryFlag.c.o] ==> ignore
+          arg [-v] ==> ignore
+          arg [-lomp] ==> lib [omp]
+          arg [-rpath] ==> ignore
+          arg [/opt/homebrew/Cellar/llvm@14/14.0.6/lib] ==> ignore
+          arg [-L/opt/homebrew/Cellar/llvm@14/14.0.6/lib] ==> dir [/opt/homebrew/Cellar/llvm@14/14.0.6/lib]
+          arg [-lSystem] ==> lib [System]
+          arg [/opt/homebrew/Cellar/llvm@14/14.0.6/lib/clang/14.0.6/lib/darwin/libclang_rt.osx.a] ==> lib [/opt/homebrew/Cellar/llvm@14/14.0.6/lib/clang/14.0.6/lib/darwin/libclang_rt.osx.a]
+        Library search paths: [;/opt/homebrew/Cellar/llvm@14/14.0.6/lib;/Library/Developer/CommandLineTools/SDKs/MacOSX12.sdk/usr/lib]
+        Framework search paths: [;/Library/Developer/CommandLineTools/SDKs/MacOSX12.sdk/System/Library/Frameworks/]
+        remove lib [System]
+        remove lib [/opt/homebrew/Cellar/llvm@14/14.0.6/lib/clang/14.0.6/lib/darwin/libclang_rt.osx.a]
+        collapse library dir [/opt/homebrew/Cellar/llvm@14/14.0.6/lib] ==> [/opt/homebrew/Cellar/llvm@14/14.0.6/lib]
+        collapse library dir [/opt/homebrew/Cellar/llvm@14/14.0.6/lib] ==> [/opt/homebrew/Cellar/llvm@14/14.0.6/lib]
+        collapse library dir [/Library/Developer/CommandLineTools/SDKs/MacOSX12.sdk/usr/lib] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX12.sdk/usr/lib]
+        collapse framework dir [/Library/Developer/CommandLineTools/SDKs/MacOSX12.sdk/System/Library/Frameworks/] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX12.sdk/System/Library/Frameworks]
+        implicit libs: [omp]
+        implicit objs: []
+        implicit dirs: [/opt/homebrew/Cellar/llvm@14/14.0.6/lib;/Library/Developer/CommandLineTools/SDKs/MacOSX12.sdk/usr/lib]
+        implicit fwks: [/Library/Developer/CommandLineTools/SDKs/MacOSX12.sdk/System/Library/Frameworks]
+      
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.26.0/share/cmake/Modules/FindOpenMP.cmake:219 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.26.0/share/cmake/Modules/FindOpenMP.cmake:483 (_OPENMP_GET_FLAGS)"
+      - "CMakeLists.txt:239 (find_package)"
+    description: "Detecting CXX OpenMP compiler info"
+    directories:
+      source: "/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build-02/CMakeFiles/CMakeScratch/TryCompile-TEiZMg"
+      binary: "/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build-02/CMakeFiles/CMakeScratch/TryCompile-TEiZMg"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "   "
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: "   "
+      CMAKE_MODULE_PATH: "/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/cmake;/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/cmake/modules"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk"
+    buildResult:
+      variable: "OpenMP_COMPILE_RESULT_CXX_fopenmplibomp"
+      cached: true
+      stdout: |
+        Change Dir: /Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/CMakeFiles/CMakeScratch/TryCompile-TEiZMg
+        
+        Run Build Command(s):/opt/homebrew/Cellar/cmake/3.26.0/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_71e8b/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_71e8b.dir/build.make CMakeFiles/cmTC_71e8b.dir/build
+        Building CXX object CMakeFiles/cmTC_71e8b.dir/OpenMPTryFlag.cpp.o
+        /opt/homebrew/opt/llvm@14/bin/clang++   -fopenmp=libomp -v -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -MD -MT CMakeFiles/cmTC_71e8b.dir/OpenMPTryFlag.cpp.o -MF CMakeFiles/cmTC_71e8b.dir/OpenMPTryFlag.cpp.o.d -o CMakeFiles/cmTC_71e8b.dir/OpenMPTryFlag.cpp.o -c /Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/CMakeFiles/CMakeScratch/TryCompile-TEiZMg/OpenMPTryFlag.cpp
+        Homebrew clang version 14.0.6
+        Target: arm64-apple-darwin21.6.0
+        Thread model: posix
+        InstalledDir: /opt/homebrew/opt/llvm@14/bin
+         (in-process)
+         "/opt/homebrew/Cellar/llvm@14/14.0.6/bin/clang-14" -cc1 -triple arm64-apple-macosx12.0.0 -Wundef-prefix=TARGET_OS_ -Werror=undef-prefix -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name OpenMPTryFlag.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -ffp-contract=on -fno-rounding-math -funwind-tables=2 -target-sdk-version=12.3 -fcompatibility-qualified-id-block-type-checking -fvisibility-inlines-hidden-static-local-var -target-cpu apple-m1 -target-feature +v8.5a -target-feature +fp-armv8 -target-feature +neon -target-feature +crc -target-feature +crypto -target-feature +dotprod -target-feature +fp16fml -target-feature +ras -target-feature +lse -target-feature +rdm -target-feature +rcpc -target-feature +zcm -target-feature +zcz -target-feature +fullfp16 -target-feature +sha2 -target-feature +aes -target-abi darwinpcs -fallow-half-arguments-and-returns -mllvm -treat-scalable-fixed-error-as-warning -debugger-tuning=lldb -target-linker-version 820.1 -v -fcoverage-compilation-dir=/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/CMakeFiles/CMakeScratch/TryCompile-TEiZMg -resource-dir /opt/homebrew/Cellar/llvm@14/14.0.6/lib/clang/14.0.6 -dependency-file CMakeFiles/cmTC_71e8b.dir/OpenMPTryFlag.cpp.o.d -MT CMakeFiles/cmTC_71e8b.dir/OpenMPTryFlag.cpp.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -stdlib=libc++ -internal-isystem /opt/homebrew/opt/llvm@14/bin/../include/c++/v1 -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/local/include -internal-isystem /opt/homebrew/Cellar/llvm@14/14.0.6/lib/clang/14.0.6/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include -fdeprecated-macro -fdebug-compilation-dir=/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/CMakeFiles/CMakeScratch/TryCompile-TEiZMg -ferror-limit 19 -fopenmp -fopenmp-target-new-runtime -stack-protector 1 -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fcxx-exceptions -fexceptions -fmax-type-align=16 -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_71e8b.dir/OpenMPTryFlag.cpp.o -x c++ /Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/CMakeFiles/CMakeScratch/TryCompile-TEiZMg/OpenMPTryFlag.cpp
+        clang -cc1 version 14.0.6 based upon LLVM 14.0.6 default target arm64-apple-darwin21.6.0
+        ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/local/include"
+        ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/Library/Frameworks"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /opt/homebrew/opt/llvm@14/bin/../include/c++/v1
+         /opt/homebrew/Cellar/llvm@14/14.0.6/lib/clang/14.0.6/include
+         /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include
+         /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/System/Library/Frameworks (framework directory)
+        End of search list.
+        Linking CXX executable cmTC_71e8b
+        /opt/homebrew/Cellar/cmake/3.26.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_71e8b.dir/link.txt --verbose=1
+        /opt/homebrew/opt/llvm@14/bin/clang++     -fopenmp=libomp -v -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_71e8b.dir/OpenMPTryFlag.cpp.o -o cmTC_71e8b  -v -Wl,-v 
+        Homebrew clang version 14.0.6
+        Target: arm64-apple-darwin21.6.0
+        Thread model: posix
+        InstalledDir: /opt/homebrew/opt/llvm@14/bin
+         "/usr/bin/ld" -demangle -lto_library /opt/homebrew/Cellar/llvm@14/14.0.6/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 12.0.0 12.3 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.sdk -o cmTC_71e8b -search_paths_first -headerpad_max_install_names CMakeFiles/cmTC_71e8b.dir/OpenMPTryFlag.cpp.o -v -lomp -rpath /opt/homebrew/Cellar/llvm@14/14.0.6/lib -L/opt/homebrew/Cellar/llvm@14/14.0.6/lib -lc++ -lSystem /opt/homebrew/Cellar/llvm@14/14.0.6/lib/clang/14.0.6/lib/darwin/libclang_rt.osx.a
+        @(#)PROGRAM:ld  PROJECT:ld64-819.6
+        BUILD 14:58:44 Aug  5 2022
+        configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em
+        Library search paths:
+        	/opt/homebrew/Cellar/llvm@14/14.0.6/lib
+        	/Library/Developer/CommandLineTools/SDKs/MacOSX12.sdk/usr/lib
+        Framework search paths:
+        	/Library/Developer/CommandLineTools/SDKs/MacOSX12.sdk/System/Library/Frameworks/
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.26.0/share/cmake/Modules/FindOpenMP.cmake:262 (message)"
+      - "/opt/homebrew/Cellar/cmake/3.26.0/share/cmake/Modules/FindOpenMP.cmake:483 (_OPENMP_GET_FLAGS)"
+      - "CMakeLists.txt:239 (find_package)"
+    message: |
+      Parsed CXX OpenMP implicit link information from above output:
+        link line regex: [^( *|.*[/\\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        ignore line: [Change Dir: /Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/CMakeFiles/CMakeScratch/TryCompile-TEiZMg]
+        ignore line: []
+        ignore line: [Run Build Command(s):/opt/homebrew/Cellar/cmake/3.26.0/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_71e8b/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_71e8b.dir/build.make CMakeFiles/cmTC_71e8b.dir/build]
+        ignore line: [Building CXX object CMakeFiles/cmTC_71e8b.dir/OpenMPTryFlag.cpp.o]
+        ignore line: [/opt/homebrew/opt/llvm@14/bin/clang++   -fopenmp=libomp -v -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -MD -MT CMakeFiles/cmTC_71e8b.dir/OpenMPTryFlag.cpp.o -MF CMakeFiles/cmTC_71e8b.dir/OpenMPTryFlag.cpp.o.d -o CMakeFiles/cmTC_71e8b.dir/OpenMPTryFlag.cpp.o -c /Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/CMakeFiles/CMakeScratch/TryCompile-TEiZMg/OpenMPTryFlag.cpp]
+        ignore line: [Homebrew clang version 14.0.6]
+        ignore line: [Target: arm64-apple-darwin21.6.0]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /opt/homebrew/opt/llvm@14/bin]
+        ignore line: [ (in-process)]
+        ignore line: [ "/opt/homebrew/Cellar/llvm@14/14.0.6/bin/clang-14" -cc1 -triple arm64-apple-macosx12.0.0 -Wundef-prefix=TARGET_OS_ -Werror=undef-prefix -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name OpenMPTryFlag.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -ffp-contract=on -fno-rounding-math -funwind-tables=2 -target-sdk-version=12.3 -fcompatibility-qualified-id-block-type-checking -fvisibility-inlines-hidden-static-local-var -target-cpu apple-m1 -target-feature +v8.5a -target-feature +fp-armv8 -target-feature +neon -target-feature +crc -target-feature +crypto -target-feature +dotprod -target-feature +fp16fml -target-feature +ras -target-feature +lse -target-feature +rdm -target-feature +rcpc -target-feature +zcm -target-feature +zcz -target-feature +fullfp16 -target-feature +sha2 -target-feature +aes -target-abi darwinpcs -fallow-half-arguments-and-returns -mllvm -treat-scalable-fixed-error-as-warning -debugger-tuning=lldb -target-linker-version 820.1 -v -fcoverage-compilation-dir=/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/CMakeFiles/CMakeScratch/TryCompile-TEiZMg -resource-dir /opt/homebrew/Cellar/llvm@14/14.0.6/lib/clang/14.0.6 -dependency-file CMakeFiles/cmTC_71e8b.dir/OpenMPTryFlag.cpp.o.d -MT CMakeFiles/cmTC_71e8b.dir/OpenMPTryFlag.cpp.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -stdlib=libc++ -internal-isystem /opt/homebrew/opt/llvm@14/bin/../include/c++/v1 -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/local/include -internal-isystem /opt/homebrew/Cellar/llvm@14/14.0.6/lib/clang/14.0.6/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include -fdeprecated-macro -fdebug-compilation-dir=/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/CMakeFiles/CMakeScratch/TryCompile-TEiZMg -ferror-limit 19 -fopenmp -fopenmp-target-new-runtime -stack-protector 1 -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fcxx-exceptions -fexceptions -fmax-type-align=16 -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_71e8b.dir/OpenMPTryFlag.cpp.o -x c++ /Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/CMakeFiles/CMakeScratch/TryCompile-TEiZMg/OpenMPTryFlag.cpp]
+        ignore line: [clang -cc1 version 14.0.6 based upon LLVM 14.0.6 default target arm64-apple-darwin21.6.0]
+        ignore line: [ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/local/include"]
+        ignore line: [ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/Library/Frameworks"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /opt/homebrew/opt/llvm@14/bin/../include/c++/v1]
+        ignore line: [ /opt/homebrew/Cellar/llvm@14/14.0.6/lib/clang/14.0.6/include]
+        ignore line: [ /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include]
+        ignore line: [ /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/System/Library/Frameworks (framework directory)]
+        ignore line: [End of search list.]
+        ignore line: [Linking CXX executable cmTC_71e8b]
+        ignore line: [/opt/homebrew/Cellar/cmake/3.26.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_71e8b.dir/link.txt --verbose=1]
+        ignore line: [/opt/homebrew/opt/llvm@14/bin/clang++     -fopenmp=libomp -v -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -Wl -search_paths_first -Wl -headerpad_max_install_names CMakeFiles/cmTC_71e8b.dir/OpenMPTryFlag.cpp.o -o cmTC_71e8b  -v -Wl -v ]
+        ignore line: [Homebrew clang version 14.0.6]
+        ignore line: [Target: arm64-apple-darwin21.6.0]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /opt/homebrew/opt/llvm@14/bin]
+        link line: [ "/usr/bin/ld" -demangle -lto_library /opt/homebrew/Cellar/llvm@14/14.0.6/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 12.0.0 12.3 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.sdk -o cmTC_71e8b -search_paths_first -headerpad_max_install_names CMakeFiles/cmTC_71e8b.dir/OpenMPTryFlag.cpp.o -v -lomp -rpath /opt/homebrew/Cellar/llvm@14/14.0.6/lib -L/opt/homebrew/Cellar/llvm@14/14.0.6/lib -lc++ -lSystem /opt/homebrew/Cellar/llvm@14/14.0.6/lib/clang/14.0.6/lib/darwin/libclang_rt.osx.a]
+          arg [/usr/bin/ld] ==> ignore
+          arg [-demangle] ==> ignore
+          arg [-lto_library] ==> ignore, skip following value
+          arg [/opt/homebrew/Cellar/llvm@14/14.0.6/lib/libLTO.dylib] ==> skip value of -lto_library
+          arg [-dynamic] ==> ignore
+          arg [-arch] ==> ignore
+          arg [arm64] ==> ignore
+          arg [-platform_version] ==> ignore
+          arg [macos] ==> ignore
+          arg [12.0.0] ==> ignore
+          arg [12.3] ==> ignore
+          arg [-syslibroot] ==> ignore
+          arg [/Library/Developer/CommandLineTools/SDKs/MacOSX12.sdk] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_71e8b] ==> ignore
+          arg [-search_paths_first] ==> ignore
+          arg [-headerpad_max_install_names] ==> ignore
+          arg [CMakeFiles/cmTC_71e8b.dir/OpenMPTryFlag.cpp.o] ==> ignore
+          arg [-v] ==> ignore
+          arg [-lomp] ==> lib [omp]
+          arg [-rpath] ==> ignore
+          arg [/opt/homebrew/Cellar/llvm@14/14.0.6/lib] ==> ignore
+          arg [-L/opt/homebrew/Cellar/llvm@14/14.0.6/lib] ==> dir [/opt/homebrew/Cellar/llvm@14/14.0.6/lib]
+          arg [-lc++] ==> lib [c++]
+          arg [-lSystem] ==> lib [System]
+          arg [/opt/homebrew/Cellar/llvm@14/14.0.6/lib/clang/14.0.6/lib/darwin/libclang_rt.osx.a] ==> lib [/opt/homebrew/Cellar/llvm@14/14.0.6/lib/clang/14.0.6/lib/darwin/libclang_rt.osx.a]
+        Library search paths: [;/opt/homebrew/Cellar/llvm@14/14.0.6/lib;/Library/Developer/CommandLineTools/SDKs/MacOSX12.sdk/usr/lib]
+        Framework search paths: [;/Library/Developer/CommandLineTools/SDKs/MacOSX12.sdk/System/Library/Frameworks/]
+        remove lib [System]
+        remove lib [/opt/homebrew/Cellar/llvm@14/14.0.6/lib/clang/14.0.6/lib/darwin/libclang_rt.osx.a]
+        collapse library dir [/opt/homebrew/Cellar/llvm@14/14.0.6/lib] ==> [/opt/homebrew/Cellar/llvm@14/14.0.6/lib]
+        collapse library dir [/opt/homebrew/Cellar/llvm@14/14.0.6/lib] ==> [/opt/homebrew/Cellar/llvm@14/14.0.6/lib]
+        collapse library dir [/Library/Developer/CommandLineTools/SDKs/MacOSX12.sdk/usr/lib] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX12.sdk/usr/lib]
+        collapse framework dir [/Library/Developer/CommandLineTools/SDKs/MacOSX12.sdk/System/Library/Frameworks/] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX12.sdk/System/Library/Frameworks]
+        implicit libs: [omp;c++]
+        implicit objs: []
+        implicit dirs: [/opt/homebrew/Cellar/llvm@14/14.0.6/lib;/Library/Developer/CommandLineTools/SDKs/MacOSX12.sdk/usr/lib]
+        implicit fwks: [/Library/Developer/CommandLineTools/SDKs/MacOSX12.sdk/System/Library/Frameworks]
+      
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.26.0/share/cmake/Modules/FindOpenMP.cmake:419 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.26.0/share/cmake/Modules/FindOpenMP.cmake:557 (_OPENMP_GET_SPEC_DATE)"
+      - "CMakeLists.txt:239 (find_package)"
+    description: "Detecting C OpenMP version"
+    directories:
+      source: "/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build-02/CMakeFiles/CMakeScratch/TryCompile-9TVQlX"
+      binary: "/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build-02/CMakeFiles/CMakeScratch/TryCompile-9TVQlX"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-flto   "
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: "   "
+      CMAKE_MODULE_PATH: "/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/cmake;/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/cmake/modules"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk"
+    buildResult:
+      variable: "OpenMP_SPECTEST_C_"
+      cached: true
+      stdout: |
+        Change Dir: /Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/CMakeFiles/CMakeScratch/TryCompile-9TVQlX
+        
+        Run Build Command(s):/opt/homebrew/Cellar/cmake/3.26.0/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_5b602/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_5b602.dir/build.make CMakeFiles/cmTC_5b602.dir/build
+        Building C object CMakeFiles/cmTC_5b602.dir/OpenMPCheckVersion.c.o
+        /opt/homebrew/opt/llvm@14/bin/clang   -flto    -fopenmp=libomp -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -MD -MT CMakeFiles/cmTC_5b602.dir/OpenMPCheckVersion.c.o -MF CMakeFiles/cmTC_5b602.dir/OpenMPCheckVersion.c.o.d -o CMakeFiles/cmTC_5b602.dir/OpenMPCheckVersion.c.o -c /Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/CMakeFiles/CMakeScratch/TryCompile-9TVQlX/OpenMPCheckVersion.c
+        Linking C executable cmTC_5b602
+        /opt/homebrew/Cellar/cmake/3.26.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5b602.dir/link.txt --verbose=1
+        /opt/homebrew/opt/llvm@14/bin/clang -flto    -fopenmp=libomp -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_5b602.dir/OpenMPCheckVersion.c.o -o cmTC_5b602 
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.26.0/share/cmake/Modules/FindOpenMP.cmake:419 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.26.0/share/cmake/Modules/FindOpenMP.cmake:557 (_OPENMP_GET_SPEC_DATE)"
+      - "CMakeLists.txt:239 (find_package)"
+    description: "Detecting CXX OpenMP version"
+    directories:
+      source: "/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build-02/CMakeFiles/CMakeScratch/TryCompile-f5Vh89"
+      binary: "/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build-02/CMakeFiles/CMakeScratch/TryCompile-f5Vh89"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "   "
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: "   "
+      CMAKE_MODULE_PATH: "/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/cmake;/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/cmake/modules"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk"
+    buildResult:
+      variable: "OpenMP_SPECTEST_CXX_"
+      cached: true
+      stdout: |
+        Change Dir: /Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/CMakeFiles/CMakeScratch/TryCompile-f5Vh89
+        
+        Run Build Command(s):/opt/homebrew/Cellar/cmake/3.26.0/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_10d5f/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_10d5f.dir/build.make CMakeFiles/cmTC_10d5f.dir/build
+        Building CXX object CMakeFiles/cmTC_10d5f.dir/OpenMPCheckVersion.cpp.o
+        /opt/homebrew/opt/llvm@14/bin/clang++   -fopenmp=libomp -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -MD -MT CMakeFiles/cmTC_10d5f.dir/OpenMPCheckVersion.cpp.o -MF CMakeFiles/cmTC_10d5f.dir/OpenMPCheckVersion.cpp.o.d -o CMakeFiles/cmTC_10d5f.dir/OpenMPCheckVersion.cpp.o -c /Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/CMakeFiles/CMakeScratch/TryCompile-f5Vh89/OpenMPCheckVersion.cpp
+        Linking CXX executable cmTC_10d5f
+        /opt/homebrew/Cellar/cmake/3.26.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_10d5f.dir/link.txt --verbose=1
+        /opt/homebrew/opt/llvm@14/bin/clang++     -fopenmp=libomp -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_10d5f.dir/OpenMPCheckVersion.cpp.o -o cmTC_10d5f 
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "cmake/modules/DetectArchitecture.cmake:8 (try_compile)"
+      - "CMakeLists.txt:251 (detect_architecture)"
+    directories:
+      source: "/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build-02/CMakeFiles/CMakeTmp"
+      binary: "/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build-02/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-flto   "
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: "   "
+      CMAKE_MODULE_PATH: "/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/cmake;/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/cmake/modules"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk"
+    buildResult:
+      variable: "HAVE_ARCH"
+      cached: true
+      stdout: |
+        Change Dir: /Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/CMakeFiles/CMakeTmp
+        
+        Run Build Command(s):/opt/homebrew/Cellar/cmake/3.26.0/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_79c78/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_79c78.dir/build.make CMakeFiles/cmTC_79c78.dir/build
+        Building C object CMakeFiles/cmTC_79c78.dir/DetectArchitecture.c.o
+        /opt/homebrew/opt/llvm@14/bin/clang   -flto     -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -MD -MT CMakeFiles/cmTC_79c78.dir/DetectArchitecture.c.o -MF CMakeFiles/cmTC_79c78.dir/DetectArchitecture.c.o.d -o CMakeFiles/cmTC_79c78.dir/DetectArchitecture.c.o -c /Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/cmake/modules/DetectArchitecture.c
+        Linking C executable cmTC_79c78
+        /opt/homebrew/Cellar/cmake/3.26.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_79c78.dir/link.txt --verbose=1
+        /opt/homebrew/opt/llvm@14/bin/clang -flto     -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_79c78.dir/DetectArchitecture.c.o -o cmTC_79c78 
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.26.0/share/cmake/Modules/CheckLibraryExists.cmake:71 (try_compile)"
+      - "MicroBenchmarks/libs/benchmark/CMakeLists.txt:135 (check_library_exists)"
+    checks:
+      - "Looking for shm_open in rt"
+    directories:
+      source: "/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build-02/CMakeFiles/CMakeScratch/TryCompile-2Sk8Kk"
+      binary: "/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build-02/CMakeFiles/CMakeScratch/TryCompile-2Sk8Kk"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-flto   "
+      CMAKE_EXE_LINKER_FLAGS: "   "
+      CMAKE_MODULE_PATH: "/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/cmake;/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/cmake/modules;/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/MicroBenchmarks/libs/benchmark/cmake/Modules;/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/MicroBenchmarks/libs/benchmark/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk"
+    buildResult:
+      variable: "HAVE_LIB_RT"
+      cached: true
+      stdout: |
+        Change Dir: /Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/CMakeFiles/CMakeScratch/TryCompile-2Sk8Kk
+        
+        Run Build Command(s):/opt/homebrew/Cellar/cmake/3.26.0/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_16d88/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_16d88.dir/build.make CMakeFiles/cmTC_16d88.dir/build
+        Building C object CMakeFiles/cmTC_16d88.dir/CheckFunctionExists.c.o
+        /opt/homebrew/opt/llvm@14/bin/clang   -flto    -DCHECK_FUNCTION_EXISTS=shm_open -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -MD -MT CMakeFiles/cmTC_16d88.dir/CheckFunctionExists.c.o -MF CMakeFiles/cmTC_16d88.dir/CheckFunctionExists.c.o.d -o CMakeFiles/cmTC_16d88.dir/CheckFunctionExists.c.o -c /Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/CMakeFiles/CMakeScratch/TryCompile-2Sk8Kk/CheckFunctionExists.c
+        Linking C executable cmTC_16d88
+        /opt/homebrew/Cellar/cmake/3.26.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_16d88.dir/link.txt --verbose=1
+        /opt/homebrew/opt/llvm@14/bin/clang -flto    -DCHECK_FUNCTION_EXISTS=shm_open -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_16d88.dir/CheckFunctionExists.c.o -o cmTC_16d88  -lrt 
+        ld: library not found for -lrt
+        clang-14: error: linker command failed with exit code 1 (use -v to see invocation)
+        make[1]: *** [cmTC_16d88] Error 1
+        make: *** [cmTC_16d88/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.26.0/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.26.0/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/opt/homebrew/Cellar/cmake/3.26.0/share/cmake/Modules/CheckCXXCompilerFlag.cmake:40 (cmake_check_compiler_flag)"
+      - "MicroBenchmarks/libs/benchmark/cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
+      - "MicroBenchmarks/libs/benchmark/CMakeLists.txt:175 (add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_CXX_FLAG_STD_CXX11"
+    directories:
+      source: "/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build-02/CMakeFiles/CMakeScratch/TryCompile-LJ4scU"
+      binary: "/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build-02/CMakeFiles/CMakeScratch/TryCompile-LJ4scU"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "   "
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: "   "
+      CMAKE_MODULE_PATH: "/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/cmake;/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/cmake/modules;/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/MicroBenchmarks/libs/benchmark/cmake/Modules;/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/MicroBenchmarks/libs/benchmark/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk"
+    buildResult:
+      variable: "HAVE_CXX_FLAG_STD_CXX11"
+      cached: true
+      stdout: |
+        Change Dir: /Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/CMakeFiles/CMakeScratch/TryCompile-LJ4scU
+        
+        Run Build Command(s):/opt/homebrew/Cellar/cmake/3.26.0/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_750db/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_750db.dir/build.make CMakeFiles/cmTC_750db.dir/build
+        Building CXX object CMakeFiles/cmTC_750db.dir/src.cxx.o
+        /opt/homebrew/opt/llvm@14/bin/clang++ -DHAVE_CXX_FLAG_STD_CXX11  -std=c++11 -std=gnu++11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk   -std=c++11 -MD -MT CMakeFiles/cmTC_750db.dir/src.cxx.o -MF CMakeFiles/cmTC_750db.dir/src.cxx.o.d -o CMakeFiles/cmTC_750db.dir/src.cxx.o -c /Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/CMakeFiles/CMakeScratch/TryCompile-LJ4scU/src.cxx
+        Linking CXX executable cmTC_750db
+        /opt/homebrew/Cellar/cmake/3.26.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_750db.dir/link.txt --verbose=1
+        /opt/homebrew/opt/llvm@14/bin/clang++      -std=c++11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_750db.dir/src.cxx.o -o cmTC_750db 
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.26.0/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.26.0/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/opt/homebrew/Cellar/cmake/3.26.0/share/cmake/Modules/CheckCXXCompilerFlag.cmake:40 (cmake_check_compiler_flag)"
+      - "MicroBenchmarks/libs/benchmark/cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
+      - "MicroBenchmarks/libs/benchmark/CMakeLists.txt:181 (add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_CXX_FLAG_WALL"
+    directories:
+      source: "/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build-02/CMakeFiles/CMakeScratch/TryCompile-2mFD2X"
+      binary: "/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build-02/CMakeFiles/CMakeScratch/TryCompile-2mFD2X"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "     -std=c++11"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: "   "
+      CMAKE_MODULE_PATH: "/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/cmake;/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/cmake/modules;/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/MicroBenchmarks/libs/benchmark/cmake/Modules;/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/MicroBenchmarks/libs/benchmark/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk"
+    buildResult:
+      variable: "HAVE_CXX_FLAG_WALL"
+      cached: true
+      stdout: |
+        Change Dir: /Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/CMakeFiles/CMakeScratch/TryCompile-2mFD2X
+        
+        Run Build Command(s):/opt/homebrew/Cellar/cmake/3.26.0/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_e162b/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_e162b.dir/build.make CMakeFiles/cmTC_e162b.dir/build
+        Building CXX object CMakeFiles/cmTC_e162b.dir/src.cxx.o
+        /opt/homebrew/opt/llvm@14/bin/clang++ -DHAVE_CXX_FLAG_WALL  -std=c++11  -Wall -std=gnu++11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk   -Wall -MD -MT CMakeFiles/cmTC_e162b.dir/src.cxx.o -MF CMakeFiles/cmTC_e162b.dir/src.cxx.o.d -o CMakeFiles/cmTC_e162b.dir/src.cxx.o -c /Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/CMakeFiles/CMakeScratch/TryCompile-2mFD2X/src.cxx
+        Linking CXX executable cmTC_e162b
+        /opt/homebrew/Cellar/cmake/3.26.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e162b.dir/link.txt --verbose=1
+        /opt/homebrew/opt/llvm@14/bin/clang++      -std=c++11  -Wall -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_e162b.dir/src.cxx.o -o cmTC_e162b 
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.26.0/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.26.0/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/opt/homebrew/Cellar/cmake/3.26.0/share/cmake/Modules/CheckCXXCompilerFlag.cmake:40 (cmake_check_compiler_flag)"
+      - "MicroBenchmarks/libs/benchmark/cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
+      - "MicroBenchmarks/libs/benchmark/CMakeLists.txt:182 (add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_CXX_FLAG_WEXTRA"
+    directories:
+      source: "/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build-02/CMakeFiles/CMakeScratch/TryCompile-89LdwQ"
+      binary: "/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build-02/CMakeFiles/CMakeScratch/TryCompile-89LdwQ"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "     -std=c++11  -Wall"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: "   "
+      CMAKE_MODULE_PATH: "/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/cmake;/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/cmake/modules;/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/MicroBenchmarks/libs/benchmark/cmake/Modules;/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/MicroBenchmarks/libs/benchmark/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk"
+    buildResult:
+      variable: "HAVE_CXX_FLAG_WEXTRA"
+      cached: true
+      stdout: |
+        Change Dir: /Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/CMakeFiles/CMakeScratch/TryCompile-89LdwQ
+        
+        Run Build Command(s):/opt/homebrew/Cellar/cmake/3.26.0/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_25b9a/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_25b9a.dir/build.make CMakeFiles/cmTC_25b9a.dir/build
+        Building CXX object CMakeFiles/cmTC_25b9a.dir/src.cxx.o
+        /opt/homebrew/opt/llvm@14/bin/clang++ -DHAVE_CXX_FLAG_WEXTRA  -std=c++11  -Wall  -Wextra -std=gnu++11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk   -Wextra -MD -MT CMakeFiles/cmTC_25b9a.dir/src.cxx.o -MF CMakeFiles/cmTC_25b9a.dir/src.cxx.o.d -o CMakeFiles/cmTC_25b9a.dir/src.cxx.o -c /Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/CMakeFiles/CMakeScratch/TryCompile-89LdwQ/src.cxx
+        Linking CXX executable cmTC_25b9a
+        /opt/homebrew/Cellar/cmake/3.26.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_25b9a.dir/link.txt --verbose=1
+        /opt/homebrew/opt/llvm@14/bin/clang++      -std=c++11  -Wall  -Wextra -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_25b9a.dir/src.cxx.o -o cmTC_25b9a 
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.26.0/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.26.0/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/opt/homebrew/Cellar/cmake/3.26.0/share/cmake/Modules/CheckCXXCompilerFlag.cmake:40 (cmake_check_compiler_flag)"
+      - "MicroBenchmarks/libs/benchmark/cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
+      - "MicroBenchmarks/libs/benchmark/CMakeLists.txt:183 (add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_CXX_FLAG_WSHADOW"
+    directories:
+      source: "/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build-02/CMakeFiles/CMakeScratch/TryCompile-gEle9k"
+      binary: "/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build-02/CMakeFiles/CMakeScratch/TryCompile-gEle9k"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "     -std=c++11  -Wall  -Wextra"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: "   "
+      CMAKE_MODULE_PATH: "/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/cmake;/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/cmake/modules;/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/MicroBenchmarks/libs/benchmark/cmake/Modules;/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/MicroBenchmarks/libs/benchmark/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk"
+    buildResult:
+      variable: "HAVE_CXX_FLAG_WSHADOW"
+      cached: true
+      stdout: |
+        Change Dir: /Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/CMakeFiles/CMakeScratch/TryCompile-gEle9k
+        
+        Run Build Command(s):/opt/homebrew/Cellar/cmake/3.26.0/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_80a7f/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_80a7f.dir/build.make CMakeFiles/cmTC_80a7f.dir/build
+        Building CXX object CMakeFiles/cmTC_80a7f.dir/src.cxx.o
+        /opt/homebrew/opt/llvm@14/bin/clang++ -DHAVE_CXX_FLAG_WSHADOW  -std=c++11  -Wall  -Wextra  -Wshadow -std=gnu++11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk   -Wshadow -MD -MT CMakeFiles/cmTC_80a7f.dir/src.cxx.o -MF CMakeFiles/cmTC_80a7f.dir/src.cxx.o.d -o CMakeFiles/cmTC_80a7f.dir/src.cxx.o -c /Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/CMakeFiles/CMakeScratch/TryCompile-gEle9k/src.cxx
+        Linking CXX executable cmTC_80a7f
+        /opt/homebrew/Cellar/cmake/3.26.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_80a7f.dir/link.txt --verbose=1
+        /opt/homebrew/opt/llvm@14/bin/clang++      -std=c++11  -Wall  -Wextra  -Wshadow -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_80a7f.dir/src.cxx.o -o cmTC_80a7f 
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.26.0/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.26.0/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/opt/homebrew/Cellar/cmake/3.26.0/share/cmake/Modules/CheckCXXCompilerFlag.cmake:40 (cmake_check_compiler_flag)"
+      - "MicroBenchmarks/libs/benchmark/cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
+      - "MicroBenchmarks/libs/benchmark/CMakeLists.txt:185 (add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_CXX_FLAG_WERROR"
+    directories:
+      source: "/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build-02/CMakeFiles/CMakeScratch/TryCompile-J150Q2"
+      binary: "/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build-02/CMakeFiles/CMakeScratch/TryCompile-J150Q2"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "     -std=c++11  -Wall  -Wextra  -Wshadow"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: "   "
+      CMAKE_MODULE_PATH: "/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/cmake;/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/cmake/modules;/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/MicroBenchmarks/libs/benchmark/cmake/Modules;/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/MicroBenchmarks/libs/benchmark/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk"
+    buildResult:
+      variable: "HAVE_CXX_FLAG_WERROR"
+      cached: true
+      stdout: |
+        Change Dir: /Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/CMakeFiles/CMakeScratch/TryCompile-J150Q2
+        
+        Run Build Command(s):/opt/homebrew/Cellar/cmake/3.26.0/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_49249/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_49249.dir/build.make CMakeFiles/cmTC_49249.dir/build
+        Building CXX object CMakeFiles/cmTC_49249.dir/src.cxx.o
+        /opt/homebrew/opt/llvm@14/bin/clang++ -DHAVE_CXX_FLAG_WERROR  -std=c++11  -Wall  -Wextra  -Wshadow  -Werror -std=gnu++11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk   -Werror -MD -MT CMakeFiles/cmTC_49249.dir/src.cxx.o -MF CMakeFiles/cmTC_49249.dir/src.cxx.o.d -o CMakeFiles/cmTC_49249.dir/src.cxx.o -c /Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/CMakeFiles/CMakeScratch/TryCompile-J150Q2/src.cxx
+        Linking CXX executable cmTC_49249
+        /opt/homebrew/Cellar/cmake/3.26.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_49249.dir/link.txt --verbose=1
+        /opt/homebrew/opt/llvm@14/bin/clang++      -std=c++11  -Wall  -Wextra  -Wshadow  -Werror -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_49249.dir/src.cxx.o -o cmTC_49249 
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.26.0/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.26.0/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/opt/homebrew/Cellar/cmake/3.26.0/share/cmake/Modules/CheckCXXCompilerFlag.cmake:40 (cmake_check_compiler_flag)"
+      - "MicroBenchmarks/libs/benchmark/cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
+      - "MicroBenchmarks/libs/benchmark/CMakeLists.txt:193 (add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_CXX_FLAG_PEDANTIC"
+    directories:
+      source: "/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build-02/CMakeFiles/CMakeScratch/TryCompile-9FL7vS"
+      binary: "/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build-02/CMakeFiles/CMakeScratch/TryCompile-9FL7vS"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "     -std=c++11  -Wall  -Wextra  -Wshadow"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: "   "
+      CMAKE_MODULE_PATH: "/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/cmake;/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/cmake/modules;/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/MicroBenchmarks/libs/benchmark/cmake/Modules;/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/MicroBenchmarks/libs/benchmark/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk"
+    buildResult:
+      variable: "HAVE_CXX_FLAG_PEDANTIC"
+      cached: true
+      stdout: |
+        Change Dir: /Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/CMakeFiles/CMakeScratch/TryCompile-9FL7vS
+        
+        Run Build Command(s):/opt/homebrew/Cellar/cmake/3.26.0/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_0abb2/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_0abb2.dir/build.make CMakeFiles/cmTC_0abb2.dir/build
+        Building CXX object CMakeFiles/cmTC_0abb2.dir/src.cxx.o
+        /opt/homebrew/opt/llvm@14/bin/clang++ -DHAVE_CXX_FLAG_PEDANTIC  -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic -std=gnu++11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk   -pedantic -MD -MT CMakeFiles/cmTC_0abb2.dir/src.cxx.o -MF CMakeFiles/cmTC_0abb2.dir/src.cxx.o.d -o CMakeFiles/cmTC_0abb2.dir/src.cxx.o -c /Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/CMakeFiles/CMakeScratch/TryCompile-9FL7vS/src.cxx
+        Linking CXX executable cmTC_0abb2
+        /opt/homebrew/Cellar/cmake/3.26.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0abb2.dir/link.txt --verbose=1
+        /opt/homebrew/opt/llvm@14/bin/clang++      -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_0abb2.dir/src.cxx.o -o cmTC_0abb2 
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.26.0/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.26.0/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/opt/homebrew/Cellar/cmake/3.26.0/share/cmake/Modules/CheckCXXCompilerFlag.cmake:40 (cmake_check_compiler_flag)"
+      - "MicroBenchmarks/libs/benchmark/cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
+      - "MicroBenchmarks/libs/benchmark/CMakeLists.txt:194 (add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_CXX_FLAG_PEDANTIC_ERRORS"
+    directories:
+      source: "/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build-02/CMakeFiles/CMakeScratch/TryCompile-u93UZY"
+      binary: "/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build-02/CMakeFiles/CMakeScratch/TryCompile-u93UZY"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "     -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: "   "
+      CMAKE_MODULE_PATH: "/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/cmake;/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/cmake/modules;/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/MicroBenchmarks/libs/benchmark/cmake/Modules;/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/MicroBenchmarks/libs/benchmark/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk"
+    buildResult:
+      variable: "HAVE_CXX_FLAG_PEDANTIC_ERRORS"
+      cached: true
+      stdout: |
+        Change Dir: /Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/CMakeFiles/CMakeScratch/TryCompile-u93UZY
+        
+        Run Build Command(s):/opt/homebrew/Cellar/cmake/3.26.0/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_493ac/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_493ac.dir/build.make CMakeFiles/cmTC_493ac.dir/build
+        Building CXX object CMakeFiles/cmTC_493ac.dir/src.cxx.o
+        /opt/homebrew/opt/llvm@14/bin/clang++ -DHAVE_CXX_FLAG_PEDANTIC_ERRORS  -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic  -pedantic-errors -std=gnu++11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk   -pedantic-errors -MD -MT CMakeFiles/cmTC_493ac.dir/src.cxx.o -MF CMakeFiles/cmTC_493ac.dir/src.cxx.o.d -o CMakeFiles/cmTC_493ac.dir/src.cxx.o -c /Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/CMakeFiles/CMakeScratch/TryCompile-u93UZY/src.cxx
+        Linking CXX executable cmTC_493ac
+        /opt/homebrew/Cellar/cmake/3.26.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_493ac.dir/link.txt --verbose=1
+        /opt/homebrew/opt/llvm@14/bin/clang++      -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic  -pedantic-errors -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_493ac.dir/src.cxx.o -o cmTC_493ac 
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.26.0/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.26.0/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/opt/homebrew/Cellar/cmake/3.26.0/share/cmake/Modules/CheckCXXCompilerFlag.cmake:40 (cmake_check_compiler_flag)"
+      - "MicroBenchmarks/libs/benchmark/cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
+      - "MicroBenchmarks/libs/benchmark/CMakeLists.txt:195 (add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_CXX_FLAG_WSHORTEN_64_TO_32"
+    directories:
+      source: "/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build-02/CMakeFiles/CMakeScratch/TryCompile-IIAF4c"
+      binary: "/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build-02/CMakeFiles/CMakeScratch/TryCompile-IIAF4c"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "     -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic  -pedantic-errors"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: "   "
+      CMAKE_MODULE_PATH: "/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/cmake;/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/cmake/modules;/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/MicroBenchmarks/libs/benchmark/cmake/Modules;/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/MicroBenchmarks/libs/benchmark/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk"
+    buildResult:
+      variable: "HAVE_CXX_FLAG_WSHORTEN_64_TO_32"
+      cached: true
+      stdout: |
+        Change Dir: /Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/CMakeFiles/CMakeScratch/TryCompile-IIAF4c
+        
+        Run Build Command(s):/opt/homebrew/Cellar/cmake/3.26.0/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_018cc/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_018cc.dir/build.make CMakeFiles/cmTC_018cc.dir/build
+        Building CXX object CMakeFiles/cmTC_018cc.dir/src.cxx.o
+        /opt/homebrew/opt/llvm@14/bin/clang++ -DHAVE_CXX_FLAG_WSHORTEN_64_TO_32  -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic  -pedantic-errors  -Wshorten-64-to-32 -std=gnu++11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk   -Wshorten-64-to-32 -MD -MT CMakeFiles/cmTC_018cc.dir/src.cxx.o -MF CMakeFiles/cmTC_018cc.dir/src.cxx.o.d -o CMakeFiles/cmTC_018cc.dir/src.cxx.o -c /Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/CMakeFiles/CMakeScratch/TryCompile-IIAF4c/src.cxx
+        Linking CXX executable cmTC_018cc
+        /opt/homebrew/Cellar/cmake/3.26.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_018cc.dir/link.txt --verbose=1
+        /opt/homebrew/opt/llvm@14/bin/clang++      -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic  -pedantic-errors  -Wshorten-64-to-32 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_018cc.dir/src.cxx.o -o cmTC_018cc 
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.26.0/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.26.0/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/opt/homebrew/Cellar/cmake/3.26.0/share/cmake/Modules/CheckCXXCompilerFlag.cmake:40 (cmake_check_compiler_flag)"
+      - "MicroBenchmarks/libs/benchmark/cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
+      - "MicroBenchmarks/libs/benchmark/CMakeLists.txt:196 (add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_CXX_FLAG_FSTRICT_ALIASING"
+    directories:
+      source: "/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build-02/CMakeFiles/CMakeScratch/TryCompile-eHZR42"
+      binary: "/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build-02/CMakeFiles/CMakeScratch/TryCompile-eHZR42"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "     -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic  -pedantic-errors  -Wshorten-64-to-32"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: "   "
+      CMAKE_MODULE_PATH: "/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/cmake;/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/cmake/modules;/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/MicroBenchmarks/libs/benchmark/cmake/Modules;/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/MicroBenchmarks/libs/benchmark/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk"
+    buildResult:
+      variable: "HAVE_CXX_FLAG_FSTRICT_ALIASING"
+      cached: true
+      stdout: |
+        Change Dir: /Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/CMakeFiles/CMakeScratch/TryCompile-eHZR42
+        
+        Run Build Command(s):/opt/homebrew/Cellar/cmake/3.26.0/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_c6a38/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_c6a38.dir/build.make CMakeFiles/cmTC_c6a38.dir/build
+        Building CXX object CMakeFiles/cmTC_c6a38.dir/src.cxx.o
+        /opt/homebrew/opt/llvm@14/bin/clang++ -DHAVE_CXX_FLAG_FSTRICT_ALIASING  -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing -std=gnu++11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk   -fstrict-aliasing -MD -MT CMakeFiles/cmTC_c6a38.dir/src.cxx.o -MF CMakeFiles/cmTC_c6a38.dir/src.cxx.o.d -o CMakeFiles/cmTC_c6a38.dir/src.cxx.o -c /Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/CMakeFiles/CMakeScratch/TryCompile-eHZR42/src.cxx
+        Linking CXX executable cmTC_c6a38
+        /opt/homebrew/Cellar/cmake/3.26.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c6a38.dir/link.txt --verbose=1
+        /opt/homebrew/opt/llvm@14/bin/clang++      -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_c6a38.dir/src.cxx.o -o cmTC_c6a38 
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.26.0/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.26.0/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/opt/homebrew/Cellar/cmake/3.26.0/share/cmake/Modules/CheckCXXCompilerFlag.cmake:40 (cmake_check_compiler_flag)"
+      - "MicroBenchmarks/libs/benchmark/cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
+      - "MicroBenchmarks/libs/benchmark/CMakeLists.txt:199 (add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_CXX_FLAG_WNO_DEPRECATED_DECLARATIONS"
+    directories:
+      source: "/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build-02/CMakeFiles/CMakeScratch/TryCompile-YSBeSG"
+      binary: "/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build-02/CMakeFiles/CMakeScratch/TryCompile-YSBeSG"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "     -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: "   "
+      CMAKE_MODULE_PATH: "/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/cmake;/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/cmake/modules;/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/MicroBenchmarks/libs/benchmark/cmake/Modules;/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/MicroBenchmarks/libs/benchmark/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk"
+    buildResult:
+      variable: "HAVE_CXX_FLAG_WNO_DEPRECATED_DECLARATIONS"
+      cached: true
+      stdout: |
+        Change Dir: /Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/CMakeFiles/CMakeScratch/TryCompile-YSBeSG
+        
+        Run Build Command(s):/opt/homebrew/Cellar/cmake/3.26.0/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_5bf73/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_5bf73.dir/build.make CMakeFiles/cmTC_5bf73.dir/build
+        Building CXX object CMakeFiles/cmTC_5bf73.dir/src.cxx.o
+        /opt/homebrew/opt/llvm@14/bin/clang++ -DHAVE_CXX_FLAG_WNO_DEPRECATED_DECLARATIONS  -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations -std=gnu++11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk   -Wno-deprecated-declarations -MD -MT CMakeFiles/cmTC_5bf73.dir/src.cxx.o -MF CMakeFiles/cmTC_5bf73.dir/src.cxx.o.d -o CMakeFiles/cmTC_5bf73.dir/src.cxx.o -c /Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/CMakeFiles/CMakeScratch/TryCompile-YSBeSG/src.cxx
+        Linking CXX executable cmTC_5bf73
+        /opt/homebrew/Cellar/cmake/3.26.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5bf73.dir/link.txt --verbose=1
+        /opt/homebrew/opt/llvm@14/bin/clang++      -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_5bf73.dir/src.cxx.o -o cmTC_5bf73 
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.26.0/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.26.0/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/opt/homebrew/Cellar/cmake/3.26.0/share/cmake/Modules/CheckCXXCompilerFlag.cmake:40 (cmake_check_compiler_flag)"
+      - "MicroBenchmarks/libs/benchmark/cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
+      - "MicroBenchmarks/libs/benchmark/CMakeLists.txt:208 (add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_CXX_FLAG_WNO_DEPRECATED"
+    directories:
+      source: "/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build-02/CMakeFiles/CMakeScratch/TryCompile-Wt988z"
+      binary: "/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build-02/CMakeFiles/CMakeScratch/TryCompile-Wt988z"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "     -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: "   "
+      CMAKE_MODULE_PATH: "/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/cmake;/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/cmake/modules;/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/MicroBenchmarks/libs/benchmark/cmake/Modules;/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/MicroBenchmarks/libs/benchmark/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk"
+    buildResult:
+      variable: "HAVE_CXX_FLAG_WNO_DEPRECATED"
+      cached: true
+      stdout: |
+        Change Dir: /Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/CMakeFiles/CMakeScratch/TryCompile-Wt988z
+        
+        Run Build Command(s):/opt/homebrew/Cellar/cmake/3.26.0/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_64486/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_64486.dir/build.make CMakeFiles/cmTC_64486.dir/build
+        Building CXX object CMakeFiles/cmTC_64486.dir/src.cxx.o
+        /opt/homebrew/opt/llvm@14/bin/clang++ -DHAVE_CXX_FLAG_WNO_DEPRECATED  -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated -std=gnu++11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk   -Wno-deprecated -MD -MT CMakeFiles/cmTC_64486.dir/src.cxx.o -MF CMakeFiles/cmTC_64486.dir/src.cxx.o.d -o CMakeFiles/cmTC_64486.dir/src.cxx.o -c /Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/CMakeFiles/CMakeScratch/TryCompile-Wt988z/src.cxx
+        Linking CXX executable cmTC_64486
+        /opt/homebrew/Cellar/cmake/3.26.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_64486.dir/link.txt --verbose=1
+        /opt/homebrew/opt/llvm@14/bin/clang++      -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_64486.dir/src.cxx.o -o cmTC_64486 
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.26.0/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.26.0/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/opt/homebrew/Cellar/cmake/3.26.0/share/cmake/Modules/CheckCXXCompilerFlag.cmake:40 (cmake_check_compiler_flag)"
+      - "MicroBenchmarks/libs/benchmark/cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
+      - "MicroBenchmarks/libs/benchmark/CMakeLists.txt:218 (add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_CXX_FLAG_WSTRICT_ALIASING"
+    directories:
+      source: "/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build-02/CMakeFiles/CMakeScratch/TryCompile-FqltUq"
+      binary: "/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build-02/CMakeFiles/CMakeScratch/TryCompile-FqltUq"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "     -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: "   "
+      CMAKE_MODULE_PATH: "/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/cmake;/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/cmake/modules;/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/MicroBenchmarks/libs/benchmark/cmake/Modules;/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/MicroBenchmarks/libs/benchmark/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk"
+    buildResult:
+      variable: "HAVE_CXX_FLAG_WSTRICT_ALIASING"
+      cached: true
+      stdout: |
+        Change Dir: /Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/CMakeFiles/CMakeScratch/TryCompile-FqltUq
+        
+        Run Build Command(s):/opt/homebrew/Cellar/cmake/3.26.0/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_69bee/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_69bee.dir/build.make CMakeFiles/cmTC_69bee.dir/build
+        Building CXX object CMakeFiles/cmTC_69bee.dir/src.cxx.o
+        /opt/homebrew/opt/llvm@14/bin/clang++ -DHAVE_CXX_FLAG_WSTRICT_ALIASING  -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations  -Wstrict-aliasing -std=gnu++11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk   -Wstrict-aliasing -MD -MT CMakeFiles/cmTC_69bee.dir/src.cxx.o -MF CMakeFiles/cmTC_69bee.dir/src.cxx.o.d -o CMakeFiles/cmTC_69bee.dir/src.cxx.o -c /Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/CMakeFiles/CMakeScratch/TryCompile-FqltUq/src.cxx
+        Linking CXX executable cmTC_69bee
+        /opt/homebrew/Cellar/cmake/3.26.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_69bee.dir/link.txt --verbose=1
+        /opt/homebrew/opt/llvm@14/bin/clang++      -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations  -Wstrict-aliasing -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_69bee.dir/src.cxx.o -o cmTC_69bee 
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.26.0/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.26.0/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/opt/homebrew/Cellar/cmake/3.26.0/share/cmake/Modules/CheckCXXCompilerFlag.cmake:40 (cmake_check_compiler_flag)"
+      - "MicroBenchmarks/libs/benchmark/cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
+      - "MicroBenchmarks/libs/benchmark/CMakeLists.txt:223 (add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_CXX_FLAG_WD654"
+    directories:
+      source: "/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build-02/CMakeFiles/CMakeScratch/TryCompile-b7sM7K"
+      binary: "/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build-02/CMakeFiles/CMakeScratch/TryCompile-b7sM7K"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "     -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations  -Wstrict-aliasing"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: "   "
+      CMAKE_MODULE_PATH: "/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/cmake;/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/cmake/modules;/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/MicroBenchmarks/libs/benchmark/cmake/Modules;/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/MicroBenchmarks/libs/benchmark/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk"
+    buildResult:
+      variable: "HAVE_CXX_FLAG_WD654"
+      cached: true
+      stdout: |
+        Change Dir: /Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/CMakeFiles/CMakeScratch/TryCompile-b7sM7K
+        
+        Run Build Command(s):/opt/homebrew/Cellar/cmake/3.26.0/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_5ff6d/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_5ff6d.dir/build.make CMakeFiles/cmTC_5ff6d.dir/build
+        Building CXX object CMakeFiles/cmTC_5ff6d.dir/src.cxx.o
+        /opt/homebrew/opt/llvm@14/bin/clang++ -DHAVE_CXX_FLAG_WD654  -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations  -Wstrict-aliasing  -wd654 -std=gnu++11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk   -wd654 -MD -MT CMakeFiles/cmTC_5ff6d.dir/src.cxx.o -MF CMakeFiles/cmTC_5ff6d.dir/src.cxx.o.d -o CMakeFiles/cmTC_5ff6d.dir/src.cxx.o -c /Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/CMakeFiles/CMakeScratch/TryCompile-b7sM7K/src.cxx
+        clang-14: error: unknown argument: '-wd654'
+        clang-14: error: unknown argument: '-wd654'
+        make[1]: *** [CMakeFiles/cmTC_5ff6d.dir/src.cxx.o] Error 1
+        make: *** [cmTC_5ff6d/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.26.0/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.26.0/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/opt/homebrew/Cellar/cmake/3.26.0/share/cmake/Modules/CheckCXXCompilerFlag.cmake:40 (cmake_check_compiler_flag)"
+      - "MicroBenchmarks/libs/benchmark/cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
+      - "MicroBenchmarks/libs/benchmark/CMakeLists.txt:224 (add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_CXX_FLAG_WTHREAD_SAFETY"
+    directories:
+      source: "/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build-02/CMakeFiles/CMakeScratch/TryCompile-sbwfVO"
+      binary: "/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build-02/CMakeFiles/CMakeScratch/TryCompile-sbwfVO"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "     -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations  -Wstrict-aliasing"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: "   "
+      CMAKE_MODULE_PATH: "/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/cmake;/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/cmake/modules;/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/MicroBenchmarks/libs/benchmark/cmake/Modules;/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/MicroBenchmarks/libs/benchmark/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk"
+    buildResult:
+      variable: "HAVE_CXX_FLAG_WTHREAD_SAFETY"
+      cached: true
+      stdout: |
+        Change Dir: /Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/CMakeFiles/CMakeScratch/TryCompile-sbwfVO
+        
+        Run Build Command(s):/opt/homebrew/Cellar/cmake/3.26.0/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_94642/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_94642.dir/build.make CMakeFiles/cmTC_94642.dir/build
+        Building CXX object CMakeFiles/cmTC_94642.dir/src.cxx.o
+        /opt/homebrew/opt/llvm@14/bin/clang++ -DHAVE_CXX_FLAG_WTHREAD_SAFETY  -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations  -Wstrict-aliasing  -Wthread-safety -std=gnu++11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk   -Wthread-safety -MD -MT CMakeFiles/cmTC_94642.dir/src.cxx.o -MF CMakeFiles/cmTC_94642.dir/src.cxx.o.d -o CMakeFiles/cmTC_94642.dir/src.cxx.o -c /Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/CMakeFiles/CMakeScratch/TryCompile-sbwfVO/src.cxx
+        Linking CXX executable cmTC_94642
+        /opt/homebrew/Cellar/cmake/3.26.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_94642.dir/link.txt --verbose=1
+        /opt/homebrew/opt/llvm@14/bin/clang++      -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations  -Wstrict-aliasing  -Wthread-safety -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_94642.dir/src.cxx.o -o cmTC_94642 
+        
+      exitCode: 0
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "MicroBenchmarks/libs/benchmark/cmake/CXXFeatureCheck.cmake:51 (try_run)"
+      - "MicroBenchmarks/libs/benchmark/CMakeLists.txt:226 (cxx_feature_check)"
+    directories:
+      source: "/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build-02/CMakeFiles/CMakeTmp"
+      binary: "/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build-02/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "     -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations  -Wstrict-aliasing  -Wthread-safety"
+      CMAKE_EXE_LINKER_FLAGS: "   "
+      CMAKE_MODULE_PATH: "/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/cmake;/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/cmake/modules;/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/MicroBenchmarks/libs/benchmark/cmake/Modules;/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/MicroBenchmarks/libs/benchmark/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk"
+    buildResult:
+      variable: "COMPILE_HAVE_THREAD_SAFETY_ATTRIBUTES"
+      cached: true
+      stdout: |
+        Change Dir: /Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/CMakeFiles/CMakeTmp
+        
+        Run Build Command(s):/opt/homebrew/Cellar/cmake/3.26.0/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_89bef/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_89bef.dir/build.make CMakeFiles/cmTC_89bef.dir/build
+        Building CXX object CMakeFiles/cmTC_89bef.dir/thread_safety_attributes.cpp.o
+        /opt/homebrew/opt/llvm@14/bin/clang++   -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations  -Wstrict-aliasing  -Wthread-safety  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -MD -MT CMakeFiles/cmTC_89bef.dir/thread_safety_attributes.cpp.o -MF CMakeFiles/cmTC_89bef.dir/thread_safety_attributes.cpp.o.d -o CMakeFiles/cmTC_89bef.dir/thread_safety_attributes.cpp.o -c /Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/MicroBenchmarks/libs/benchmark/cmake/thread_safety_attributes.cpp
+        In file included from /Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/MicroBenchmarks/libs/benchmark/cmake/thread_safety_attributes.cpp:2:
+        In file included from /Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/MicroBenchmarks/libs/benchmark/cmake/../src/mutex.h:7:
+        /Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/MicroBenchmarks/libs/benchmark/cmake/../src/check.h:8:10: fatal error: 'benchmark/export.h' file not found
+        #include "benchmark/export.h"
+                 ^~~~~~~~~~~~~~~~~~~~
+        1 error generated.
+        make[1]: *** [CMakeFiles/cmTC_89bef.dir/thread_safety_attributes.cpp.o] Error 1
+        make: *** [cmTC_89bef/fast] Error 2
+        
+      exitCode: 2
+    runResult:
+      variable: "RUN_HAVE_THREAD_SAFETY_ATTRIBUTES"
+      cached: true
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.26.0/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.26.0/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/opt/homebrew/Cellar/cmake/3.26.0/share/cmake/Modules/CheckCXXCompilerFlag.cmake:40 (cmake_check_compiler_flag)"
+      - "MicroBenchmarks/libs/benchmark/cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
+      - "MicroBenchmarks/libs/benchmark/CMakeLists.txt:275 (add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_CXX_FLAG_COVERAGE"
+    directories:
+      source: "/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build-02/CMakeFiles/CMakeScratch/TryCompile-AaRuVC"
+      binary: "/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build-02/CMakeFiles/CMakeScratch/TryCompile-AaRuVC"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "     -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations  -Wstrict-aliasing  -Wthread-safety"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: "   "
+      CMAKE_MODULE_PATH: "/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/cmake;/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/cmake/modules;/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/MicroBenchmarks/libs/benchmark/cmake/Modules;/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/MicroBenchmarks/libs/benchmark/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk"
+    buildResult:
+      variable: "HAVE_CXX_FLAG_COVERAGE"
+      cached: true
+      stdout: |
+        Change Dir: /Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/CMakeFiles/CMakeScratch/TryCompile-AaRuVC
+        
+        Run Build Command(s):/opt/homebrew/Cellar/cmake/3.26.0/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_c02ed/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_c02ed.dir/build.make CMakeFiles/cmTC_c02ed.dir/build
+        Building CXX object CMakeFiles/cmTC_c02ed.dir/src.cxx.o
+        /opt/homebrew/opt/llvm@14/bin/clang++ -DHAVE_CXX_FLAG_COVERAGE  -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations  -Wstrict-aliasing  -Wthread-safety  --coverage -std=gnu++11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk   --coverage -MD -MT CMakeFiles/cmTC_c02ed.dir/src.cxx.o -MF CMakeFiles/cmTC_c02ed.dir/src.cxx.o.d -o CMakeFiles/cmTC_c02ed.dir/src.cxx.o -c /Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/CMakeFiles/CMakeScratch/TryCompile-AaRuVC/src.cxx
+        Linking CXX executable cmTC_c02ed
+        /opt/homebrew/Cellar/cmake/3.26.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c02ed.dir/link.txt --verbose=1
+        /opt/homebrew/opt/llvm@14/bin/clang++      -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations  -Wstrict-aliasing  -Wthread-safety  --coverage -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_c02ed.dir/src.cxx.o -o cmTC_c02ed 
+        
+      exitCode: 0
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "MicroBenchmarks/libs/benchmark/cmake/CXXFeatureCheck.cmake:51 (try_run)"
+      - "MicroBenchmarks/libs/benchmark/CMakeLists.txt:305 (cxx_feature_check)"
+    directories:
+      source: "/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build-02/CMakeFiles/CMakeTmp"
+      binary: "/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build-02/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "     -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations  -Wstrict-aliasing  -Wthread-safety"
+      CMAKE_EXE_LINKER_FLAGS: "   "
+      CMAKE_MODULE_PATH: "/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/cmake;/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/cmake/modules;/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/MicroBenchmarks/libs/benchmark/cmake/Modules;/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/MicroBenchmarks/libs/benchmark/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk"
+    buildResult:
+      variable: "COMPILE_HAVE_GNU_POSIX_REGEX"
+      cached: true
+      stdout: |
+        Change Dir: /Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/CMakeFiles/CMakeTmp
+        
+        Run Build Command(s):/opt/homebrew/Cellar/cmake/3.26.0/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_381fc/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_381fc.dir/build.make CMakeFiles/cmTC_381fc.dir/build
+        Building CXX object CMakeFiles/cmTC_381fc.dir/gnu_posix_regex.cpp.o
+        /opt/homebrew/opt/llvm@14/bin/clang++   -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations  -Wstrict-aliasing  -Wthread-safety  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -MD -MT CMakeFiles/cmTC_381fc.dir/gnu_posix_regex.cpp.o -MF CMakeFiles/cmTC_381fc.dir/gnu_posix_regex.cpp.o.d -o CMakeFiles/cmTC_381fc.dir/gnu_posix_regex.cpp.o -c /Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/MicroBenchmarks/libs/benchmark/cmake/gnu_posix_regex.cpp
+        /Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/MicroBenchmarks/libs/benchmark/cmake/gnu_posix_regex.cpp:1:10: fatal error: 'gnuregex.h' file not found
+        #include <gnuregex.h>
+                 ^~~~~~~~~~~~
+        1 error generated.
+        make[1]: *** [CMakeFiles/cmTC_381fc.dir/gnu_posix_regex.cpp.o] Error 1
+        make: *** [cmTC_381fc/fast] Error 2
+        
+      exitCode: 2
+    runResult:
+      variable: "RUN_HAVE_GNU_POSIX_REGEX"
+      cached: true
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "MicroBenchmarks/libs/benchmark/cmake/CXXFeatureCheck.cmake:51 (try_run)"
+      - "MicroBenchmarks/libs/benchmark/CMakeLists.txt:306 (cxx_feature_check)"
+    directories:
+      source: "/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build-02/CMakeFiles/CMakeTmp"
+      binary: "/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build-02/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "     -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations  -Wstrict-aliasing  -Wthread-safety"
+      CMAKE_EXE_LINKER_FLAGS: "   "
+      CMAKE_MODULE_PATH: "/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/cmake;/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/cmake/modules;/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/MicroBenchmarks/libs/benchmark/cmake/Modules;/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/MicroBenchmarks/libs/benchmark/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk"
+    buildResult:
+      variable: "COMPILE_HAVE_POSIX_REGEX"
+      cached: true
+      stdout: |
+        Change Dir: /Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/CMakeFiles/CMakeTmp
+        
+        Run Build Command(s):/opt/homebrew/Cellar/cmake/3.26.0/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_67fb5/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_67fb5.dir/build.make CMakeFiles/cmTC_67fb5.dir/build
+        Building CXX object CMakeFiles/cmTC_67fb5.dir/posix_regex.cpp.o
+        /opt/homebrew/opt/llvm@14/bin/clang++   -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations  -Wstrict-aliasing  -Wthread-safety  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -MD -MT CMakeFiles/cmTC_67fb5.dir/posix_regex.cpp.o -MF CMakeFiles/cmTC_67fb5.dir/posix_regex.cpp.o.d -o CMakeFiles/cmTC_67fb5.dir/posix_regex.cpp.o -c /Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/MicroBenchmarks/libs/benchmark/cmake/posix_regex.cpp
+        Linking CXX executable cmTC_67fb5
+        /opt/homebrew/Cellar/cmake/3.26.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_67fb5.dir/link.txt --verbose=1
+        /opt/homebrew/opt/llvm@14/bin/clang++      -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations  -Wstrict-aliasing  -Wthread-safety  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_67fb5.dir/posix_regex.cpp.o -o cmTC_67fb5 
+        
+      exitCode: 0
+    runResult:
+      variable: "RUN_HAVE_POSIX_REGEX"
+      cached: true
+      stdout: |
+      stderr: |
+      exitCode: 0
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "MicroBenchmarks/libs/benchmark/cmake/CXXFeatureCheck.cmake:51 (try_run)"
+      - "MicroBenchmarks/libs/benchmark/CMakeLists.txt:315 (cxx_feature_check)"
+    directories:
+      source: "/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build-02/CMakeFiles/CMakeTmp"
+      binary: "/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build-02/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "     -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations  -Wstrict-aliasing  -Wthread-safety"
+      CMAKE_EXE_LINKER_FLAGS: "   "
+      CMAKE_MODULE_PATH: "/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/cmake;/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/cmake/modules;/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/MicroBenchmarks/libs/benchmark/cmake/Modules;/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/MicroBenchmarks/libs/benchmark/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk"
+    buildResult:
+      variable: "COMPILE_HAVE_STEADY_CLOCK"
+      cached: true
+      stdout: |
+        Change Dir: /Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/CMakeFiles/CMakeTmp
+        
+        Run Build Command(s):/opt/homebrew/Cellar/cmake/3.26.0/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_d9b55/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_d9b55.dir/build.make CMakeFiles/cmTC_d9b55.dir/build
+        Building CXX object CMakeFiles/cmTC_d9b55.dir/steady_clock.cpp.o
+        /opt/homebrew/opt/llvm@14/bin/clang++   -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations  -Wstrict-aliasing  -Wthread-safety  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -MD -MT CMakeFiles/cmTC_d9b55.dir/steady_clock.cpp.o -MF CMakeFiles/cmTC_d9b55.dir/steady_clock.cpp.o.d -o CMakeFiles/cmTC_d9b55.dir/steady_clock.cpp.o -c /Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/MicroBenchmarks/libs/benchmark/cmake/steady_clock.cpp
+        Linking CXX executable cmTC_d9b55
+        /opt/homebrew/Cellar/cmake/3.26.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d9b55.dir/link.txt --verbose=1
+        /opt/homebrew/opt/llvm@14/bin/clang++      -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations  -Wstrict-aliasing  -Wthread-safety  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_d9b55.dir/steady_clock.cpp.o -o cmTC_d9b55 
+        
+      exitCode: 0
+    runResult:
+      variable: "RUN_HAVE_STEADY_CLOCK"
+      cached: true
+      stdout: |
+      stderr: |
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.26.0/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.26.0/share/cmake/Modules/CheckCSourceCompiles.cmake:76 (cmake_check_source_compiles)"
+      - "/opt/homebrew/Cellar/cmake/3.26.0/share/cmake/Modules/FindThreads.cmake:97 (CHECK_C_SOURCE_COMPILES)"
+      - "/opt/homebrew/Cellar/cmake/3.26.0/share/cmake/Modules/FindThreads.cmake:163 (_threads_check_libc)"
+      - "MicroBenchmarks/libs/benchmark/CMakeLists.txt:318 (find_package)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build-02/CMakeFiles/CMakeScratch/TryCompile-Gp7VTR"
+      binary: "/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build-02/CMakeFiles/CMakeScratch/TryCompile-Gp7VTR"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-flto   "
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: "   "
+      CMAKE_MODULE_PATH: "/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/cmake;/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/cmake/modules;/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/MicroBenchmarks/libs/benchmark/cmake/Modules;/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/MicroBenchmarks/libs/benchmark/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk"
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: /Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/CMakeFiles/CMakeScratch/TryCompile-Gp7VTR
+        
+        Run Build Command(s):/opt/homebrew/Cellar/cmake/3.26.0/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_35e8b/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_35e8b.dir/build.make CMakeFiles/cmTC_35e8b.dir/build
+        Building C object CMakeFiles/cmTC_35e8b.dir/src.c.o
+        /opt/homebrew/opt/llvm@14/bin/clang -DCMAKE_HAVE_LIBC_PTHREAD  -flto     -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -MD -MT CMakeFiles/cmTC_35e8b.dir/src.c.o -MF CMakeFiles/cmTC_35e8b.dir/src.c.o.d -o CMakeFiles/cmTC_35e8b.dir/src.c.o -c /Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/CMakeFiles/CMakeScratch/TryCompile-Gp7VTR/src.c
+        Linking C executable cmTC_35e8b
+        /opt/homebrew/Cellar/cmake/3.26.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_35e8b.dir/link.txt --verbose=1
+        /opt/homebrew/opt/llvm@14/bin/clang -flto     -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_35e8b.dir/src.c.o -o cmTC_35e8b 
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.26.0/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.26.0/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/opt/homebrew/Cellar/cmake/3.26.0/share/cmake/Modules/CheckCXXCompilerFlag.cmake:40 (cmake_check_compiler_flag)"
+      - "/opt/homebrew/Cellar/cmake/3.26.0/share/cmake/Modules/GenerateExportHeader.cmake:238 (check_cxx_compiler_flag)"
+      - "/opt/homebrew/Cellar/cmake/3.26.0/share/cmake/Modules/GenerateExportHeader.cmake:419 (_test_compiler_hidden_visibility)"
+      - "MicroBenchmarks/libs/benchmark/src/CMakeLists.txt:32 (generate_export_header)"
+    checks:
+      - "Performing Test COMPILER_HAS_HIDDEN_VISIBILITY"
+    directories:
+      source: "/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build-02/CMakeFiles/CMakeScratch/TryCompile-EtFwcr"
+      binary: "/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build-02/CMakeFiles/CMakeScratch/TryCompile-EtFwcr"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "     -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations  -Wstrict-aliasing  -Wthread-safety"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: "   "
+      CMAKE_MODULE_PATH: "/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/cmake;/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/cmake/modules;/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/MicroBenchmarks/libs/benchmark/cmake/Modules;/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/MicroBenchmarks/libs/benchmark/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk"
+    buildResult:
+      variable: "COMPILER_HAS_HIDDEN_VISIBILITY"
+      cached: true
+      stdout: |
+        Change Dir: /Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/CMakeFiles/CMakeScratch/TryCompile-EtFwcr
+        
+        Run Build Command(s):/opt/homebrew/Cellar/cmake/3.26.0/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_d330e/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_d330e.dir/build.make CMakeFiles/cmTC_d330e.dir/build
+        Building CXX object CMakeFiles/cmTC_d330e.dir/src.cxx.o
+        /opt/homebrew/opt/llvm@14/bin/clang++ -DCOMPILER_HAS_HIDDEN_VISIBILITY  -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations  -Wstrict-aliasing  -Wthread-safety  -std=gnu++11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk   -fvisibility=hidden -MD -MT CMakeFiles/cmTC_d330e.dir/src.cxx.o -MF CMakeFiles/cmTC_d330e.dir/src.cxx.o.d -o CMakeFiles/cmTC_d330e.dir/src.cxx.o -c /Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/CMakeFiles/CMakeScratch/TryCompile-EtFwcr/src.cxx
+        Linking CXX executable cmTC_d330e
+        /opt/homebrew/Cellar/cmake/3.26.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d330e.dir/link.txt --verbose=1
+        /opt/homebrew/opt/llvm@14/bin/clang++      -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations  -Wstrict-aliasing  -Wthread-safety  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_d330e.dir/src.cxx.o -o cmTC_d330e 
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.26.0/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.26.0/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/opt/homebrew/Cellar/cmake/3.26.0/share/cmake/Modules/CheckCXXCompilerFlag.cmake:40 (cmake_check_compiler_flag)"
+      - "/opt/homebrew/Cellar/cmake/3.26.0/share/cmake/Modules/GenerateExportHeader.cmake:239 (check_cxx_compiler_flag)"
+      - "/opt/homebrew/Cellar/cmake/3.26.0/share/cmake/Modules/GenerateExportHeader.cmake:419 (_test_compiler_hidden_visibility)"
+      - "MicroBenchmarks/libs/benchmark/src/CMakeLists.txt:32 (generate_export_header)"
+    checks:
+      - "Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY"
+    directories:
+      source: "/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build-02/CMakeFiles/CMakeScratch/TryCompile-oDWeLV"
+      binary: "/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build-02/CMakeFiles/CMakeScratch/TryCompile-oDWeLV"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "     -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations  -Wstrict-aliasing  -Wthread-safety"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: "   "
+      CMAKE_MODULE_PATH: "/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/cmake;/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/cmake/modules;/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/MicroBenchmarks/libs/benchmark/cmake/Modules;/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/MicroBenchmarks/libs/benchmark/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk"
+    buildResult:
+      variable: "COMPILER_HAS_HIDDEN_INLINE_VISIBILITY"
+      cached: true
+      stdout: |
+        Change Dir: /Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/CMakeFiles/CMakeScratch/TryCompile-oDWeLV
+        
+        Run Build Command(s):/opt/homebrew/Cellar/cmake/3.26.0/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_a65bf/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_a65bf.dir/build.make CMakeFiles/cmTC_a65bf.dir/build
+        Building CXX object CMakeFiles/cmTC_a65bf.dir/src.cxx.o
+        /opt/homebrew/opt/llvm@14/bin/clang++ -DCOMPILER_HAS_HIDDEN_INLINE_VISIBILITY  -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations  -Wstrict-aliasing  -Wthread-safety  -std=gnu++11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk   -fvisibility-inlines-hidden -MD -MT CMakeFiles/cmTC_a65bf.dir/src.cxx.o -MF CMakeFiles/cmTC_a65bf.dir/src.cxx.o.d -o CMakeFiles/cmTC_a65bf.dir/src.cxx.o -c /Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/CMakeFiles/CMakeScratch/TryCompile-oDWeLV/src.cxx
+        Linking CXX executable cmTC_a65bf
+        /opt/homebrew/Cellar/cmake/3.26.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a65bf.dir/link.txt --verbose=1
+        /opt/homebrew/opt/llvm@14/bin/clang++      -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations  -Wstrict-aliasing  -Wthread-safety  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_a65bf.dir/src.cxx.o -o cmTC_a65bf 
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.26.0/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.26.0/share/cmake/Modules/CheckCXXSourceCompiles.cmake:76 (cmake_check_source_compiles)"
+      - "/opt/homebrew/Cellar/cmake/3.26.0/share/cmake/Modules/GenerateExportHeader.cmake:206 (check_cxx_source_compiles)"
+      - "/opt/homebrew/Cellar/cmake/3.26.0/share/cmake/Modules/GenerateExportHeader.cmake:263 (_check_cxx_compiler_attribute)"
+      - "/opt/homebrew/Cellar/cmake/3.26.0/share/cmake/Modules/GenerateExportHeader.cmake:420 (_test_compiler_has_deprecated)"
+      - "MicroBenchmarks/libs/benchmark/src/CMakeLists.txt:32 (generate_export_header)"
+    checks:
+      - "Performing Test COMPILER_HAS_DEPRECATED_ATTR"
+    directories:
+      source: "/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build-02/CMakeFiles/CMakeScratch/TryCompile-4Oi4JS"
+      binary: "/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build-02/CMakeFiles/CMakeScratch/TryCompile-4Oi4JS"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "     -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations  -Wstrict-aliasing  -Wthread-safety"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: "   "
+      CMAKE_MODULE_PATH: "/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/cmake;/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/cmake/modules;/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/MicroBenchmarks/libs/benchmark/cmake/Modules;/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/MicroBenchmarks/libs/benchmark/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk"
+    buildResult:
+      variable: "COMPILER_HAS_DEPRECATED_ATTR"
+      cached: true
+      stdout: |
+        Change Dir: /Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/CMakeFiles/CMakeScratch/TryCompile-4Oi4JS
+        
+        Run Build Command(s):/opt/homebrew/Cellar/cmake/3.26.0/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_d0b1f/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_d0b1f.dir/build.make CMakeFiles/cmTC_d0b1f.dir/build
+        Building CXX object CMakeFiles/cmTC_d0b1f.dir/src.cxx.o
+        /opt/homebrew/opt/llvm@14/bin/clang++ -DCOMPILER_HAS_DEPRECATED_ATTR  -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations  -Wstrict-aliasing  -Wthread-safety  -std=gnu++11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -MD -MT CMakeFiles/cmTC_d0b1f.dir/src.cxx.o -MF CMakeFiles/cmTC_d0b1f.dir/src.cxx.o.d -o CMakeFiles/cmTC_d0b1f.dir/src.cxx.o -c /Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/CMakeFiles/CMakeScratch/TryCompile-4Oi4JS/src.cxx
+        Linking CXX executable cmTC_d0b1f
+        /opt/homebrew/Cellar/cmake/3.26.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d0b1f.dir/link.txt --verbose=1
+        /opt/homebrew/opt/llvm@14/bin/clang++      -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations  -Wstrict-aliasing  -Wthread-safety  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_d0b1f.dir/src.cxx.o -o cmTC_d0b1f 
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.26.0/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.26.0/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/opt/homebrew/Cellar/cmake/3.26.0/share/cmake/Modules/CheckCXXCompilerFlag.cmake:40 (cmake_check_compiler_flag)"
+      - "MicroBenchmarks/libs/benchmark/test/CMakeLists.txt:27 (check_cxx_compiler_flag)"
+    checks:
+      - "Performing Test BENCHMARK_HAS_O3_FLAG"
+    directories:
+      source: "/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build-02/CMakeFiles/CMakeScratch/TryCompile-xoMFrH"
+      binary: "/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build-02/CMakeFiles/CMakeScratch/TryCompile-xoMFrH"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "     -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations  -Wstrict-aliasing  -Wthread-safety"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: "   "
+      CMAKE_MODULE_PATH: "/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/cmake;/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/cmake/modules;/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/MicroBenchmarks/libs/benchmark/cmake/Modules;/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/MicroBenchmarks/libs/benchmark/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk"
+    buildResult:
+      variable: "BENCHMARK_HAS_O3_FLAG"
+      cached: true
+      stdout: |
+        Change Dir: /Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/CMakeFiles/CMakeScratch/TryCompile-xoMFrH
+        
+        Run Build Command(s):/opt/homebrew/Cellar/cmake/3.26.0/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_bc5d1/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_bc5d1.dir/build.make CMakeFiles/cmTC_bc5d1.dir/build
+        Building CXX object CMakeFiles/cmTC_bc5d1.dir/src.cxx.o
+        /opt/homebrew/opt/llvm@14/bin/clang++ -DBENCHMARK_HAS_O3_FLAG  -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations  -Wstrict-aliasing  -Wthread-safety  -std=gnu++11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk   -O3 -MD -MT CMakeFiles/cmTC_bc5d1.dir/src.cxx.o -MF CMakeFiles/cmTC_bc5d1.dir/src.cxx.o.d -o CMakeFiles/cmTC_bc5d1.dir/src.cxx.o -c /Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/CMakeFiles/CMakeScratch/TryCompile-xoMFrH/src.cxx
+        Linking CXX executable cmTC_bc5d1
+        /opt/homebrew/Cellar/cmake/3.26.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bc5d1.dir/link.txt --verbose=1
+        /opt/homebrew/opt/llvm@14/bin/clang++      -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations  -Wstrict-aliasing  -Wthread-safety  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_bc5d1.dir/src.cxx.o -o cmTC_bc5d1 
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.26.0/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.26.0/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/opt/homebrew/Cellar/cmake/3.26.0/share/cmake/Modules/CheckCXXCompilerFlag.cmake:40 (cmake_check_compiler_flag)"
+      - "MicroBenchmarks/libs/benchmark/test/CMakeLists.txt:175 (check_cxx_compiler_flag)"
+    checks:
+      - "Performing Test BENCHMARK_HAS_WNO_ODR"
+    directories:
+      source: "/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build-02/CMakeFiles/CMakeScratch/TryCompile-viuqmu"
+      binary: "/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build-02/CMakeFiles/CMakeScratch/TryCompile-viuqmu"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "     -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations  -Wstrict-aliasing  -Wthread-safety"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: "   "
+      CMAKE_MODULE_PATH: "/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/cmake;/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/cmake/modules;/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/MicroBenchmarks/libs/benchmark/cmake/Modules;/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/MicroBenchmarks/libs/benchmark/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk"
+    buildResult:
+      variable: "BENCHMARK_HAS_WNO_ODR"
+      cached: true
+      stdout: |
+        Change Dir: /Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/CMakeFiles/CMakeScratch/TryCompile-viuqmu
+        
+        Run Build Command(s):/opt/homebrew/Cellar/cmake/3.26.0/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_04e0f/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_04e0f.dir/build.make CMakeFiles/cmTC_04e0f.dir/build
+        Building CXX object CMakeFiles/cmTC_04e0f.dir/src.cxx.o
+        /opt/homebrew/opt/llvm@14/bin/clang++ -DBENCHMARK_HAS_WNO_ODR  -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations  -Wstrict-aliasing  -Wthread-safety  -std=gnu++11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk   -Wno-odr -MD -MT CMakeFiles/cmTC_04e0f.dir/src.cxx.o -MF CMakeFiles/cmTC_04e0f.dir/src.cxx.o.d -o CMakeFiles/cmTC_04e0f.dir/src.cxx.o -c /Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/CMakeFiles/CMakeScratch/TryCompile-viuqmu/src.cxx
+        Linking CXX executable cmTC_04e0f
+        /opt/homebrew/Cellar/cmake/3.26.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_04e0f.dir/link.txt --verbose=1
+        /opt/homebrew/opt/llvm@14/bin/clang++      -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations  -Wstrict-aliasing  -Wthread-safety  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_04e0f.dir/src.cxx.o -o cmTC_04e0f 
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.26.0/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.26.0/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/opt/homebrew/Cellar/cmake/3.26.0/share/cmake/Modules/CheckCXXCompilerFlag.cmake:40 (cmake_check_compiler_flag)"
+      - "MicroBenchmarks/libs/benchmark/test/CMakeLists.txt:176 (check_cxx_compiler_flag)"
+    checks:
+      - "Performing Test BENCHMARK_HAS_WNO_LTO_TYPE_MISMATCH"
+    directories:
+      source: "/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build-02/CMakeFiles/CMakeScratch/TryCompile-YQim3z"
+      binary: "/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build-02/CMakeFiles/CMakeScratch/TryCompile-YQim3z"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "     -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations  -Wstrict-aliasing  -Wthread-safety"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: "   "
+      CMAKE_MODULE_PATH: "/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/cmake;/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/cmake/modules;/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/MicroBenchmarks/libs/benchmark/cmake/Modules;/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/MicroBenchmarks/libs/benchmark/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk"
+    buildResult:
+      variable: "BENCHMARK_HAS_WNO_LTO_TYPE_MISMATCH"
+      cached: true
+      stdout: |
+        Change Dir: /Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/CMakeFiles/CMakeScratch/TryCompile-YQim3z
+        
+        Run Build Command(s):/opt/homebrew/Cellar/cmake/3.26.0/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_7e959/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_7e959.dir/build.make CMakeFiles/cmTC_7e959.dir/build
+        Building CXX object CMakeFiles/cmTC_7e959.dir/src.cxx.o
+        /opt/homebrew/opt/llvm@14/bin/clang++ -DBENCHMARK_HAS_WNO_LTO_TYPE_MISMATCH  -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations  -Wstrict-aliasing  -Wthread-safety  -std=gnu++11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk   -Wno-lto-type-mismatch -MD -MT CMakeFiles/cmTC_7e959.dir/src.cxx.o -MF CMakeFiles/cmTC_7e959.dir/src.cxx.o.d -o CMakeFiles/cmTC_7e959.dir/src.cxx.o -c /Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/CMakeFiles/CMakeScratch/TryCompile-YQim3z/src.cxx
+        warning: unknown warning option '-Wno-lto-type-mismatch'; did you mean '-Wno-selector-type-mismatch'? [-Wunknown-warning-option]
+        1 warning generated.
+        Linking CXX executable cmTC_7e959
+        /opt/homebrew/Cellar/cmake/3.26.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7e959.dir/link.txt --verbose=1
+        /opt/homebrew/opt/llvm@14/bin/clang++      -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic  -pedantic-errors  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations  -Wstrict-aliasing  -Wthread-safety  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_7e959.dir/src.cxx.o -o cmTC_7e959 
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.26.0/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.26.0/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/opt/homebrew/Cellar/cmake/3.26.0/share/cmake/Modules/CheckCXXCompilerFlag.cmake:40 (cmake_check_compiler_flag)"
+      - "MicroBenchmarks/XRay/CMakeLists.txt:3 (check_cxx_compiler_flag)"
+    checks:
+      - "Performing Test COMPILER_HAS_FXRAY_INSTRUMENT"
+    directories:
+      source: "/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build-02/CMakeFiles/CMakeScratch/TryCompile-JntcRq"
+      binary: "/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build-02/CMakeFiles/CMakeScratch/TryCompile-JntcRq"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "   "
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: "   "
+      CMAKE_MODULE_PATH: "/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/cmake;/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/cmake/modules"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk"
+    buildResult:
+      variable: "COMPILER_HAS_FXRAY_INSTRUMENT"
+      cached: true
+      stdout: |
+        Change Dir: /Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/CMakeFiles/CMakeScratch/TryCompile-JntcRq
+        
+        Run Build Command(s):/opt/homebrew/Cellar/cmake/3.26.0/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_aa7c2/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_aa7c2.dir/build.make CMakeFiles/cmTC_aa7c2.dir/build
+        Building CXX object CMakeFiles/cmTC_aa7c2.dir/src.cxx.o
+        /opt/homebrew/opt/llvm@14/bin/clang++ -DCOMPILER_HAS_FXRAY_INSTRUMENT  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk   -fxray-instrument -MD -MT CMakeFiles/cmTC_aa7c2.dir/src.cxx.o -MF CMakeFiles/cmTC_aa7c2.dir/src.cxx.o.d -o CMakeFiles/cmTC_aa7c2.dir/src.cxx.o -c /Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/CMakeFiles/CMakeScratch/TryCompile-JntcRq/src.cxx
+        clang-14: error: the clang compiler does not support '-fxray-instrument on arm64-apple-darwin21.6.0'
+        make[1]: *** [CMakeFiles/cmTC_aa7c2.dir/src.cxx.o] Error 1
+        make: *** [cmTC_aa7c2/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.26.0/share/cmake/Modules/CheckIncludeFiles.cmake:137 (try_compile)"
+      - "MicroBenchmarks/XRay/CMakeLists.txt:4 (check_include_files)"
+    checks:
+      - "Looking for include file xray/xray_interface.h"
+    directories:
+      source: "/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build-02/CMakeFiles/CMakeScratch/TryCompile-fDkJj3"
+      binary: "/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build-02/CMakeFiles/CMakeScratch/TryCompile-fDkJj3"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "   "
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: "   "
+      CMAKE_MODULE_PATH: "/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/cmake;/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/cmake/modules"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk"
+    buildResult:
+      variable: "HAVE_XRAY_INTERFACE_INCLUDE"
+      cached: true
+      stdout: |
+        Change Dir: /Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/CMakeFiles/CMakeScratch/TryCompile-fDkJj3
+        
+        Run Build Command(s):/opt/homebrew/Cellar/cmake/3.26.0/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_c567f/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_c567f.dir/build.make CMakeFiles/cmTC_c567f.dir/build
+        Building CXX object CMakeFiles/cmTC_c567f.dir/HAVE_XRAY_INTERFACE_INCLUDE.cpp.o
+        /opt/homebrew/opt/llvm@14/bin/clang++   -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -MD -MT CMakeFiles/cmTC_c567f.dir/HAVE_XRAY_INTERFACE_INCLUDE.cpp.o -MF CMakeFiles/cmTC_c567f.dir/HAVE_XRAY_INTERFACE_INCLUDE.cpp.o.d -o CMakeFiles/cmTC_c567f.dir/HAVE_XRAY_INTERFACE_INCLUDE.cpp.o -c /Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/CMakeFiles/CMakeScratch/TryCompile-fDkJj3/HAVE_XRAY_INTERFACE_INCLUDE.cpp
+        Linking CXX executable cmTC_c567f
+        /opt/homebrew/Cellar/cmake/3.26.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c567f.dir/link.txt --verbose=1
+        /opt/homebrew/opt/llvm@14/bin/clang++  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_c567f.dir/HAVE_XRAY_INTERFACE_INCLUDE.cpp.o -o cmTC_c567f 
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.26.0/share/cmake/Modules/CheckFunctionExists.cmake:91 (try_compile)"
+      - "MultiSource/Benchmarks/Prolangs-C/plot2fig/CMakeLists.txt:2 (check_function_exists)"
+    checks:
+      - "Looking for re_comp"
+    directories:
+      source: "/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build-02/CMakeFiles/CMakeScratch/TryCompile-bmyzT6"
+      binary: "/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build-02/CMakeFiles/CMakeScratch/TryCompile-bmyzT6"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-flto   "
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: "   "
+      CMAKE_MODULE_PATH: "/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/cmake;/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/cmake/modules"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk"
+    buildResult:
+      variable: "HAVE_RE_COMP"
+      cached: true
+      stdout: |
+        Change Dir: /Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/CMakeFiles/CMakeScratch/TryCompile-bmyzT6
+        
+        Run Build Command(s):/opt/homebrew/Cellar/cmake/3.26.0/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_80f50/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_80f50.dir/build.make CMakeFiles/cmTC_80f50.dir/build
+        Building C object CMakeFiles/cmTC_80f50.dir/CheckFunctionExists.c.o
+        /opt/homebrew/opt/llvm@14/bin/clang   -flto    -DCHECK_FUNCTION_EXISTS=re_comp -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -MD -MT CMakeFiles/cmTC_80f50.dir/CheckFunctionExists.c.o -MF CMakeFiles/cmTC_80f50.dir/CheckFunctionExists.c.o.d -o CMakeFiles/cmTC_80f50.dir/CheckFunctionExists.c.o -c /Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/CMakeFiles/CMakeScratch/TryCompile-bmyzT6/CheckFunctionExists.c
+        Linking C executable cmTC_80f50
+        /opt/homebrew/Cellar/cmake/3.26.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_80f50.dir/link.txt --verbose=1
+        /opt/homebrew/opt/llvm@14/bin/clang -flto    -DCHECK_FUNCTION_EXISTS=re_comp -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_80f50.dir/CheckFunctionExists.c.o -o cmTC_80f50 
+        undef: _re_comp
+        Undefined symbols for architecture arm64:
+          "_re_comp", referenced from:
+              _main in lto.o
+        ld: symbol(s) not found for architecture arm64
+        clang-14: error: linker command failed with exit code 1 (use -v to see invocation)
+        make[1]: *** [cmTC_80f50] Error 1
+        make: *** [cmTC_80f50/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.26.0/share/cmake/Modules/CheckSymbolExists.cmake:145 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.26.0/share/cmake/Modules/CheckSymbolExists.cmake:71 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "SingleSource/UnitTests/Vector/CMakeLists.txt:8 (CHECK_SYMBOL_EXISTS)"
+    checks:
+      - "Looking for __ARM_NEON"
+    directories:
+      source: "/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build-02/CMakeFiles/CMakeScratch/TryCompile-rlyjAQ"
+      binary: "/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build-02/CMakeFiles/CMakeScratch/TryCompile-rlyjAQ"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-flto   "
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: "   "
+      CMAKE_MODULE_PATH: "/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/cmake;/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/cmake/modules"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk"
+    buildResult:
+      variable: "NEON_AVAILABLE"
+      cached: true
+      stdout: |
+        Change Dir: /Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/CMakeFiles/CMakeScratch/TryCompile-rlyjAQ
+        
+        Run Build Command(s):/opt/homebrew/Cellar/cmake/3.26.0/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_9bfaa/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_9bfaa.dir/build.make CMakeFiles/cmTC_9bfaa.dir/build
+        Building C object CMakeFiles/cmTC_9bfaa.dir/CheckSymbolExists.c.o
+        /opt/homebrew/opt/llvm@14/bin/clang   -flto     -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -MD -MT CMakeFiles/cmTC_9bfaa.dir/CheckSymbolExists.c.o -MF CMakeFiles/cmTC_9bfaa.dir/CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_9bfaa.dir/CheckSymbolExists.c.o -c /Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/CMakeFiles/CMakeScratch/TryCompile-rlyjAQ/CheckSymbolExists.c
+        Linking C executable cmTC_9bfaa
+        /opt/homebrew/Cellar/cmake/3.26.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9bfaa.dir/link.txt --verbose=1
+        /opt/homebrew/opt/llvm@14/bin/clang -flto     -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_9bfaa.dir/CheckSymbolExists.c.o -o cmTC_9bfaa 
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.26.0/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.26.0/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/opt/homebrew/Cellar/cmake/3.26.0/share/cmake/Modules/CheckCCompilerFlag.cmake:40 (cmake_check_compiler_flag)"
+      - "SingleSource/UnitTests/CMakeLists.txt:60 (check_c_compiler_flag)"
+    checks:
+      - "Performing Test COMPILER_HAS_MATRIX_FLAG"
+    directories:
+      source: "/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build-02/CMakeFiles/CMakeScratch/TryCompile-zaFTOP"
+      binary: "/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build-02/CMakeFiles/CMakeScratch/TryCompile-zaFTOP"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-flto   "
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: "   "
+      CMAKE_MODULE_PATH: "/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/cmake;/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/cmake/modules"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk"
+    buildResult:
+      variable: "COMPILER_HAS_MATRIX_FLAG"
+      cached: true
+      stdout: |
+        Change Dir: /Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/CMakeFiles/CMakeScratch/TryCompile-zaFTOP
+        
+        Run Build Command(s):/opt/homebrew/Cellar/cmake/3.26.0/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_1353e/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_1353e.dir/build.make CMakeFiles/cmTC_1353e.dir/build
+        Building C object CMakeFiles/cmTC_1353e.dir/src.c.o
+        /opt/homebrew/opt/llvm@14/bin/clang -DCOMPILER_HAS_MATRIX_FLAG  -flto     -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk   -fenable-matrix -MD -MT CMakeFiles/cmTC_1353e.dir/src.c.o -MF CMakeFiles/cmTC_1353e.dir/src.c.o.d -o CMakeFiles/cmTC_1353e.dir/src.c.o -c /Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/CMakeFiles/CMakeScratch/TryCompile-zaFTOP/src.c
+        Linking C executable cmTC_1353e
+        /opt/homebrew/Cellar/cmake/3.26.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1353e.dir/link.txt --verbose=1
+        /opt/homebrew/opt/llvm@14/bin/clang -flto     -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_1353e.dir/src.c.o -o cmTC_1353e 
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.26.0/share/cmake/Modules/CheckSymbolExists.cmake:145 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.26.0/share/cmake/Modules/CheckSymbolExists.cmake:71 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "SingleSource/Regression/C/gcc-c-torture/execute/CMakeLists.txt:208 (CHECK_SYMBOL_EXISTS)"
+    checks:
+      - "Looking for mmap"
+    directories:
+      source: "/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build-02/CMakeFiles/CMakeScratch/TryCompile-SK05kx"
+      binary: "/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build-02/CMakeFiles/CMakeScratch/TryCompile-SK05kx"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-flto   "
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: "   "
+      CMAKE_MODULE_PATH: "/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/cmake;/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/cmake/modules"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk"
+    buildResult:
+      variable: "HAVE_MMAP"
+      cached: true
+      stdout: |
+        Change Dir: /Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/CMakeFiles/CMakeScratch/TryCompile-SK05kx
+        
+        Run Build Command(s):/opt/homebrew/Cellar/cmake/3.26.0/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_955de/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_955de.dir/build.make CMakeFiles/cmTC_955de.dir/build
+        Building C object CMakeFiles/cmTC_955de.dir/CheckSymbolExists.c.o
+        /opt/homebrew/opt/llvm@14/bin/clang   -flto     -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -MD -MT CMakeFiles/cmTC_955de.dir/CheckSymbolExists.c.o -MF CMakeFiles/cmTC_955de.dir/CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_955de.dir/CheckSymbolExists.c.o -c /Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/CMakeFiles/CMakeScratch/TryCompile-SK05kx/CheckSymbolExists.c
+        Linking C executable cmTC_955de
+        /opt/homebrew/Cellar/cmake/3.26.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_955de.dir/link.txt --verbose=1
+        /opt/homebrew/opt/llvm@14/bin/clang -flto     -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_955de.dir/CheckSymbolExists.c.o -o cmTC_955de 
+        
+      exitCode: 0
+...

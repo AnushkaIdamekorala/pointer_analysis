@@ -1,0 +1,14 @@
+# Target labels
+ googletest
+# Source files and their labels
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/MicroBenchmarks/libs/benchmark/third_party/googletest/CMakeFiles/googletest
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/MicroBenchmarks/libs/benchmark/third_party/googletest/CMakeFiles/googletest.rule
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/MicroBenchmarks/libs/benchmark/third_party/googletest/CMakeFiles/googletest-complete.rule
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/MicroBenchmarks/libs/benchmark/third_party/googletest/src/googletest-stamp/googletest-build.rule
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/MicroBenchmarks/libs/benchmark/third_party/googletest/src/googletest-stamp/googletest-configure.rule
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/MicroBenchmarks/libs/benchmark/third_party/googletest/src/googletest-stamp/googletest-download.rule
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/MicroBenchmarks/libs/benchmark/third_party/googletest/src/googletest-stamp/googletest-install.rule
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/MicroBenchmarks/libs/benchmark/third_party/googletest/src/googletest-stamp/googletest-mkdir.rule
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/MicroBenchmarks/libs/benchmark/third_party/googletest/src/googletest-stamp/googletest-patch.rule
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/MicroBenchmarks/libs/benchmark/third_party/googletest/src/googletest-stamp/googletest-test.rule
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/MicroBenchmarks/libs/benchmark/third_party/googletest/src/googletest-stamp/googletest-update.rule

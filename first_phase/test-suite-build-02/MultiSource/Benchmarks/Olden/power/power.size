@@ -1,0 +1,12 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/MultiSource/Benchmarks/Olden/power/power  :
+section           size         addr
+__text            2944   4294979852
+__stubs             36   4294982796
+__const            624   4294982832
+__cstring          107   4294983456
+__unwind_info      108   4294983564
+__got               24   4294983680
+__data              16   4295000064
+Total             3859
+
+

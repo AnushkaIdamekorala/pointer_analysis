@@ -1,0 +1,11 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/SingleSource/Benchmarks/Polybench/datamining/covariance/covariance  :
+section           size         addr
+__text            1924   4294981516
+__stubs             72   4294983440
+__const             16   4294983512
+__cstring           51   4294983528
+__unwind_info       96   4294983580
+__got               56   4294983680
+Total             2215
+
+

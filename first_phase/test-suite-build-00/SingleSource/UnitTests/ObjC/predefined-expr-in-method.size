@@ -1,0 +1,20 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/SingleSource/UnitTests/ObjC/predefined-expr-in-method  :
+section              size         addr
+__text                164   4294983316
+__stubs                24   4294983480
+__objc_methlist        20   4294983504
+__cstring              66   4294983524
+__objc_classname        2   4294983590
+__objc_methname         4   4294983592
+__objc_methtype         8   4294983596
+__unwind_info          72   4294983604
+__got                  16   4294983680
+__objc_classlist        8   4294983696
+__objc_imageinfo        8   4294983704
+__objc_const          144   4295000064
+__objc_selrefs          8   4295000208
+__objc_classrefs        8   4295000216
+__objc_data            80   4295000224
+Total                 632
+
+

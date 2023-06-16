@@ -1,0 +1,11 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/SingleSource/Benchmarks/BenchmarkGame/fannkuch  :
+section           size         addr
+__text            1232   4294982252
+__stubs             36   4294983484
+__const             56   4294983520
+__cstring           26   4294983576
+__unwind_info       72   4294983604
+__got               24   4294983680
+Total             1446
+
+

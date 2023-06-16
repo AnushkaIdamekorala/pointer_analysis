@@ -1,0 +1,11 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/SingleSource/Benchmarks/Shootout-C++/Shootout-C++-hash2  :
+section               size         addr
+__text               19512   4294978676
+__stubs                720   4294998188
+__gcc_except_tab       316   4294998908
+__cstring               24   4294999224
+__unwind_info          816   4294999248
+__got                  536   4295000064
+Total                21924
+
+

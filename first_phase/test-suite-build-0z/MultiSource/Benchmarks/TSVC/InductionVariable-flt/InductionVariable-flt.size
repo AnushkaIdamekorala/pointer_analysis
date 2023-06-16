@@ -1,0 +1,13 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/MultiSource/Benchmarks/TSVC/InductionVariable-flt/InductionVariable-flt  :
+section              size         addr
+__text               7964   4294974500
+__stubs                72   4294982464
+__const                32   4294982536
+__cstring            1007   4294982568
+__unwind_info         104   4294983576
+__got                  48   4294983680
+__data                  8   4295000064
+__bss             1951176   4295000080
+Total             1960411
+
+

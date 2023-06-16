@@ -1,0 +1,13 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/MultiSource/Benchmarks/McCat/09-vor/vor  :
+section           size         addr
+__text            6912   4294976364
+__stubs             84   4294983276
+__const             16   4294983360
+__cstring          182   4294983376
+__unwind_info      120   4294983560
+__got               64   4294983680
+__data               8   4295000064
+__bss               48   4295000072
+Total             7434
+
+

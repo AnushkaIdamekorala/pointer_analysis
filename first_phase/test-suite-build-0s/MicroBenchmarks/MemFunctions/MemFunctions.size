@@ -1,0 +1,17 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/MicroBenchmarks/MemFunctions/MemFunctions  :
+section                size         addr
+__text               269912   4294972552
+__stubs                1632   4295242464
+__init_offsets           80   4295244096
+__const                2120   4295244176
+__gcc_except_tab      16608   4295246296
+__cstring              9823   4295262904
+__unwind_info          5864   4295272728
+__got                  2808   4295278592
+__const                4048   4295281400
+__data                   40   4295294976
+__bss                  1528   4295295016
+__common                384   4295296544
+Total                314847
+
+

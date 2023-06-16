@@ -1,0 +1,13 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/MultiSource/Benchmarks/TSVC/ControlFlow-dbl/ControlFlow-dbl  :
+section              size         addr
+__text              28308   4294970240
+__stubs               108   4294998548
+__const               128   4294998656
+__cstring            1195   4294998784
+__unwind_info          80   4294999980
+__got                  72   4295000064
+__data                  8   4295016448
+__bss             4029960   4295016480
+Total             4059859
+
+

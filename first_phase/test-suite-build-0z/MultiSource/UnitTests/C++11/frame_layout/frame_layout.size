@@ -1,0 +1,15 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/MultiSource/UnitTests/C++11/frame_layout/frame_layout  :
+section               size         addr
+__text               99396   4294979744
+__stubs                384   4295079140
+__init_offsets           4   4295079524
+__gcc_except_tab      1180   4295079528
+__cstring              326   4295080708
+__unwind_info          740   4295081036
+__eh_frame             208   4295081776
+__got                  336   4295081984
+__const                128   4295082320
+__bss                   24   4295098368
+Total               102726
+
+

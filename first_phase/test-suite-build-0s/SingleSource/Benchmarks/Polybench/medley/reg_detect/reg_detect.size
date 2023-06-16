@@ -1,0 +1,11 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/SingleSource/Benchmarks/Polybench/medley/reg_detect/reg_detect  :
+section           size         addr
+__text            1596   4294981788
+__stubs             72   4294983384
+__const              8   4294983456
+__cstring          131   4294983464
+__unwind_info       80   4294983596
+__got               56   4294983680
+Total             1943
+
+

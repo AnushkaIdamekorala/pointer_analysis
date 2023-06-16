@@ -1,0 +1,11 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/SingleSource/Regression/C++/EH/Regression-C++-simple_rethrow  :
+section              size         addr
+__text                248   4294983092
+__stubs               108   4294983340
+__gcc_except_tab       56   4294983448
+__cstring              61   4294983504
+__unwind_info         112   4294983568
+__got                  88   4294983680
+Total                 673
+
+

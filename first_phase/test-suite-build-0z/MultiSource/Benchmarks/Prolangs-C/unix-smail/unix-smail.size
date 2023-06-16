@@ -1,0 +1,14 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/MultiSource/Benchmarks/Prolangs-C/unix-smail/unix-smail  :
+section            size         addr
+__text            12680   4294984932
+__stubs             624   4294997612
+__const             104   4294998236
+__cstring          1563   4294998340
+__unwind_info       160   4294999904
+__got               456   4295000064
+__const              40   4295000520
+__data              192   4295016448
+__bss             18128   4295016640
+Total             33947
+
+

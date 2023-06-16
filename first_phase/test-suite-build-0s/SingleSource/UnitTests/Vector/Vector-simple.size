@@ -1,0 +1,11 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/SingleSource/UnitTests/Vector/Vector-simple  :
+section           size         addr
+__text             436   4294983040
+__stubs             12   4294983476
+__const             96   4294983488
+__cstring           20   4294983584
+__unwind_info       72   4294983604
+__got                8   4294983680
+Total              644
+
+

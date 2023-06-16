@@ -1,0 +1,10 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/SingleSource/Benchmarks/BenchmarkGame/recursive  :
+section           size         addr
+__text             712   4294982764
+__stubs             12   4294983476
+__cstring           87   4294983488
+__unwind_info      104   4294983576
+__got                8   4294983680
+Total              923
+
+

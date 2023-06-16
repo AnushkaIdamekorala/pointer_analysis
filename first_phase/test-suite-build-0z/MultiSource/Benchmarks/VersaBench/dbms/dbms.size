@@ -1,0 +1,13 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/MultiSource/Benchmarks/VersaBench/dbms/dbms  :
+section             size         addr
+__text              9156   4294972252
+__stubs              288   4294981408
+__const              144   4294981696
+__cstring           1650   4294981840
+__unwind_info        188   4294983492
+__got                224   4294983680
+__data               324   4295000064
+__bss             135568   4295000392
+Total             147542
+
+

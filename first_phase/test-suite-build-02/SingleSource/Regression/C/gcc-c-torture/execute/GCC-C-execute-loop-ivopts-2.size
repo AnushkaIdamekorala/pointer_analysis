@@ -1,0 +1,10 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/SingleSource/Regression/C/gcc-c-torture/execute/GCC-C-execute-loop-ivopts-2  :
+section           size         addr
+__text             236   4294983280
+__stubs             36   4294983516
+__const             48   4294983552
+__unwind_info       72   4294983600
+__got               32   4294983680
+Total              424
+
+

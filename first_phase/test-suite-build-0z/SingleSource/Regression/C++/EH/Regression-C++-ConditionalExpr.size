@@ -1,0 +1,12 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/SingleSource/Regression/C++/EH/Regression-C++-ConditionalExpr  :
+section              size         addr
+__text                428   4294983024
+__stubs                24   4294983452
+__gcc_except_tab       36   4294983476
+__cstring              49   4294983512
+__unwind_info         116   4294983564
+__got                  24   4294983680
+__bss                   4   4295000064
+Total                 681
+
+

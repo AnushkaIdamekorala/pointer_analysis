@@ -1,0 +1,15 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/MultiSource/Applications/hbd/hbd  :
+section               size         addr
+__text               31844   4294978788
+__stubs                372   4295010632
+__init_offsets           4   4295011004
+__cstring             3023   4295011008
+__const                886   4295014032
+__gcc_except_tab      1020   4295014920
+__unwind_info          496   4295015940
+__got                  288   4295016448
+__data                2064   4295032832
+__common              2684   4295034896
+Total                42681
+
+

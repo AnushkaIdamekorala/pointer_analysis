@@ -1,0 +1,9 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/SingleSource/Regression/C/Regression-C-PR10189  :
+section           size         addr
+__text             544   4294983040
+__const              4   4294983584
+__unwind_info       92   4294983588
+__bss               13   4294983680
+Total              653
+
+

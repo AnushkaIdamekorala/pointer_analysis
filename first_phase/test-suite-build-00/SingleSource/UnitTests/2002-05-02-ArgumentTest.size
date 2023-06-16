@@ -1,0 +1,11 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/SingleSource/UnitTests/2002-05-02-ArgumentTest  :
+section           size         addr
+__text             188   4294983368
+__stubs             12   4294983556
+__const             12   4294983568
+__cstring           26   4294983580
+__unwind_info       72   4294983608
+__got                8   4294983680
+Total              318
+
+

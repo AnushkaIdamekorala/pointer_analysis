@@ -1,0 +1,11 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/SingleSource/Benchmarks/Dhrystone/dry  :
+section            size         addr
+__text             2152   4294981248
+__stubs              60   4294983400
+__cstring            93   4294983460
+__unwind_info       124   4294983556
+__got                48   4294983680
+__bss             10633   4295000064
+Total             13110
+
+

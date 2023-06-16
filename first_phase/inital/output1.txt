@@ -1,0 +1,17 @@
+===== Alias Analysis Evaluator Report =====
+  8128 Total Alias Queries Performed
+  7053 no alias responses (86.7%)
+  205 may alias responses (2.5%)
+  439 partial alias responses (5.4%)
+  431 must alias responses (5.3%)
+  Alias Analysis Evaluator Pointer Alias Summary: 86%/2%/5%/5%
+  4710 Total ModRef Queries Performed
+  4710 no mod/ref responses (100.0%)
+  0 mod responses (0.0%)
+  0 ref responses (0.0%)
+  0 mod & ref responses (0.0%)
+  0 must responses (0.0%)
+  0 must mod responses (0.0%)
+  0 must ref responses (0.0%)
+  0 must mod & ref responses (0.0%)
+  Alias Analysis Evaluator Mod/Ref Summary: 100%/0%/0%/0%/0%/0%/0%/0%

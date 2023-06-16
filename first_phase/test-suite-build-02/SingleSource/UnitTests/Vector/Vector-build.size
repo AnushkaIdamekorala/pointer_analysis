@@ -1,0 +1,10 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/SingleSource/UnitTests/Vector/Vector-build  :
+section           size         addr
+__text             276   4294983304
+__stubs             12   4294983580
+__cstring           13   4294983592
+__unwind_info       72   4294983608
+__got                8   4294983680
+Total              381
+
+

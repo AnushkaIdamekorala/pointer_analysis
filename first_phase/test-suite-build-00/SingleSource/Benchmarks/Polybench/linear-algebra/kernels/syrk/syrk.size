@@ -1,0 +1,11 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/SingleSource/Benchmarks/Polybench/linear-algebra/kernels/syrk/syrk  :
+section           size         addr
+__text            2624   4294980736
+__stubs             72   4294983360
+__const             24   4294983432
+__cstring          127   4294983456
+__unwind_info       92   4294983584
+__got               56   4294983680
+Total             2995
+
+

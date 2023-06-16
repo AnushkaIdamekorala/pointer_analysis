@@ -1,0 +1,12 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/MultiSource/Applications/SIBsim4/SIBsim4  :
+section            size         addr
+__text            53856   4294974472
+__stubs             456   4295028328
+__const            1824   4295028784
+__cstring          1935   4295030608
+__unwind_info       284   4295032544
+__got               344   4295032832
+__bss              1272   4295049216
+Total             59971
+
+

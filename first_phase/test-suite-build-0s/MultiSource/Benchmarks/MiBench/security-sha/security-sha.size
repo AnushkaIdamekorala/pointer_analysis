@@ -1,0 +1,11 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/MultiSource/Benchmarks/MiBench/security-sha/security-sha  :
+section           size         addr
+__text            1304   4294982116
+__stubs             84   4294983420
+__const             24   4294983504
+__cstring           59   4294983528
+__unwind_info       80   4294983588
+__got               72   4294983680
+Total             1623
+
+

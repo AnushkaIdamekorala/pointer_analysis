@@ -1,0 +1,12 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/MultiSource/Benchmarks/DOE-ProxyApps-C/SimpleMOC/SimpleMOC  :
+section            size         addr
+__text            23568   4294973448
+__stubs             312   4294997016
+__const              88   4294997328
+__cstring          2413   4294997416
+__unwind_info       232   4294999832
+__got               224   4295000064
+__bss              1380   4295016448
+Total             28217
+
+

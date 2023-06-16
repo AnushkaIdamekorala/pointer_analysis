@@ -1,0 +1,12 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/SingleSource/Benchmarks/Adobe-C++/simple_types_constant_folding  :
+section             size         addr
+__text            118360   4294971176
+__stubs              132   4295089536
+__cstring           8249   4295089668
+__unwind_info        448   4295097920
+__got                 88   4295098368
+__data                16   4295114752
+__common          336032   4295114768
+Total             463325
+
+

@@ -1,0 +1,18 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/MicroBenchmarks/LCALS/SubsetALambdaLoops/lcalsALambda  :
+section                size         addr
+__text               165932   4294985476
+__stubs                1860   4295151408
+__init_offsets           84   4295153268
+__gcc_except_tab      10092   4295153352
+__cstring              6619   4295163444
+__const                2872   4295170064
+__unwind_info          7044   4295172936
+__eh_frame              304   4295179984
+__got                  1520   4295180288
+__const                4048   4295181808
+__data                   48   4295196672
+__bss                   256   4295196720
+__common                384   4295196976
+Total                201063
+
+

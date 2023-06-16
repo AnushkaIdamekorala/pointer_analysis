@@ -1,0 +1,15 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/MultiSource/Benchmarks/DOE-ProxyApps-C/miniAMR/miniAMR  :
+section            size         addr
+__text            39280   4294982740
+__stubs             204   4295022020
+__const             320   4295022224
+__cstring         10043   4295022544
+__unwind_info       164   4295032588
+__eh_frame           76   4295032752
+__got               144   4295032832
+__const             208   4295032976
+__common           4824   4295049216
+__bss              1380   4295054040
+Total             56643
+
+

@@ -1,0 +1,13 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/MultiSource/Applications/treecc/treecc  :
+section            size         addr
+__text            85100   4294979064
+__stubs             396   4295064164
+__const           18192   4295064560
+__cstring         15053   4295082752
+__unwind_info       560   4295097808
+__got               296   4295098368
+__const            1784   4295098664
+__bss                 8   4295114752
+Total            121389
+
+

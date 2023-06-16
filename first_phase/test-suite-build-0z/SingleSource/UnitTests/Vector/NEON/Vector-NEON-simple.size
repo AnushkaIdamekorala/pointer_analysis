@@ -1,0 +1,11 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/SingleSource/UnitTests/Vector/NEON/Vector-NEON-simple  :
+section           size         addr
+__text             912   4294982044
+__stubs             36   4294982956
+__const            240   4294982992
+__cstring          366   4294983232
+__unwind_info       80   4294983600
+__got               24   4294983680
+Total             1658
+
+

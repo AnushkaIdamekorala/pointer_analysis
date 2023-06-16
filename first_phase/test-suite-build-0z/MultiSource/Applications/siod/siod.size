@@ -1,0 +1,14 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/MultiSource/Applications/siod/siod  :
+section            size         addr
+__text            61272   4294976892
+__stubs            1476   4295038164
+__const             368   4295039640
+__cstring          7985   4295040008
+__unwind_info      1216   4295047996
+__got              1040   4295049216
+__const             240   4295050256
+__data              128   4295065600
+__bss               888   4295065728
+Total             74613
+
+

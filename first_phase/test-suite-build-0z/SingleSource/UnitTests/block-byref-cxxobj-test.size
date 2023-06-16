@@ -1,0 +1,14 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/SingleSource/UnitTests/block-byref-cxxobj-test  :
+section              size         addr
+__text                704   4294982644
+__stubs                96   4294983348
+__gcc_except_tab       60   4294983444
+__const                16   4294983504
+__cstring               6   4294983520
+__unwind_info         152   4294983528
+__got                  80   4294983680
+__const                48   4294983760
+__bss                   4   4295000064
+Total                1166
+
+

@@ -1,0 +1,12 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/SingleSource/UnitTests/Float/classify  :
+section           size         addr
+__text            2656   4294979320
+__stubs             24   4294981976
+__const            712   4294982000
+__cstring          885   4294982712
+__unwind_info       80   4294983600
+__got               16   4294983680
+__bss              144   4295000064
+Total             4517
+
+

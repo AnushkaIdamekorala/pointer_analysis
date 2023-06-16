@@ -1,0 +1,17 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/MicroBenchmarks/ImageProcessing/AnisotropicDiffusion/AnisotropicDiffusion  :
+section                size         addr
+__text               168520   4294976656
+__stubs                1656   4295145176
+__init_offsets           80   4295146832
+__gcc_except_tab       6796   4295146912
+__cstring              4340   4295153708
+__const                2535   4295158048
+__unwind_info          3312   4295160584
+__got                  1416   4295163904
+__const                3872   4295165320
+__data                   40   4295180288
+__common                392   4295180328
+__bss                  1572   4295180720
+Total                194531
+
+

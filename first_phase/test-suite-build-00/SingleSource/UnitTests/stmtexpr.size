@@ -1,0 +1,10 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/SingleSource/UnitTests/stmtexpr  :
+section              size         addr
+__text               1472   4294981940
+__stubs                24   4294983412
+__gcc_except_tab      112   4294983436
+__unwind_info         132   4294983548
+__got                  24   4294983680
+Total                1764
+
+

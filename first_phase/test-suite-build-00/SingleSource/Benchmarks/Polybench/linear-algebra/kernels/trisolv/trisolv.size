@@ -1,0 +1,10 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/SingleSource/Benchmarks/Polybench/linear-algebra/kernels/trisolv/trisolv  :
+section           size         addr
+__text            1576   4294981888
+__stubs             72   4294983464
+__cstring           51   4294983536
+__unwind_info       92   4294983588
+__got               56   4294983680
+Total             1847
+
+

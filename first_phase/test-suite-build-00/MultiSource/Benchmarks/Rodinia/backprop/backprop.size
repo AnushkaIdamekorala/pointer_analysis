@@ -1,0 +1,12 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/MultiSource/Benchmarks/Rodinia/backprop/backprop  :
+section           size         addr
+__text            3720   4294979772
+__stubs             60   4294983492
+__const             16   4294983552
+__cstring           10   4294983568
+__unwind_info       96   4294983580
+__got               48   4294983680
+__bss             1380   4295000064
+Total             5330
+
+

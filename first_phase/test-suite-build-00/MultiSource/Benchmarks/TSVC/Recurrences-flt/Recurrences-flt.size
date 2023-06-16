@@ -1,0 +1,13 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/MultiSource/Benchmarks/TSVC/Recurrences-flt/Recurrences-flt  :
+section              size         addr
+__text              20324   4294978652
+__stubs                48   4294998976
+__const                16   4294999024
+__cstring             926   4294999040
+__unwind_info          96   4294999968
+__got                  32   4295000064
+__data                  8   4295016448
+__bss             1951176   4295016464
+Total             1972626
+
+

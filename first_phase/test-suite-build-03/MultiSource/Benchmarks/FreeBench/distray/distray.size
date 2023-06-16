@@ -1,0 +1,13 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/MultiSource/Benchmarks/FreeBench/distray/distray  :
+section             size         addr
+__text              4380   4294978984
+__stubs              108   4294983364
+__const               16   4294983472
+__cstring            100   4294983488
+__unwind_info         80   4294983588
+__got                 88   4294983680
+__data               448   4295000064
+__bss             921604   4295000512
+Total             926824
+
+

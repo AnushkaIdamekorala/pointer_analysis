@@ -1,0 +1,13 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/MultiSource/Benchmarks/TSVC/Searching-dbl/Searching-dbl  :
+section              size         addr
+__text              28952   4294969912
+__stubs                96   4294998864
+__const               112   4294998960
+__cstring             909   4294999072
+__unwind_info          80   4294999984
+__got                  64   4295000064
+__data                  8   4295016448
+__bss             3901960   4295016480
+Total             3932181
+
+

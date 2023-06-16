@@ -1,0 +1,13 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/SingleSource/Benchmarks/Misc/evalloop  :
+section           size         addr
+__text             684   4294982828
+__stubs             24   4294983512
+__const             48   4294983536
+__cstring            9   4294983584
+__unwind_info       80   4294983596
+__got               24   4294983680
+__const            256   4294983704
+__bss                4   4295000064
+Total             1129
+
+

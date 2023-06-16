@@ -1,0 +1,13 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/SingleSource/UnitTests/ObjC/BoolLiteralTest  :
+section              size         addr
+__text                 92   4294983428
+__stubs                72   4294983520
+__objc_methname        16   4294983592
+__unwind_info          72   4294983608
+__got                  48   4294983680
+__objc_imageinfo        8   4294983728
+__objc_selrefs          8   4295000064
+__objc_classrefs        8   4295000072
+Total                 324
+
+

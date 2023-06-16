@@ -1,0 +1,11 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/SingleSource/Regression/C++/EH/Regression-C++-exception_spec_test  :
+section              size         addr
+__text                392   4294982692
+__stubs               108   4294983084
+__gcc_except_tab       64   4294983192
+__cstring             309   4294983256
+__unwind_info         112   4294983568
+__got                  96   4294983680
+Total                1081
+
+

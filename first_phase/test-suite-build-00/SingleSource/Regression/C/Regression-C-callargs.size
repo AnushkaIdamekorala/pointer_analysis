@@ -1,0 +1,11 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/SingleSource/Regression/C/Regression-C-callargs  :
+section           size         addr
+__text             428   4294983000
+__stubs             12   4294983428
+__const             36   4294983440
+__cstring          131   4294983476
+__unwind_info       72   4294983608
+__got                8   4294983680
+Total              687
+
+

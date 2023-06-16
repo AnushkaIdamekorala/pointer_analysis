@@ -1,0 +1,11 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/MultiSource/Benchmarks/MiBench/automotive-susan/automotive-susan  :
+section            size         addr
+__text            22724   4294975356
+__stubs             240   4294998080
+__const             322   4294998320
+__cstring          1321   4294998642
+__unwind_info       100   4294999964
+__got               176   4295000064
+Total             24883
+
+

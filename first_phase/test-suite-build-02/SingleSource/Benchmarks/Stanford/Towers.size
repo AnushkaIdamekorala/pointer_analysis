@@ -1,0 +1,11 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/SingleSource/Benchmarks/Stanford/Towers  :
+section           size         addr
+__text             964   4294982520
+__stubs             24   4294983484
+__cstring           92   4294983508
+__unwind_info       80   4294983600
+__got               16   4294983680
+__bss              176   4295000064
+Total             1352
+
+

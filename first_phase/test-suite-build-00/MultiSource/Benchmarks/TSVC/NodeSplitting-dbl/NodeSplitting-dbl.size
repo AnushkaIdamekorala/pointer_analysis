@@ -1,0 +1,13 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/MultiSource/Benchmarks/TSVC/NodeSplitting-dbl/NodeSplitting-dbl  :
+section              size         addr
+__text              22052   4294976868
+__stubs                48   4294998920
+__const                24   4294998968
+__cstring             970   4294998992
+__unwind_info          96   4294999964
+__got                  32   4295000064
+__data                  8   4295016448
+__bss             3901960   4295016480
+Total             3925190
+
+

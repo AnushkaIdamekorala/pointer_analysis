@@ -1,0 +1,11 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/SingleSource/Regression/C/gcc-c-torture/execute/ieee/GCC-C-execute-ieee-pr50310  :
+section           size         addr
+__text             872   4294982636
+__stubs             12   4294983508
+__const             80   4294983520
+__unwind_info       72   4294983600
+__got                8   4294983680
+__bss              576   4295000064
+Total             1620
+
+

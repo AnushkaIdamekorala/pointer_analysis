@@ -1,0 +1,14 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/SingleSource/Regression/C++/EH/Regression-C++-ctor_dtor_count-2  :
+section              size         addr
+__text                496   4294982852
+__stubs               108   4294983348
+__gcc_except_tab       40   4294983456
+__const                 3   4294983496
+__cstring              73   4294983499
+__unwind_info         108   4294983572
+__got                  96   4294983680
+__const                16   4294983776
+__common                8   4295000064
+Total                 948
+
+

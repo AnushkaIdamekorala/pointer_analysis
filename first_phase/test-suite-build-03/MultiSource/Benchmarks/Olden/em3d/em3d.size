@@ -1,0 +1,11 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/MultiSource/Benchmarks/Olden/em3d/em3d  :
+section           size         addr
+__text            2232   4294980884
+__stubs             96   4294983116
+__cstring          386   4294983212
+__unwind_info       80   4294983600
+__got               64   4294983680
+__bss               24   4295000064
+Total             2882
+
+

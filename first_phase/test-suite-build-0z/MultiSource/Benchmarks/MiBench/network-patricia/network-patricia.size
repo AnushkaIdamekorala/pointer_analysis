@@ -1,0 +1,10 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/MultiSource/Benchmarks/MiBench/network-patricia/network-patricia  :
+section           size         addr
+__text            1120   4294982152
+__stubs            132   4294983272
+__cstring          188   4294983404
+__unwind_info       88   4294983592
+__got               96   4294983680
+Total             1624
+
+

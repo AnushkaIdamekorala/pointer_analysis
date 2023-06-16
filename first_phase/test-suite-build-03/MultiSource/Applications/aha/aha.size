@@ -1,0 +1,14 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/MultiSource/Applications/aha/aha  :
+section           size         addr
+__text            3464   4294979664
+__stubs             24   4294983128
+__const            156   4294983152
+__cstring          275   4294983308
+__unwind_info       92   4294983584
+__got               16   4294983680
+__const            728   4294983696
+__data              68   4295000064
+__bss              184   4295000144
+Total             5007
+
+

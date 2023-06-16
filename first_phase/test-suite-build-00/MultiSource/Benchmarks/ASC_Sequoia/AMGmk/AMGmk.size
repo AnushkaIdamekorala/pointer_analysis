@@ -1,0 +1,12 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/MultiSource/Benchmarks/ASC_Sequoia/AMGmk/AMGmk  :
+section           size         addr
+__text            8160   4294974984
+__stubs             72   4294983144
+__const             24   4294983216
+__cstring          330   4294983240
+__unwind_info      108   4294983572
+__got               56   4294983680
+__bss               24   4295000064
+Total             8774
+
+

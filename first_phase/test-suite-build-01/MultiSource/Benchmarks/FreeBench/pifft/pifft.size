@@ -1,0 +1,11 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/MultiSource/Benchmarks/FreeBench/pifft/pifft  :
+section            size         addr
+__text            30412   4294985340
+__stubs             168   4295015752
+__const              24   4295015920
+__cstring           301   4295015944
+__unwind_info       192   4295016248
+__got               120   4295016448
+Total             31217
+
+

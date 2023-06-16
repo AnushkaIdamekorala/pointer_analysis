@@ -1,0 +1,15 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/MultiSource/Applications/sqlite3/sqlite3  :
+section             size         addr
+__text            442552   4294982968
+__stubs              672   4295425520
+__const            13696   4295426192
+__cstring          17202   4295439888
+__unwind_info       1636   4295457092
+__eh_frame            76   4295458728
+__got                488   4295458816
+__const             2592   4295459304
+__data              2107   4295475200
+__bss                560   4295477312
+Total             481581
+
+

@@ -1,0 +1,10 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/SingleSource/UnitTests/SignlessTypes/ccc  :
+section           size         addr
+__text             140   4294983384
+__stubs             36   4294983524
+__cstring           47   4294983560
+__unwind_info       72   4294983608
+__got               24   4294983680
+Total              319
+
+

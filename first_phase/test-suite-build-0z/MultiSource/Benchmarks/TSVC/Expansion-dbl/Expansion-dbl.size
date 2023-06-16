@@ -1,0 +1,13 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/MultiSource/Benchmarks/TSVC/Expansion-dbl/Expansion-dbl  :
+section              size         addr
+__text               8472   4294973920
+__stubs                72   4294982392
+__const                56   4294982464
+__cstring            1052   4294982520
+__unwind_info         104   4294983572
+__got                  48   4294983680
+__data                  8   4295000064
+__bss             3901960   4295000096
+Total             3911772
+
+

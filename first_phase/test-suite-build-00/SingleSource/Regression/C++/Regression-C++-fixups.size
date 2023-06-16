@@ -1,0 +1,11 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/SingleSource/Regression/C++/Regression-C++-fixups  :
+section              size         addr
+__text                876   4294982624
+__stubs                24   4294983500
+__gcc_except_tab       40   4294983524
+__unwind_info         116   4294983564
+__got                  24   4294983680
+__common                4   4295000064
+Total                1084
+
+

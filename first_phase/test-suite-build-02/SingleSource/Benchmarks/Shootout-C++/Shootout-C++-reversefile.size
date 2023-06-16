@@ -1,0 +1,12 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/SingleSource/Benchmarks/Shootout-C++/Shootout-C++-reversefile  :
+section              size         addr
+__text               4672   4294978272
+__stubs               288   4294982944
+__const                16   4294983232
+__gcc_except_tab      224   4294983248
+__cstring              15   4294983472
+__unwind_info         192   4294983488
+__got                 272   4294983680
+Total                5679
+
+

@@ -1,0 +1,2 @@
+RUN: cd %S ; %S/synchronized 
+VERIFY: %b/fpcmp-target %o %S/synchronized.reference_output

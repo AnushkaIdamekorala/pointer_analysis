@@ -1,0 +1,14 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/MultiSource/Benchmarks/Prolangs-C/cdecl/cdecl  :
+section            size         addr
+__text            12348   4294981028
+__stubs             348   4294993376
+__const            2820   4294993724
+__cstring          3382   4294996544
+__unwind_info       136   4294999928
+__got               280   4295000064
+__const             584   4295000344
+__data             8028   4295016448
+__bss             13985   4295024480
+Total             41911
+
+

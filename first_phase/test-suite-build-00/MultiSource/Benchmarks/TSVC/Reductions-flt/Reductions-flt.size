@@ -1,0 +1,13 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/MultiSource/Benchmarks/TSVC/Reductions-flt/Reductions-flt  :
+section              size         addr
+__text              24752   4294974024
+__stubs                48   4294998776
+__const                24   4294998824
+__cstring            1102   4294998848
+__unwind_info         108   4294999952
+__got                  32   4295000064
+__data                  8   4295016448
+__bss             1951184   4295016464
+Total             1977258
+
+

@@ -1,0 +1,13 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/MultiSource/Benchmarks/Prolangs-C++/ocean/ocean  :
+section                 size         addr
+__text                  8320   4294974280
+__stubs                  204   4294982600
+__gcc_except_tab         456   4294982804
+__const                   32   4294983260
+__unwind_info            388   4294983292
+__got                    160   4294983680
+__const                  280   4294983840
+__common             4000008   4295000064
+Total                4009848
+
+

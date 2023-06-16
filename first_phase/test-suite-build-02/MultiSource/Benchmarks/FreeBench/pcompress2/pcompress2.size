@@ -1,0 +1,12 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/MultiSource/Benchmarks/FreeBench/pcompress2/pcompress2  :
+section           size         addr
+__text            4896   4294978028
+__stubs            228   4294982924
+__const             80   4294983152
+__cstring          347   4294983232
+__unwind_info       88   4294983580
+__got              176   4294983680
+__bss             5840   4295000064
+Total            11655
+
+

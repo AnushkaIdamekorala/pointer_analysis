@@ -1,0 +1,12 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/MultiSource/Benchmarks/NPB-serial/is/is  :
+section                size         addr
+__text                 2604   4294980292
+__stubs                  36   4294982896
+__const                  40   4294982932
+__cstring               627   4294982972
+__unwind_info            80   4294983600
+__got                    24   4294983680
+__bss             276832364   4295000064
+Total             276835775
+
+

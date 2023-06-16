@@ -1,0 +1,10 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/MultiSource/Benchmarks/BitBench/five11/five11  :
+section           size         addr
+__text            1672   4294981760
+__stubs             96   4294983432
+__cstring           30   4294983528
+__unwind_info      120   4294983560
+__got               72   4294983680
+Total             1990
+
+

@@ -1,0 +1,11 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/SingleSource/Benchmarks/Shootout/Shootout-hash  :
+section           size         addr
+__text             828   4294982384
+__stubs            132   4294983212
+__cstring           39   4294983344
+__const            224   4294983384
+__unwind_info       72   4294983608
+__got               96   4294983680
+Total             1391
+
+

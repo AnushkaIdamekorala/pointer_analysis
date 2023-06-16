@@ -1,0 +1,11 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/SingleSource/Benchmarks/Misc/matmul_f64_4x4  :
+section           size         addr
+__text             672   4294982608
+__stubs             48   4294983280
+__const            256   4294983328
+__cstring            6   4294983584
+__unwind_info       88   4294983592
+__got               40   4294983680
+Total             1110
+
+

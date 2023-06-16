@@ -1,0 +1,10 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/SingleSource/UnitTests/2003-10-29-ScalarReplBug  :
+section           size         addr
+__text             224   4294983356
+__stubs             24   4294983580
+__cstring            4   4294983604
+__unwind_info       72   4294983608
+__got               24   4294983680
+Total              348
+
+

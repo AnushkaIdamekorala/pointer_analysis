@@ -1,0 +1,15 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/MultiSource/Applications/JM/lencod/lencod  :
+section             size         addr
+__text            853260   4294976388
+__stubs              576   4295829648
+__const            49392   4295830224
+__cstring          36280   4295879616
+__unwind_info       1672   4295915896
+__got                408   4295917568
+__const            12840   4295917976
+__data              1160   4295933952
+__common           16152   4295935488
+__bss              91112   4295951640
+Total            1062852
+
+

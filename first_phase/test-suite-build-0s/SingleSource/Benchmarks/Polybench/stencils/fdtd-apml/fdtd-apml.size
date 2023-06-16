@@ -1,0 +1,11 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/SingleSource/Benchmarks/Polybench/stencils/fdtd-apml/fdtd-apml  :
+section           size         addr
+__text            3952   4294979416
+__stubs             72   4294983368
+__const              8   4294983440
+__cstring          143   4294983448
+__unwind_info       88   4294983592
+__got               56   4294983680
+Total             4319
+
+

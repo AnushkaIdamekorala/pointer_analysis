@@ -1,0 +1,12 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/SingleSource/Regression/C++/Regression-C++-pointer_method2  :
+section           size         addr
+__text            1148   4294982320
+__stubs             48   4294983468
+__const              9   4294983516
+__cstring           64   4294983525
+__unwind_info       88   4294983592
+__got               80   4294983680
+__const            184   4294983760
+Total             1621
+
+

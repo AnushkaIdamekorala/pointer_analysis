@@ -1,0 +1,17 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/MicroBenchmarks/LCALS/SubsetBLambdaLoops/lcalsBLambda  :
+section                size         addr
+__text               203056   4294984736
+__stubs                1800   4295187792
+__init_offsets           84   4295189592
+__gcc_except_tab       9672   4295189676
+__cstring              6569   4295199348
+__const                2672   4295205920
+__unwind_info          4464   4295208592
+__got                  1512   4295213056
+__const                4048   4295214568
+__data                   48   4295229440
+__bss                   232   4295229488
+__common                384   4295229720
+Total                234541
+
+

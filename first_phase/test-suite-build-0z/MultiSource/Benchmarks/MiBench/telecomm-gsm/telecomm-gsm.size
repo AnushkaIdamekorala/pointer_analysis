@@ -1,0 +1,14 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/MultiSource/Benchmarks/MiBench/telecomm-gsm/telecomm-gsm  :
+section            size         addr
+__text            14700   4294985432
+__stubs             540   4295000132
+__const           13808   4295000672
+__cstring          1773   4295014480
+__unwind_info       180   4295016256
+__got               400   4295016448
+__const              40   4295016848
+__data              224   4295032832
+__bss               344   4295033056
+Total             32009
+
+

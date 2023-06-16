@@ -1,0 +1,17 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/MicroBenchmarks/SLPVectorization/SLPVectorizationBenchmarks  :
+section                size         addr
+__text               179648   4294980844
+__stubs                1620   4295160492
+__init_offsets           84   4295162112
+__gcc_except_tab       6960   4295162196
+__cstring              5337   4295169156
+__const                2534   4295174496
+__unwind_info          3244   4295177032
+__got                  1568   4295180288
+__const                3872   4295181856
+__data                   40   4295196672
+__bss                   360   4295196712
+__common                384   4295197072
+Total                205651
+
+

@@ -1,0 +1,15 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/SingleSource/UnitTests/Vectorizer/runtime-checks  :
+section                size         addr
+__text               351612   4294981404
+__stubs                 684   4295333016
+__init_offsets            4   4295333700
+__gcc_except_tab       6420   4295333704
+__cstring              1358   4295340124
+__const                4728   4295341482
+__unwind_info         14300   4295346212
+__got                   584   4295360512
+__const                7728   4295361096
+__bss                  2504   4295376896
+Total                389922
+
+

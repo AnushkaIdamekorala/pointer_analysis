@@ -1,0 +1,13 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/MultiSource/Benchmarks/DOE-ProxyApps-C++/HPCCG/HPCCG  :
+section               size         addr
+__text               18216   4294978884
+__stubs                696   4294997100
+__gcc_except_tab       980   4294997796
+__cstring              652   4294998776
+__const                135   4294999428
+__unwind_info          500   4294999564
+__got                  576   4295000064
+__const                688   4295000640
+Total                22443
+
+

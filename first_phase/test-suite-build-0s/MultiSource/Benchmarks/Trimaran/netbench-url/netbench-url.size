@@ -1,0 +1,12 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/MultiSource/Benchmarks/Trimaran/netbench-url/netbench-url  :
+section            size         addr
+__text             2368   4294985892
+__stubs             156   4294988260
+__const           43600   4294988416
+__cstring           709   4295032016
+__unwind_info       104   4295032728
+__got               128   4295032832
+__bss                 8   4295049216
+Total             47073
+
+

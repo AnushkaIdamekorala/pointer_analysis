@@ -1,0 +1,17 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/MicroBenchmarks/LoopVectorization/LoopVectorizationBenchmarks  :
+section                size         addr
+__text               245508   4294984312
+__stubs                1884   4295229820
+__init_offsets           92   4295231704
+__gcc_except_tab      12960   4295231796
+__cstring             10225   4295244756
+__const                2507   4295254984
+__unwind_info          4712   4295257492
+__got                  1576   4295262208
+__const                3952   4295263784
+__data                   40   4295278592
+__bss                  6096   4295278632
+__common                384   4295284728
+Total                289936
+
+

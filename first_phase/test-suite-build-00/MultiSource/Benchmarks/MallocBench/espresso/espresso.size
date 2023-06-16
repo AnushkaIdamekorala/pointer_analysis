@@ -1,0 +1,14 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/MultiSource/Benchmarks/MallocBench/espresso/espresso  :
+section             size         addr
+__text            178012   4294974088
+__stubs              348   4295152100
+__const             2352   4295152448
+__cstring           8446   4295154800
+__unwind_info        656   4295163248
+__got                264   4295163904
+__const             1952   4295164168
+__data                 8   4295180288
+__bss               1632   4295180296
+Total             193670
+
+

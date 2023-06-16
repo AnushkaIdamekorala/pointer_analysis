@@ -1,0 +1,11 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/MultiSource/Benchmarks/MiBench/telecomm-CRC32/telecomm-CRC32  :
+section           size         addr
+__text             304   4294981156
+__stubs             84   4294981460
+__const           2048   4294981544
+__cstring           16   4294983592
+__unwind_info       72   4294983608
+__got               56   4294983680
+Total             2580
+
+

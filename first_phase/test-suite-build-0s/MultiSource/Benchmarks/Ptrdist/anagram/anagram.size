@@ -1,0 +1,12 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/MultiSource/Benchmarks/Ptrdist/anagram/anagram  :
+section            size         addr
+__text             3016   4294979956
+__stubs             252   4294982972
+__cstring           370   4294983224
+__unwind_info        84   4294983596
+__got               208   4294983680
+__data                4   4295000064
+__bss             41464   4295000072
+Total             45398
+
+

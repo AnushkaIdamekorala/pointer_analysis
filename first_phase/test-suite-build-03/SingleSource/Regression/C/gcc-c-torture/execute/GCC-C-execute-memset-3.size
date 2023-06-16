@@ -1,0 +1,10 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/SingleSource/Regression/C/gcc-c-torture/execute/GCC-C-execute-memset-3  :
+section           size         addr
+__text            4376   4294979184
+__stubs             48   4294983560
+__unwind_info       72   4294983608
+__got               32   4294983680
+__bss               32   4295000064
+Total             4560
+
+

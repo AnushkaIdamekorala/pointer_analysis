@@ -1,0 +1,15 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/SingleSource/Benchmarks/Misc-C++/oopack_v1p8  :
+section              size         addr
+__text               6588   4294975964
+__stubs               228   4294982552
+__init_offsets          4   4294982780
+__const               139   4294982784
+__cstring             526   4294982923
+__unwind_info         224   4294983452
+__got                 176   4294983680
+__const               392   4294983856
+__data                 16   4295000064
+__common           116088   4295000080
+Total              124381
+
+

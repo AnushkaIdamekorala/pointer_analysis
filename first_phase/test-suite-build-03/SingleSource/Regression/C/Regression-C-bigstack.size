@@ -1,0 +1,11 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/SingleSource/Regression/C/Regression-C-bigstack  :
+section           size         addr
+__text            4540   4294974988
+__stubs             24   4294979528
+__const           4000   4294979552
+__cstring           36   4294983552
+__unwind_info       80   4294983588
+__got               24   4294983680
+Total             8704
+
+

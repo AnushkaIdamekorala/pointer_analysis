@@ -1,0 +1,14 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/MultiSource/Benchmarks/MiBench/consumer-typeset/consumer-typeset  :
+section             size         addr
+__text            466936   4294976484
+__stubs              564   4295443420
+__const             4843   4295443984
+__cstring          41940   4295448827
+__unwind_info        812   4295490768
+__got                416   4295491584
+__const             5472   4295492000
+__data               720   4295507968
+__bss              64948   4295508688
+Total             586651
+
+

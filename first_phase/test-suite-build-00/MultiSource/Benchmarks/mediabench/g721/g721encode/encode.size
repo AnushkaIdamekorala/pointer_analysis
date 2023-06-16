@@ -1,0 +1,13 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/MultiSource/Benchmarks/mediabench/g721/g721encode/encode  :
+section           size         addr
+__text            6328   4294976476
+__stubs             72   4294982804
+__cstring          339   4294982876
+__const            336   4294983216
+__unwind_info      128   4294983552
+__got               72   4294983680
+__data              80   4295000064
+__bss                8   4295000144
+Total             7363
+
+

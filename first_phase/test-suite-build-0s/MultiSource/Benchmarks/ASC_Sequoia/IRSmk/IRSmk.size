@@ -1,0 +1,12 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/MultiSource/Benchmarks/ASC_Sequoia/IRSmk/IRSmk  :
+section           size         addr
+__text            2848   4294980236
+__stubs             84   4294983084
+__const             16   4294983168
+__cstring          421   4294983184
+__unwind_info       72   4294983608
+__got               56   4294983680
+__common            44   4295000064
+Total             3541
+
+

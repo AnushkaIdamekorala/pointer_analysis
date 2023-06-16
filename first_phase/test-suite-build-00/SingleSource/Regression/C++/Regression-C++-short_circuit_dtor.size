@@ -1,0 +1,11 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/SingleSource/Regression/C++/Regression-C++-short_circuit_dtor  :
+section              size         addr
+__text                536   4294982908
+__stubs                48   4294983444
+__gcc_except_tab       36   4294983492
+__cstring              21   4294983528
+__unwind_info         128   4294983552
+__got                  40   4294983680
+Total                 809
+
+

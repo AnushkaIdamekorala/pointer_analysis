@@ -1,0 +1,12 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/SingleSource/UnitTests/Vector/AArch64/aarch64_neon_intrinsics  :
+section              size         addr
+__text             624760   4294981700
+__stubs                36   4295606460
+__const             29632   4295606496
+__cstring         1264392   4295636128
+__unwind_info          88   4296900520
+__got                  32   4296900608
+__bss                   1   4296916992
+Total             1918941
+
+

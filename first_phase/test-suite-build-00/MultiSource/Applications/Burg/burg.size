@@ -1,0 +1,13 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/MultiSource/Applications/Burg/burg  :
+section            size         addr
+__text            55656   4294984028
+__stubs             288   4295039684
+__const            1602   4295039972
+__cstring          7392   4295041574
+__unwind_info       248   4295048968
+__got               224   4295049216
+__data               40   4295065600
+__bss              9472   4295065640
+Total             74922
+
+

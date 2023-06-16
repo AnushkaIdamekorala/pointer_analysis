@@ -1,0 +1,11 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/SingleSource/Benchmarks/SmallPT/smallpt  :
+section           size         addr
+__text            2872   4294980636
+__stubs             72   4294983508
+__cstring           20   4294983580
+__unwind_info       80   4294983600
+__got               56   4294983680
+__data             792   4295000064
+Total             3892
+
+

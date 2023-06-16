@@ -1,0 +1,11 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/SingleSource/Benchmarks/Polybench/linear-algebra/kernels/bicg/bicg  :
+section           size         addr
+__text            1924   4294981524
+__stubs             72   4294983448
+__const              8   4294983520
+__cstring           51   4294983528
+__unwind_info      100   4294983580
+__got               56   4294983680
+Total             2211
+
+

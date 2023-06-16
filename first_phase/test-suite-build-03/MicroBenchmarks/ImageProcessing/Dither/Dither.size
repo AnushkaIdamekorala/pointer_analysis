@@ -1,0 +1,17 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/MicroBenchmarks/ImageProcessing/Dither/Dither  :
+section                size         addr
+__text               179752   4294981292
+__stubs                1644   4295161044
+__init_offsets           80   4295162688
+__gcc_except_tab       6932   4295162768
+__cstring              4362   4295169700
+__const                2928   4295174064
+__unwind_info          3288   4295176992
+__got                  1408   4295180288
+__const                3872   4295181696
+__data                   40   4295196672
+__common                392   4295196712
+__bss                  1588   4295197104
+Total                206286
+
+

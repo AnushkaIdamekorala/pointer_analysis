@@ -1,0 +1,13 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/MultiSource/Applications/spiff/spiff  :
+section              size         addr
+__text              14632   4294982600
+__stubs               348   4294997232
+__const               144   4294997580
+__cstring            2135   4294997724
+__unwind_info         204   4294999860
+__got                 248   4295000064
+__data                  2   4295016448
+__bss             1211780   4295016456
+Total             1229493
+
+

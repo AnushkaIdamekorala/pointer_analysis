@@ -1,0 +1,10 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/SingleSource/UnitTests/2006-01-29-SimpleIndirectCall  :
+section           size         addr
+__text             144   4294983420
+__stubs             12   4294983564
+__cstring           32   4294983576
+__unwind_info       72   4294983608
+__got                8   4294983680
+Total              268
+
+

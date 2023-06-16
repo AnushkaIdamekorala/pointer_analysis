@@ -1,0 +1,12 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/SingleSource/Benchmarks/McGill/chomp  :
+section           size         addr
+__text            1736   4294981552
+__stubs             72   4294983288
+__const             16   4294983360
+__cstring          197   4294983376
+__unwind_info       92   4294983576
+__got               48   4294983680
+__bss               16   4295000064
+Total             2177
+
+

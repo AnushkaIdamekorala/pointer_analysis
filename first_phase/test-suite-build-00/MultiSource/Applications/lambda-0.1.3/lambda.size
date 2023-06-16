@@ -1,0 +1,16 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/MultiSource/Applications/lambda-0.1.3/lambda  :
+section               size         addr
+__text               42092   4294971132
+__stubs                432   4295013224
+__gcc_except_tab      1084   4295013656
+__cstring              783   4295014740
+__const                168   4295015524
+__unwind_info          756   4295015692
+__got                  344   4295016448
+__const               1912   4295016792
+__data                 152   4295032832
+__common                32   4295032984
+__bss                   12   4295033016
+Total                47767
+
+

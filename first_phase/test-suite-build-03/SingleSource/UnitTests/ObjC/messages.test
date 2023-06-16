@@ -1,0 +1,2 @@
+RUN: cd %S ; %S/messages 
+VERIFY: %b/fpcmp-target %o %S/messages.reference_output

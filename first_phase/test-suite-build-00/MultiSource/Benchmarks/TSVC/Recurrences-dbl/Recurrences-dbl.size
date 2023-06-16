@@ -1,0 +1,13 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/MultiSource/Benchmarks/TSVC/Recurrences-dbl/Recurrences-dbl  :
+section              size         addr
+__text              20224   4294978744
+__stubs                48   4294998968
+__const                24   4294999016
+__cstring             926   4294999040
+__unwind_info          96   4294999968
+__got                  32   4295000064
+__data                  8   4295016448
+__bss             3901960   4295016480
+Total             3923318
+
+

@@ -1,0 +1,10 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/SingleSource/UnitTests/2003-05-12-MinIntProblem  :
+section           size         addr
+__text              92   4294983492
+__stubs             12   4294983584
+__cstring            9   4294983596
+__unwind_info       72   4294983608
+__got                8   4294983680
+Total              193
+
+

@@ -1,0 +1,11 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/MultiSource/Benchmarks/Olden/mst/mst  :
+section           size         addr
+__text            1672   4294981620
+__stubs             60   4294983292
+__cstring          233   4294983352
+__unwind_info       92   4294983588
+__got               40   4294983680
+__bss               28   4295000064
+Total             2125
+
+

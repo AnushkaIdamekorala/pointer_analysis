@@ -1,0 +1,13 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/MultiSource/Benchmarks/TSVC/Equivalencing-dbl/Equivalencing-dbl  :
+section              size         addr
+__text               7060   4294975476
+__stubs                72   4294982536
+__const                16   4294982608
+__cstring             952   4294982624
+__unwind_info         104   4294983576
+__got                  48   4294983680
+__data                  8   4295000064
+__bss             3901976   4295000096
+Total             3910236
+
+

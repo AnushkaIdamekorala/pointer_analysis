@@ -1,0 +1,15 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/MultiSource/Benchmarks/DOE-ProxyApps-C++/PENNANT/PENNANT  :
+section               size         addr
+__text               53296   4294972068
+__stubs                876   4295025364
+__const                541   4295026240
+__gcc_except_tab      2916   4295026784
+__cstring             1506   4295029700
+__unwind_info         1612   4295031208
+__got                  752   4295032832
+__const                952   4295033584
+__data                   4   4295049216
+__common                 4   4295049220
+Total                62459
+
+

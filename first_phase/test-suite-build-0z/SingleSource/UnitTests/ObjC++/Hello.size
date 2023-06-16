@@ -1,0 +1,24 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/SingleSource/UnitTests/ObjC++/Hello  :
+section              size         addr
+__text                452   4294982760
+__stubs               108   4294983212
+__objc_methlist        56   4294983320
+__gcc_except_tab       20   4294983376
+__objc_methname        75   4294983396
+__objc_classname        9   4294983471
+__objc_methtype        47   4294983480
+__cstring              30   4294983527
+__unwind_info         116   4294983560
+__got                  80   4294983680
+__cfstring             32   4294983760
+__objc_classlist        8   4294983792
+__objc_imageinfo        8   4294983800
+__objc_const          184   4295000064
+__objc_selrefs         48   4295000248
+__objc_classrefs       24   4295000296
+__objc_superrefs        8   4295000320
+__objc_ivar             4   4295000328
+__objc_data            80   4295000336
+Total                1389
+
+

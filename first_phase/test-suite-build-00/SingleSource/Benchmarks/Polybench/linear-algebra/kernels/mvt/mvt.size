@@ -1,0 +1,11 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/SingleSource/Benchmarks/Polybench/linear-algebra/kernels/mvt/mvt  :
+section           size         addr
+__text            2736   4294980632
+__stubs             72   4294983368
+__const             16   4294983440
+__cstring          119   4294983456
+__unwind_info      100   4294983576
+__got               56   4294983680
+Total             3099
+
+

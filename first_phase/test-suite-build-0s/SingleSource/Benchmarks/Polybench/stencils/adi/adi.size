@@ -1,0 +1,11 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/SingleSource/Benchmarks/Polybench/stencils/adi/adi  :
+section           size         addr
+__text            1132   4294982284
+__stubs             72   4294983416
+__const             48   4294983488
+__cstring           51   4294983536
+__unwind_info       80   4294983588
+__got               56   4294983680
+Total             1439
+
+

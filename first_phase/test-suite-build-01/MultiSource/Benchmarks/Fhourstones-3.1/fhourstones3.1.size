@@ -1,0 +1,11 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/MultiSource/Benchmarks/Fhourstones-3.1/fhourstones3.1  :
+section           size         addr
+__text            3284   4294980048
+__stubs             60   4294983332
+__cstring          206   4294983392
+__unwind_info       80   4294983600
+__got               48   4294983680
+__bss              632   4295000064
+Total             4310
+
+

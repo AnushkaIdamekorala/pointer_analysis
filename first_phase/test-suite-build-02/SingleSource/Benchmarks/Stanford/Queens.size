@@ -1,0 +1,10 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/SingleSource/Benchmarks/Stanford/Queens  :
+section           size         addr
+__text             580   4294982968
+__stubs             36   4294983548
+__cstring           22   4294983584
+__unwind_info       72   4294983608
+__got               32   4294983680
+Total              742
+
+

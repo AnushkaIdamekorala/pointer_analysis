@@ -1,0 +1,16 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/MultiSource/Benchmarks/PAQ8p/paq8p  :
+section                size         addr
+__text               107940   4294983396
+__stubs                1764   4295091336
+__init_offsets            4   4295093100
+__gcc_except_tab       1352   4295093104
+__const                1388   4295094456
+__cstring              1453   4295095844
+__unwind_info          1064   4295097300
+__got                  1376   4295098368
+__data                   57   4295114752
+__common                136   4295114816
+__bss                409120   4295114952
+Total                525654
+
+

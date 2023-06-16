@@ -1,0 +1,10 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/SingleSource/Regression/C/gcc-c-torture/execute/ieee/GCC-C-execute-ieee-fp-cmp-8f  :
+section           size         addr
+__text             184   4294982952
+__stubs             24   4294983136
+__const            448   4294983160
+__unwind_info       72   4294983608
+__got               16   4294983680
+Total              744
+
+

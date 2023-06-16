@@ -1,0 +1,14 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/MultiSource/Applications/lua/lua  :
+section             size         addr
+__text            153740   4294983512
+__stubs             1164   4295137252
+__const             1056   4295138416
+__cstring           6767   4295139472
+__unwind_info       1276   4295146240
+__got                808   4295147520
+__const             3208   4295148328
+__data                 8   4295163904
+__bss                  8   4295163912
+Total             168035
+
+

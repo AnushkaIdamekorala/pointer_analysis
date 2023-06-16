@@ -1,0 +1,13 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/MultiSource/Benchmarks/VersaBench/beamformer/beamformer  :
+section           size         addr
+__text            2944   4294980436
+__stubs            108   4294983380
+__const             24   4294983488
+__cstring           67   4294983512
+__unwind_info       96   4294983580
+__got               96   4294983680
+__data               4   4295000064
+__bss             8192   4295000068
+Total            11531
+
+

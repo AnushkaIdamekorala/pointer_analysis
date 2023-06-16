@@ -1,0 +1,14 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/SingleSource/Benchmarks/Misc-C++/bigfib  :
+section               size         addr
+__text               30364   4294982424
+__stubs               1020   4295012788
+__gcc_except_tab       880   4295013808
+__cstring              279   4295014688
+__const                136   4295014967
+__unwind_info         1344   4295015104
+__got                  808   4295016448
+__const                368   4295017256
+__common                 8   4295032832
+Total                35207
+
+

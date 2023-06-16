@@ -1,0 +1,13 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/MultiSource/Benchmarks/ASCI_Purple/SMG2000/smg2000  :
+section             size         addr
+__text            159392   4294985772
+__stubs              228   4295145164
+__const              264   4295145392
+__cstring           1251   4295145656
+__unwind_info        352   4295146908
+__eh_frame           244   4295147264
+__got                168   4295147520
+__bss                 16   4295163904
+Total             161915
+
+

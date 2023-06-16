@@ -1,0 +1,14 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/SingleSource/Benchmarks/CoyoteBench/fftbench  :
+section               size         addr
+__text               13028   4294985276
+__stubs                708   4294998304
+__gcc_except_tab       356   4294999012
+__const                130   4294999368
+__cstring               74   4294999498
+__unwind_info          492   4294999572
+__got                  544   4295000064
+__const                 96   4295000608
+__data                   8   4295016448
+Total                15436
+
+

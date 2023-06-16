@@ -1,0 +1,11 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/SingleSource/UnitTests/2006-02-04-DivRem  :
+section           size         addr
+__text             296   4294983284
+__stubs             12   4294983580
+__cstring           13   4294983592
+__unwind_info       72   4294983608
+__got                8   4294983680
+__bss                4   4295000064
+Total              405
+
+

@@ -1,0 +1,13 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/MultiSource/Benchmarks/Prolangs-C/agrep/agrep  :
+section              size         addr
+__text              68640   4294977528
+__stubs               312   4295046168
+__const               216   4295046480
+__cstring            2287   4295046696
+__unwind_info         232   4295048984
+__got                 232   4295049216
+__data                 32   4295065600
+__bss             1591397   4295065632
+Total             1663348
+
+

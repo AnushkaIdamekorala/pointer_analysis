@@ -1,0 +1,10 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/SingleSource/UnitTests/2002-10-12-StructureArgs  :
+section           size         addr
+__text              84   4294983496
+__stubs             12   4294983580
+__cstring           16   4294983592
+__unwind_info       72   4294983608
+__got                8   4294983680
+Total              192
+
+

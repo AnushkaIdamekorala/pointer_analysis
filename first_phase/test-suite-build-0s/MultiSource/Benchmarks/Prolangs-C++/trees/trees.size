@@ -1,0 +1,14 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/MultiSource/Benchmarks/Prolangs-C++/trees/trees  :
+section              size         addr
+__text               3616   4294979592
+__stubs                36   4294983208
+__gcc_except_tab      144   4294983244
+__const                44   4294983388
+__cstring              10   4294983432
+__unwind_info         236   4294983444
+__got                  32   4294983680
+__const               208   4294983712
+__common               12   4295000064
+Total                4338
+
+

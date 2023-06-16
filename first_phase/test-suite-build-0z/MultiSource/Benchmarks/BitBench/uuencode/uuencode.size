@@ -1,0 +1,10 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/MultiSource/Benchmarks/BitBench/uuencode/uuencode  :
+section           size         addr
+__text             740   4294982668
+__stubs            120   4294983408
+__cstring           62   4294983528
+__unwind_info       88   4294983592
+__got               88   4294983680
+Total             1098
+
+

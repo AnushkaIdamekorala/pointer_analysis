@@ -1,0 +1,10 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/SingleSource/Benchmarks/Shootout-C++/Shootout-C++-nestedloop  :
+section              size         addr
+__text                200   4294983280
+__stubs                96   4294983480
+__gcc_except_tab       20   4294983576
+__unwind_info          84   4294983596
+__got                  88   4294983680
+Total                 488
+
+

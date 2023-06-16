@@ -1,0 +1,10 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/SingleSource/UnitTests/2007-01-04-KNR-Args  :
+section           size         addr
+__text             392   4294983176
+__stubs             12   4294983568
+__cstring           25   4294983580
+__unwind_info       72   4294983608
+__got                8   4294983680
+Total              509
+
+

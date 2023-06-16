@@ -1,0 +1,15 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/SingleSource/UnitTests/ObjC/for-in  :
+section              size         addr
+__text               1316   4294981140
+__stubs                72   4294982456
+__cstring            1002   4294982528
+__objc_methname        75   4294983530
+__unwind_info          72   4294983608
+__got                  56   4294983680
+__cfstring           2112   4294983736
+__objc_imageinfo        8   4294985848
+__objc_selrefs         32   4295000064
+__objc_classrefs       16   4295000096
+Total                4761
+
+

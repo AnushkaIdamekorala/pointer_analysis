@@ -1,0 +1,10 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/MultiSource/Benchmarks/BitBench/drop3/drop3  :
+section           size         addr
+__text            1172   4294982300
+__stubs             96   4294983472
+__cstring           31   4294983568
+__unwind_info       80   4294983600
+__got               72   4294983680
+Total             1451
+
+

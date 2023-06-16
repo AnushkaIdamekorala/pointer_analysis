@@ -1,0 +1,12 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/SingleSource/Benchmarks/Shootout-C++/Shootout-C++-heapsort  :
+section           size         addr
+__text             752   4294982776
+__stubs             48   4294983528
+__const              8   4294983576
+__cstring            7   4294983584
+__unwind_info       88   4294983592
+__got               32   4294983680
+__data               8   4295000064
+Total              943
+
+

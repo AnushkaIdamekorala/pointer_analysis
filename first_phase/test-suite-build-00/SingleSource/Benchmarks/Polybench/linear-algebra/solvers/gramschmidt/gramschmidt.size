@@ -1,0 +1,10 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/SingleSource/Benchmarks/Polybench/linear-algebra/solvers/gramschmidt/gramschmidt  :
+section           size         addr
+__text            2224   4294981252
+__stubs             48   4294983476
+__cstring           61   4294983524
+__unwind_info       92   4294983588
+__got               40   4294983680
+Total             2465
+
+

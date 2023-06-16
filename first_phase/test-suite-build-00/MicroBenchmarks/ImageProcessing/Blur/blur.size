@@ -1,0 +1,17 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/MicroBenchmarks/ImageProcessing/Blur/blur  :
+section                size         addr
+__text               443148   4294978468
+__stubs                1884   4295421616
+__init_offsets           80   4295423500
+__gcc_except_tab      11036   4295423580
+__const                4920   4295434616
+__cstring              4474   4295439536
+__unwind_info         14800   4295444012
+__got                  1568   4295458816
+__const                3904   4295460384
+__data                   40   4295475200
+__bss                  1696   4295475240
+__common                392   4295476936
+Total                487942
+
+

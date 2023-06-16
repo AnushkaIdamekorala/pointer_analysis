@@ -1,0 +1,11 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/SingleSource/Benchmarks/Stanford/Treesort  :
+section            size         addr
+__text              560   4294982984
+__stubs              36   4294983544
+__cstring            20   4294983580
+__unwind_info        80   4294983600
+__got                24   4294983680
+__bss             20024   4295000064
+Total             20744
+
+

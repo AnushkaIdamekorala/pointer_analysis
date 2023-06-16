@@ -1,0 +1,11 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/SingleSource/Benchmarks/Polybench/linear-algebra/kernels/doitgen/doitgen  :
+section           size         addr
+__text            3148   4294980220
+__stubs             72   4294983368
+__const              8   4294983440
+__cstring          135   4294983448
+__unwind_info       92   4294983584
+__got               56   4294983680
+Total             3511
+
+

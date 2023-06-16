@@ -1,0 +1,11 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/SingleSource/UnitTests/C++11/stdthreadbug  :
+section              size         addr
+__text                476   4294982860
+__stubs               132   4294983336
+__gcc_except_tab       52   4294983468
+__cstring              26   4294983520
+__unwind_info         132   4294983548
+__got                  96   4294983680
+Total                 914
+
+

@@ -1,0 +1,13 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/MultiSource/Benchmarks/TSVC/ControlFlow-flt/ControlFlow-flt  :
+section              size         addr
+__text              10244   4294972016
+__stubs                84   4294982260
+__const                36   4294982344
+__cstring            1195   4294982380
+__unwind_info         104   4294983576
+__got                  56   4294983680
+__data                  8   4295000064
+__bss             2079176   4295000080
+Total             2090903
+
+

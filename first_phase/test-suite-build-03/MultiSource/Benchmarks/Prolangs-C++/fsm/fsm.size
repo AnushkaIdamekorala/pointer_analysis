@@ -1,0 +1,13 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/MultiSource/Benchmarks/Prolangs-C++/fsm/fsm  :
+section           size         addr
+__text            2064   4294981332
+__stubs             84   4294983396
+__cstring           78   4294983480
+__const             13   4294983558
+__unwind_info      108   4294983572
+__got               72   4294983680
+__const            104   4294983752
+__data              36   4295000064
+Total             2559
+
+

@@ -1,0 +1,9 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/SingleSource/Regression/C/gcc-c-torture/execute/GCC-C-execute-loop-12  :
+section           size         addr
+__text             216   4294983372
+__cstring            5   4294983588
+__unwind_info       84   4294983596
+__bss                8   4294983680
+Total              313
+
+

@@ -1,0 +1,12 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/MultiSource/Benchmarks/McCat/05-eks/eks  :
+section           size         addr
+__text            3424   4294980068
+__stubs             96   4294983492
+__const              4   4294983588
+__cstring            7   4294983592
+__unwind_info       80   4294983600
+__got               80   4294983680
+__bss               16   4295000064
+Total             3707
+
+

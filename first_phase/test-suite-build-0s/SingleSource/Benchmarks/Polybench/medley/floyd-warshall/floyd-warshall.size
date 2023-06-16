@@ -1,0 +1,11 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/SingleSource/Benchmarks/Polybench/medley/floyd-warshall/floyd-warshall  :
+section           size         addr
+__text             956   4294982352
+__stubs             84   4294983308
+__const             72   4294983392
+__cstring          127   4294983464
+__unwind_info       80   4294983592
+__got               64   4294983680
+Total             1383
+
+

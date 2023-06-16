@@ -1,0 +1,12 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/MultiSource/Benchmarks/MiBench/telecomm-FFT/telecomm-fft  :
+section           size         addr
+__text            3064   4294980080
+__stubs            144   4294983144
+__const              8   4294983288
+__cstring          311   4294983296
+__unwind_info       72   4294983608
+__got              104   4294983680
+__data               8   4295000064
+Total             3711
+
+

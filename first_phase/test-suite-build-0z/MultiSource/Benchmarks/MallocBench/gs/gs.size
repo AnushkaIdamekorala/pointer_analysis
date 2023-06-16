@@ -1,0 +1,14 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/MultiSource/Benchmarks/MallocBench/gs/gs  :
+section            size         addr
+__text            95700   4294977652
+__stubs             552   4295073352
+__const             896   4295073904
+__cstring          5738   4295074800
+__unwind_info      1444   4295080540
+__got               400   4295081984
+__const            1352   4295082384
+__data             5144   4295098368
+__bss             15344   4295103512
+Total            126570
+
+

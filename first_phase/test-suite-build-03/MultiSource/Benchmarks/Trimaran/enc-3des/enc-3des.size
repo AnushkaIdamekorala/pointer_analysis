@@ -1,0 +1,12 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/MultiSource/Benchmarks/Trimaran/enc-3des/enc-3des  :
+section            size         addr
+__text            10476   4294984960
+__stubs              60   4294995436
+__const            4352   4294995496
+__cstring           116   4294999848
+__unwind_info        96   4294999964
+__got                48   4295000064
+__data               72   4295016448
+Total             15220
+
+

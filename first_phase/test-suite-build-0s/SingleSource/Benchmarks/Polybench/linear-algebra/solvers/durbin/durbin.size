@@ -1,0 +1,11 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/SingleSource/Benchmarks/Polybench/linear-algebra/solvers/durbin/durbin  :
+section           size         addr
+__text            1284   4294982092
+__stubs             72   4294983376
+__const             16   4294983448
+__cstring          127   4294983464
+__unwind_info       88   4294983592
+__got               56   4294983680
+Total             1643
+
+

@@ -1,0 +1,11 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/SingleSource/Regression/C/Regression-C-sumarraymalloc  :
+section           size         addr
+__text             540   4294982980
+__stubs             48   4294983520
+__const             16   4294983568
+__cstring           22   4294983584
+__unwind_info       72   4294983608
+__got               32   4294983680
+Total              730
+
+

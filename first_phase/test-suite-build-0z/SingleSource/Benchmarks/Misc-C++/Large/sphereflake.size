@@ -1,0 +1,14 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/SingleSource/Benchmarks/Misc-C++/Large/sphereflake  :
+section              size         addr
+__text               3936   4294978924
+__stubs               240   4294982860
+__init_offsets          4   4294983100
+__const               216   4294983104
+__gcc_except_tab       96   4294983320
+__cstring              12   4294983416
+__unwind_info         240   4294983428
+__got                 192   4294983680
+__bss                  40   4295000064
+Total                4976
+
+

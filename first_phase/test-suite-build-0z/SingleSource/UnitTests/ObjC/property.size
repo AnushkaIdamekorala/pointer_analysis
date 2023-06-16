@@ -1,0 +1,25 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/SingleSource/UnitTests/ObjC/property  :
+section              size         addr
+__text               1716   4294980324
+__stubs               120   4294982040
+__objc_methlist       316   4294982160
+__const                64   4294982480
+__objc_classname       19   4294982544
+__objc_methname       236   4294982563
+__objc_methtype        87   4294982799
+__cstring             640   4294982886
+__unwind_info         140   4294983528
+__got                  80   4294983680
+__objc_classlist       16   4294983760
+__objc_catlist          0   4294983776
+__objc_protolist        8   4294983776
+__objc_imageinfo        8   4294983784
+__objc_const          880   4295000064
+__objc_selrefs        200   4295000944
+__objc_classrefs       24   4295001144
+__objc_ivar            40   4295001168
+__objc_data           160   4295001208
+__data                 96   4295001368
+Total                4850
+
+

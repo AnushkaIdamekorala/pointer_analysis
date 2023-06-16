@@ -1,0 +1,12 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/SingleSource/Benchmarks/Linpack/linpack-pc  :
+section             size         addr
+__text              7584   4294975140
+__stubs               60   4294982724
+__cstring            728   4294982784
+__unwind_info         88   4294983512
+__eh_frame            76   4294983600
+__got                 48   4294983680
+__bss             323764   4295000064
+Total             332348
+
+

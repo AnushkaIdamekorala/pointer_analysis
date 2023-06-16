@@ -1,0 +1,14 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/MultiSource/Benchmarks/Prolangs-C/loader/loader  :
+section           size         addr
+__text            5564   4294976368
+__stubs            216   4294981932
+__const             10   4294982148
+__cstring         1388   4294982158
+__unwind_info      132   4294983548
+__got              152   4294983680
+__data               5   4295000064
+__common             9   4295000080
+__bss              161   4295000096
+Total             7637
+
+

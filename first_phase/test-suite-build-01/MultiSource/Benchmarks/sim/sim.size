@@ -1,0 +1,12 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/MultiSource/Benchmarks/sim/sim  :
+section            size         addr
+__text            12064   4294970420
+__stubs             204   4294982484
+__const              48   4294982688
+__cstring           834   4294982736
+__unwind_info       108   4294983572
+__got               152   4294983680
+__bss               544   4295000064
+Total             13954
+
+

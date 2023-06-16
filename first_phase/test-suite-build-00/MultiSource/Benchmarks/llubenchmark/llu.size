@@ -1,0 +1,12 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/MultiSource/Benchmarks/llubenchmark/llu  :
+section           size         addr
+__text            1568   4294981472
+__stubs             48   4294983040
+__const             21   4294983088
+__cstring          498   4294983109
+__unwind_info       72   4294983608
+__got               32   4294983680
+__bss                4   4295000064
+Total             2243
+
+

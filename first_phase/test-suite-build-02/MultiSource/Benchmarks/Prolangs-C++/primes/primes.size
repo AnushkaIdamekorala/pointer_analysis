@@ -1,0 +1,12 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/MultiSource/Benchmarks/Prolangs-C++/primes/primes  :
+section           size         addr
+__text             340   4294983180
+__stubs             36   4294983520
+__cstring            4   4294983556
+__const             30   4294983560
+__unwind_info       88   4294983592
+__got               32   4294983680
+__const            160   4294983712
+Total              690
+
+

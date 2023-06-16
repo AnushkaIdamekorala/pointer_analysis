@@ -1,0 +1,13 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/MultiSource/Benchmarks/TSVC/Packing-flt/Packing-flt  :
+section              size         addr
+__text              31340   4294983876
+__stubs                96   4295015216
+__const               128   4295015312
+__cstring             923   4295015440
+__unwind_info          72   4295016364
+__got                  64   4295016448
+__data                  8   4295032832
+__bss             1951176   4295032848
+Total             1983807
+
+

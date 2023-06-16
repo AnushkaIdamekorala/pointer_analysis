@@ -1,0 +1,11 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/SingleSource/Benchmarks/Polybench/linear-algebra/kernels/gemm/gemm  :
+section           size         addr
+__text            1084   4294982208
+__stubs             84   4294983292
+__const             80   4294983376
+__cstring          127   4294983456
+__unwind_info       88   4294983584
+__got               64   4294983680
+Total             1527
+
+

@@ -1,0 +1,22 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/SingleSource/UnitTests/ObjC/instance-method-metadata  :
+section              size         addr
+__text                124   4294983316
+__stubs                24   4294983440
+__objc_methlist        64   4294983464
+__objc_classname       14   4294983528
+__objc_methname        32   4294983542
+__objc_methtype        21   4294983574
+__unwind_info          80   4294983596
+__got                  16   4294983680
+__objc_classlist       16   4294983696
+__objc_protolist        8   4294983712
+__objc_imageinfo        8   4294983720
+__objc_const          560   4295000064
+__objc_selrefs         24   4295000624
+__objc_classrefs       16   4295000648
+__objc_ivar             8   4295000664
+__objc_data           160   4295000672
+__data                 96   4295000832
+Total                1271
+
+

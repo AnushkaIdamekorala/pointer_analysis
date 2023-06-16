@@ -1,0 +1,12 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/MultiSource/Applications/hexxagon/hexxagon  :
+section               size         addr
+__text               11776   4294983816
+__stubs                372   4294995592
+__gcc_except_tab       160   4294995964
+__cstring             3633   4294996124
+__unwind_info          304   4294999760
+__got                  288   4295000064
+__common                17   4295016448
+Total                16550
+
+

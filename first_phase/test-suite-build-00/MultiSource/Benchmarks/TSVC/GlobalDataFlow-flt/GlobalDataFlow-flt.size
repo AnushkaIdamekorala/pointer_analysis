@@ -1,0 +1,13 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/MultiSource/Benchmarks/TSVC/GlobalDataFlow-flt/GlobalDataFlow-flt  :
+section              size         addr
+__text              23036   4294975764
+__stubs                72   4294998800
+__const                16   4294998872
+__cstring            1025   4294998888
+__unwind_info         148   4294999916
+__got                  48   4295000064
+__data                  8   4295016448
+__bss             2079192   4295016464
+Total             2103545
+
+

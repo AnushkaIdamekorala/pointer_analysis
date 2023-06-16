@@ -1,0 +1,14 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/MultiSource/Benchmarks/McCat/18-imp/imp  :
+section           size         addr
+__text            7576   4294975220
+__stubs            336   4294982796
+__const              4   4294983132
+__cstring          443   4294983136
+__unwind_info      100   4294983580
+__got              240   4294983680
+__const            520   4294983920
+__data              44   4295000064
+__bss              808   4295000112
+Total            10071
+
+

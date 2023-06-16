@@ -1,0 +1,12 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/SingleSource/Regression/C++/EH/Regression-C++-function_try_block  :
+section              size         addr
+__text                724   4294982416
+__stubs               108   4294983140
+__gcc_except_tab      116   4294983248
+__cstring             170   4294983364
+__unwind_info         144   4294983536
+__got                  88   4294983680
+__bss                   8   4295000064
+Total                1358
+
+

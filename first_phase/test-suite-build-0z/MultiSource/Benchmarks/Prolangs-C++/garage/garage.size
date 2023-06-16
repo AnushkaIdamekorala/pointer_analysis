@@ -1,0 +1,15 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/MultiSource/Benchmarks/Prolangs-C++/garage/garage  :
+section              size         addr
+__text               1416   4294981808
+__stubs                96   4294983224
+__init_offsets          4   4294983320
+__gcc_except_tab       20   4294983324
+__cstring             159   4294983344
+__const                21   4294983503
+__unwind_info         156   4294983524
+__got                 112   4294983680
+__const               136   4294983792
+__common              160   4295000064
+Total                2280
+
+

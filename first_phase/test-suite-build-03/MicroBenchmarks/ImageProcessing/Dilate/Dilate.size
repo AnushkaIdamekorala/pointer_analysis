@@ -1,0 +1,17 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/MicroBenchmarks/ImageProcessing/Dilate/Dilate  :
+section                size         addr
+__text               177584   4294983972
+__stubs                1644   4295161556
+__init_offsets           80   4295163200
+__gcc_except_tab       6904   4295163280
+__cstring              4312   4295170184
+__const                2534   4295174496
+__unwind_info          3252   4295177032
+__got                  1408   4295180288
+__const                3872   4295181696
+__data                   40   4295196672
+__common                392   4295196712
+__bss                  1580   4295197104
+Total                203602
+
+

@@ -1,0 +1,14 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/MultiSource/Benchmarks/mediabench/mpeg2/mpeg2dec/mpeg2decode  :
+section            size         addr
+__text            43020   4294982160
+__stubs             324   4295025180
+__const            3306   4295025504
+__cstring          3623   4295028810
+__unwind_info       200   4295032436
+__eh_frame          188   4295032640
+__got               240   4295032832
+__data               73   4295049216
+__bss             16913   4295049296
+Total             67887
+
+

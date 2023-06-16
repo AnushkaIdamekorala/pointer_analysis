@@ -1,0 +1,11 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/MultiSource/Benchmarks/Ptrdist/yacr2/yacr2  :
+section            size         addr
+__text            30748   4294984744
+__stubs             132   4295015492
+__cstring           677   4295015624
+__unwind_info       144   4295016304
+__got               104   4295016448
+__bss               320   4295032832
+Total             32125
+
+

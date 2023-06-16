@@ -1,0 +1,12 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/SingleSource/UnitTests/Threads/tls  :
+section           size         addr
+__text             180   4294983348
+__stubs             36   4294983528
+__cstring           28   4294983564
+__unwind_info       88   4294983592
+__got               24   4294983680
+__thread_vars       24   4295000064
+__thread_data        8   4295000088
+Total              388
+
+

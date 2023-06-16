@@ -1,0 +1,11 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/MultiSource/Benchmarks/VersaBench/bmm/bmm  :
+section               size         addr
+__text                1452   4294981992
+__stubs                 36   4294983444
+__cstring               98   4294983480
+__unwind_info          100   4294983580
+__got                   24   4294983680
+__bss             12582920   4295000064
+Total             12584630
+
+

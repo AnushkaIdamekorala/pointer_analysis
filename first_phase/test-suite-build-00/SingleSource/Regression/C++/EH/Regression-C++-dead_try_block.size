@@ -1,0 +1,11 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/SingleSource/Regression/C++/EH/Regression-C++-dead_try_block  :
+section              size         addr
+__text                108   4294983416
+__stubs                36   4294983524
+__gcc_except_tab       20   4294983560
+__cstring               8   4294983580
+__unwind_info          92   4294983588
+__got                  32   4294983680
+Total                 296
+
+

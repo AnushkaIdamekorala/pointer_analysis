@@ -1,0 +1,11 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/SingleSource/Benchmarks/CoyoteBench/huffbench  :
+section           size         addr
+__text            1848   4294981472
+__stubs            120   4294983320
+__cstring          157   4294983440
+__unwind_info       80   4294983600
+__got              104   4294983680
+__data               8   4295000064
+Total             2317
+
+

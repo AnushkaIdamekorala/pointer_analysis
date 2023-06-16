@@ -1,0 +1,12 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/MultiSource/Benchmarks/Prolangs-C/bison/mybison  :
+section            size         addr
+__text            43836   4294983040
+__stubs             420   4295026876
+__const             656   4295027296
+__cstring          4705   4295027952
+__unwind_info       160   4295032660
+__got               312   4295032832
+__bss              2052   4295049216
+Total             52141
+
+

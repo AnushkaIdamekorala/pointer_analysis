@@ -1,0 +1,13 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/SingleSource/Regression/C++/EH/Regression-C++-class_hierarchy  :
+section              size         addr
+__text                828   4294982328
+__stubs               156   4294983156
+__gcc_except_tab      104   4294983312
+__const                32   4294983416
+__cstring              78   4294983448
+__unwind_info         152   4294983528
+__got                 224   4294983680
+__const               256   4294983904
+Total                1830
+
+

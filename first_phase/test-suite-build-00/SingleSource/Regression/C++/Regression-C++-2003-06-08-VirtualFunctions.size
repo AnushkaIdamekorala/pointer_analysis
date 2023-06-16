@@ -1,0 +1,10 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/SingleSource/Regression/C++/Regression-C++-2003-06-08-VirtualFunctions  :
+section           size         addr
+__text             188   4294983396
+__const             10   4294983584
+__unwind_info       84   4294983596
+__got               16   4294983680
+__const             88   4294983696
+Total              386
+
+

@@ -1,0 +1,12 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/MultiSource/Benchmarks/MiBench/office-stringsearch/office-stringsearch  :
+section            size         addr
+__text              424   4294978984
+__stubs              48   4294979408
+__cstring          4151   4294979456
+__unwind_info        72   4294983608
+__got                32   4294983680
+__const           21320   4294983712
+__bss              2056   4295016448
+Total             28103
+
+

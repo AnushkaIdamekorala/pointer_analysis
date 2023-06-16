@@ -1,0 +1,13 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/MultiSource/Benchmarks/TSVC/CrossingThresholds-dbl/CrossingThresholds-dbl  :
+section              size         addr
+__text               7772   4294974692
+__stubs                72   4294982464
+__const                40   4294982536
+__cstring             997   4294982576
+__unwind_info         104   4294983576
+__got                  48   4294983680
+__data                  8   4295000064
+__bss             3901968   4295000096
+Total             3911009
+
+

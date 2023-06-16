@@ -1,0 +1,13 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/MultiSource/Benchmarks/DOE-ProxyApps-C++/HACCKernels/HACCKernels  :
+section              size         addr
+__text               2892   4294979920
+__stubs               288   4294982812
+__const                84   4294983100
+__gcc_except_tab      176   4294983184
+__cstring              93   4294983360
+__unwind_info         224   4294983456
+__got                 256   4294983680
+__data                 32   4295000064
+Total                4045
+
+

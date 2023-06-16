@@ -1,0 +1,11 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/SingleSource/UnitTests/2003-08-11-VaListArg  :
+section           size         addr
+__text             936   4294982464
+__stubs             12   4294983400
+__const             10   4294983412
+__cstring          165   4294983422
+__unwind_info       92   4294983588
+__got                8   4294983680
+Total             1223
+
+

@@ -1,0 +1,9 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/SingleSource/Regression/C/gcc-c-torture/execute/GCC-C-execute-string-opt-18  :
+section           size         addr
+__text             576   4294982940
+__stubs             84   4294983516
+__unwind_info       80   4294983600
+__got               64   4294983680
+Total              804
+
+

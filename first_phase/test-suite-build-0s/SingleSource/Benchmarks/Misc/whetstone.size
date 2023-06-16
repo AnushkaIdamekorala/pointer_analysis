@@ -1,0 +1,12 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/SingleSource/Benchmarks/Misc/whetstone  :
+section           size         addr
+__text            1576   4294981764
+__stubs            132   4294983340
+__const             48   4294983472
+__cstring           75   4294983520
+__unwind_info       72   4294983596
+__got               96   4294983680
+__bss               72   4295000064
+Total             2071
+
+

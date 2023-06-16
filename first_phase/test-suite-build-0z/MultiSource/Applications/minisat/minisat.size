@@ -1,0 +1,13 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/MultiSource/Applications/minisat/minisat  :
+section               size         addr
+__text               13912   4294983408
+__stubs                336   4294997320
+__gcc_except_tab       412   4294997656
+__cstring             1388   4294998068
+__const                104   4294999456
+__unwind_info          492   4294999560
+__got                  256   4295000064
+__common                 8   4295016448
+Total                16908
+
+

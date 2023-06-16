@@ -1,0 +1,17 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/MicroBenchmarks/LoopInterchange/LoopInterchange  :
+section                 size         addr
+__text                174016   4294971328
+__stubs                 1632   4295145344
+__init_offsets            80   4295146976
+__const                 2566   4295147056
+__gcc_except_tab        6796   4295149624
+__cstring               4261   4295156420
+__unwind_info           3220   4295160684
+__got                   1408   4295163904
+__const                 3872   4295165312
+__data                    40   4295180288
+__common             4194696   4295180328
+__bss                    200   4299375024
+Total                4392787
+
+

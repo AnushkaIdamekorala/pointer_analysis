@@ -1,0 +1,12 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/MultiSource/Benchmarks/Trimaran/enc-rc4/enc-rc4  :
+section           size         addr
+__text             592   4294982636
+__stubs             84   4294983228
+__const            226   4294983312
+__cstring           58   4294983538
+__unwind_info       72   4294983596
+__got               64   4294983680
+__data             420   4295000064
+Total             1516
+
+

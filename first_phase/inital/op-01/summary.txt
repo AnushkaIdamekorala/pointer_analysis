@@ -1,0 +1,10 @@
+
+--basic-aa no 15961457 partial 168463 may 63448028 must 238025 time 114 memory   9776
+--tbaa no 15961457 partial 168463 may 63448028 must 238025 time 116 memory   9824
+--globals-aa no 16850691 partial 168463 may 62558794 must 238025 time 127 memory   9840
+--scev-aa no 16098960 partial 168510 may 63309299 must 239204 time 144 memory   9840
+--objc-arc-aa no 15961457 partial 168463 may 63448028 must 238025 time 120 memory   9840
+--cfl-steens-aa no 16097056 partial 168510 may 63312361 must 238046 time 119 memory  10560
+--external-aa no 15961457 partial 168463 may 63448028 must 238025 time 112 memory  10560
+--scoped-noalias-aa no 15961457 partial 168463 may 63448028 must 238025 time 116 memory  10576
+--cfl-anders-aa no 15526702 partial 155292 may 60467646 must 195891 time 889 memory  10576

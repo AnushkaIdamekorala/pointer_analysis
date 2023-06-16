@@ -1,0 +1,2 @@
+RUN: cd %S ; %S/Hello 
+VERIFY: %b/fpcmp-target %o %S/Hello.reference_output

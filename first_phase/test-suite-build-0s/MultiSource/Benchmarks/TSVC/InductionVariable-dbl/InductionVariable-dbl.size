@@ -1,0 +1,13 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/MultiSource/Benchmarks/TSVC/InductionVariable-dbl/InductionVariable-dbl  :
+section              size         addr
+__text              25344   4294973392
+__stubs                96   4294998736
+__const               144   4294998832
+__cstring            1007   4294998976
+__unwind_info          80   4294999984
+__got                  64   4295000064
+__data                  8   4295016448
+__bss             3901960   4295016480
+Total             3928703
+
+

@@ -1,0 +1,11 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/MultiSource/Benchmarks/Prolangs-C++/vcirc/vcirc  :
+section           size         addr
+__text             984   4294982552
+__stubs             12   4294983536
+__const             25   4294983548
+__unwind_info      104   4294983576
+__got                8   4294983680
+__const            144   4294983688
+Total             1277
+
+

@@ -1,0 +1,14 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/SingleSource/UnitTests/Vectorizer/gcc-loops  :
+section                size         addr
+__text                 5416   4294976848
+__stubs                 312   4294982264
+__const                  16   4294982576
+__gcc_except_tab        548   4294982592
+__cstring               203   4294983140
+__unwind_info           252   4294983344
+__eh_frame               80   4294983600
+__got                   272   4294983680
+__common             229376   4295000064
+Total                236475
+
+

@@ -1,0 +1,17 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/MicroBenchmarks/harris/harris  :
+section                size         addr
+__text               166632   4294978660
+__stubs                1644   4295145292
+__init_offsets           80   4295146936
+__gcc_except_tab       6768   4295147016
+__cstring              4279   4295153784
+__const                2507   4295158064
+__unwind_info          3328   4295160572
+__got                  1408   4295163904
+__const                3952   4295165312
+__data                   40   4295180288
+__common                392   4295180328
+__bss                   192   4295180720
+Total                191222
+
+

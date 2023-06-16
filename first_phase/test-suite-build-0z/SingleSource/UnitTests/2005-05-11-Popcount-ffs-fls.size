@@ -1,0 +1,12 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/SingleSource/UnitTests/2005-05-11-Popcount-ffs-fls  :
+section           size         addr
+__text             688   4294982388
+__stubs             24   4294983076
+__const            128   4294983100
+__cstring          361   4294983228
+__unwind_info       88   4294983592
+__got               16   4294983680
+__bss                4   4295000064
+Total             1309
+
+

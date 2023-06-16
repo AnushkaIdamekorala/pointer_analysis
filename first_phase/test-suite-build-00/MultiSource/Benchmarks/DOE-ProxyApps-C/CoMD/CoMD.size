@@ -1,0 +1,13 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/MultiSource/Benchmarks/DOE-ProxyApps-C/CoMD/CoMD  :
+section            size         addr
+__text            38684   4294973092
+__stubs             336   4295011776
+__const             234   4295012112
+__cstring          3719   4295012346
+__unwind_info       376   4295016068
+__got               248   4295016448
+__data               12   4295032832
+__bss               808   4295032848
+Total             44417
+
+

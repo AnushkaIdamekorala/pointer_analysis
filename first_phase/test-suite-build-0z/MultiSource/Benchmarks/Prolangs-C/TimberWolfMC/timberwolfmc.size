@@ -1,0 +1,14 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/MultiSource/Benchmarks/Prolangs-C/TimberWolfMC/timberwolfmc  :
+section             size         addr
+__text            144860   4294972548
+__stubs              336   4295117408
+__const              452   4295117744
+__cstring          12261   4295118196
+__unwind_info        428   4295130460
+__eh_frame           244   4295130888
+__got                248   4295131136
+__common               8   4295147520
+__bss               4104   4295147536
+Total             162941
+
+

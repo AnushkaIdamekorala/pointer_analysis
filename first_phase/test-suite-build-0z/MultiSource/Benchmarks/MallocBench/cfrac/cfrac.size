@@ -1,0 +1,13 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/MultiSource/Benchmarks/MallocBench/cfrac/cfrac  :
+section            size         addr
+__text            13556   4294985392
+__stubs             252   4294998948
+__const              24   4294999200
+__cstring           656   4294999224
+__unwind_info       184   4294999880
+__got               200   4295000064
+__data            13152   4295016448
+__bss                40   4295029600
+Total             28064
+
+

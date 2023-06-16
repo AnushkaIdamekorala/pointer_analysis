@@ -1,0 +1,10 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/SingleSource/UnitTests/SignlessTypes/div  :
+section           size         addr
+__text            1104   4294982100
+__stubs             12   4294983204
+__cstring          382   4294983216
+__unwind_info       80   4294983600
+__got                8   4294983680
+Total             1586
+
+

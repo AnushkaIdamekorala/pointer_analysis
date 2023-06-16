@@ -1,0 +1,11 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/SingleSource/UnitTests/2006-01-23-UnionInit  :
+section            size         addr
+__text              408   4294982924
+__stubs              24   4294983332
+__cstring           250   4294983356
+__unwind_info        72   4294983608
+__got                16   4294983680
+__data            16488   4295000064
+Total             17258
+
+

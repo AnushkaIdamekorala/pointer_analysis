@@ -1,0 +1,14 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/MultiSource/Benchmarks/Prolangs-C++/office/office  :
+section              size         addr
+__text               2344   4294980520
+__stubs               192   4294982864
+__gcc_except_tab       92   4294983056
+__cstring             328   4294983148
+__const                58   4294983476
+__unwind_info         144   4294983536
+__got                 152   4294983680
+__const               208   4294983832
+__common               32   4295000064
+Total                3550
+
+

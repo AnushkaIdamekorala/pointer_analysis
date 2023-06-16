@@ -1,0 +1,11 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/MultiSource/Benchmarks/Rodinia/srad/srad  :
+section           size         addr
+__text            3264   4294980288
+__stubs             48   4294983552
+__cstring            6   4294983600
+__unwind_info       72   4294983608
+__got               32   4294983680
+__bss             1380   4295000064
+Total             4802
+
+

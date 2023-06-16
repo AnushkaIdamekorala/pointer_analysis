@@ -1,0 +1,13 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/SingleSource/Benchmarks/Shootout-C++/Shootout-C++-methcall  :
+section              size         addr
+__text               4284   4294978636
+__stubs               300   4294982920
+__gcc_except_tab      140   4294983220
+__cstring              11   4294983360
+__const                19   4294983371
+__unwind_info         288   4294983392
+__got                 248   4294983680
+__const               120   4294983928
+Total                5410
+
+

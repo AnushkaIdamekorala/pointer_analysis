@@ -1,0 +1,17 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/SingleSource/UnitTests/ObjC/bitfield-access  :
+section              size         addr
+__text                144   4294983416
+__stubs                24   4294983560
+__objc_classname        3   4294983584
+__objc_methname         4   4294983587
+__objc_methtype         7   4294983591
+__unwind_info          80   4294983600
+__got                  16   4294983680
+__objc_classlist        8   4294983696
+__objc_imageinfo        8   4294983704
+__objc_const          216   4295000064
+__objc_ivar             8   4295000280
+__objc_data            80   4295000288
+Total                 598
+
+

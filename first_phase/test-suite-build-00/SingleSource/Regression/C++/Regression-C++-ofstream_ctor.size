@@ -1,0 +1,12 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/SingleSource/Regression/C++/Regression-C++-ofstream_ctor  :
+section               size         addr
+__text               10376   4294972228
+__stubs                456   4294982604
+__gcc_except_tab       144   4294983060
+__const                 95   4294983204
+__unwind_info          380   4294983300
+__got                  384   4294983680
+__const                368   4294984064
+Total                12203
+
+

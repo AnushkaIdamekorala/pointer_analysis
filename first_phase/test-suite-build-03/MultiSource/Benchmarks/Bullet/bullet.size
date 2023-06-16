@@ -1,0 +1,17 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/MultiSource/Benchmarks/Bullet/bullet  :
+section                size         addr
+__text               558276   4294979648
+__stubs                 420   4295537924
+__init_offsets           24   4295538344
+__const               11473   4295538368
+__gcc_except_tab      13752   4295549844
+__cstring              1556   4295563596
+__unwind_info          8340   4295565152
+__got                   976   4295573504
+__const               23560   4295574480
+__data               748444   4295606272
+__bss                 42744   4296354720
+__common                328   4296397464
+Total               1409893
+
+

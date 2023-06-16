@@ -1,0 +1,11 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/SingleSource/Benchmarks/Shootout-C++/Shootout-C++-ackermann  :
+section              size         addr
+__text               3316   4294979724
+__stubs               276   4294983040
+__gcc_except_tab      108   4294983316
+__cstring              11   4294983424
+__unwind_info         244   4294983436
+__got                 216   4294983680
+Total                4171
+
+

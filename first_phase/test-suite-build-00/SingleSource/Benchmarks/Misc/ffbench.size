@@ -1,0 +1,12 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/SingleSource/Benchmarks/Misc/ffbench  :
+section           size         addr
+__text            2652   4294980704
+__stubs             60   4294983356
+__const             40   4294983416
+__cstring          146   4294983456
+__unwind_info       72   4294983604
+__got               48   4294983680
+__bss               12   4295000064
+Total             3030
+
+

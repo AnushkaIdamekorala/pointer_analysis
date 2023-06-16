@@ -1,0 +1,10 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/SingleSource/UnitTests/2002-05-19-DivTest  :
+section           size         addr
+__text             244   4294983348
+__stubs             12   4294983592
+__cstring            4   4294983604
+__unwind_info       72   4294983608
+__got                8   4294983680
+Total              340
+
+

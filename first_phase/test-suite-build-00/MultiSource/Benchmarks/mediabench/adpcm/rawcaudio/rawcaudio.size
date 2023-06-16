@@ -1,0 +1,12 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/MultiSource/Benchmarks/mediabench/adpcm/rawcaudio/rawcaudio  :
+section           size         addr
+__text             988   4294982092
+__stubs             60   4294983080
+__cstring           39   4294983140
+__const            420   4294983180
+__unwind_info       80   4294983600
+__got               48   4294983680
+__bss             2504   4295000064
+Total             4139
+
+

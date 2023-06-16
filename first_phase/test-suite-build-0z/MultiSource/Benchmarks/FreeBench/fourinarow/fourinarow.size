@@ -1,0 +1,12 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/MultiSource/Benchmarks/FreeBench/fourinarow/fourinarow  :
+section           size         addr
+__text            4784   4294978316
+__stubs            108   4294983100
+__cstring          338   4294983208
+__unwind_info      132   4294983548
+__got               88   4294983680
+__data               4   4295000064
+__bss               96   4295000072
+Total             5550
+
+

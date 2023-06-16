@@ -1,0 +1,12 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/SingleSource/UnitTests/member-function-pointers  :
+section           size         addr
+__text             564   4294982992
+__stubs             12   4294983556
+__const              3   4294983568
+__cstring           18   4294983571
+__unwind_info       88   4294983592
+__got               16   4294983680
+__const             48   4294983696
+Total              749
+
+

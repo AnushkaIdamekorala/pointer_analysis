@@ -1,0 +1,14 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/MultiSource/Benchmarks/Prolangs-C++/simul/simul  :
+section             size         addr
+__text               668   4294982856
+__stubs               24   4294983524
+__init_offsets         4   4294983548
+__const               39   4294983552
+__unwind_info         84   4294983592
+__got                 32   4294983680
+__const              152   4294983712
+__common           16009   4295000064
+__bss                  1   4295016076
+Total              17013
+
+

@@ -1,0 +1,13 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/MultiSource/Benchmarks/Prolangs-C/unix-tbl/unix-tbl  :
+section            size         addr
+__text            42000   4294969732
+__stubs             192   4295011732
+__const             354   4295011924
+__cstring          3946   4295012278
+__unwind_info       224   4295016224
+__got               160   4295016448
+__data               36   4295032832
+__bss             51880   4295032872
+Total             98792
+
+

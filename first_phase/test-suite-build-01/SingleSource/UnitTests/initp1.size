@@ -1,0 +1,11 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/SingleSource/UnitTests/initp1  :
+section            size         addr
+__text             1180   4294982376
+__stubs              24   4294983556
+__init_offsets       20   4294983580
+__unwind_info        80   4294983600
+__got                16   4294983680
+__common            256   4295000064
+Total              1576
+
+

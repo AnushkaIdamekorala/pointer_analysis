@@ -1,0 +1,11 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/SingleSource/Regression/C/gcc-c-torture/execute/GCC-C-execute-string-opt-17  :
+section           size         addr
+__text             108   4294983448
+__stubs             36   4294983556
+__cstring           13   4294983592
+__unwind_info       72   4294983608
+__got               24   4294983680
+__bss                1   4295000064
+Total              254
+
+

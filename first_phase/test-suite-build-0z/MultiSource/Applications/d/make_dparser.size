@@ -1,0 +1,14 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/MultiSource/Applications/d/make_dparser  :
+section            size         addr
+__text            58116   4294981816
+__stubs             612   4295039932
+__const             760   4295040544
+__cstring          7374   4295041304
+__unwind_info       532   4295048680
+__got               440   4295049216
+__const             304   4295049656
+__data            90944   4295065600
+__bss               380   4295156544
+Total            159462
+
+

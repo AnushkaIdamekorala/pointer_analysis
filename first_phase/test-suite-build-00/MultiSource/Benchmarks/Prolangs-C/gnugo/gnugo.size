@@ -1,0 +1,12 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/MultiSource/Benchmarks/Prolangs-C/gnugo/gnugo  :
+section            size         addr
+__text            23300   4294972440
+__stubs             144   4294995740
+__cstring          2974   4294995884
+__const            1052   4294998860
+__unwind_info       152   4294999912
+__got               112   4295000064
+__bss              1544   4295016448
+Total             29278
+
+

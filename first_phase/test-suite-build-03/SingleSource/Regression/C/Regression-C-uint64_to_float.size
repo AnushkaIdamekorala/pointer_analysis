@@ -1,0 +1,11 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/SingleSource/Regression/C/Regression-C-uint64_to_float  :
+section           size         addr
+__text            7364   4294976012
+__stubs             36   4294983376
+__cstring          195   4294983412
+__unwind_info       72   4294983608
+__got               24   4294983680
+__const             32   4294983704
+Total             7723
+
+

@@ -1,0 +1,12 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/SingleSource/Regression/C/gcc-c-torture/execute/GCC-C-execute-comp-goto-1  :
+section           size         addr
+__text             456   4294983080
+__stubs             48   4294983536
+__const             16   4294983584
+__unwind_info       80   4294983600
+__got               32   4294983680
+__const             24   4294983712
+__bss               24   4295000064
+Total              680
+
+

@@ -1,0 +1,12 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/MultiSource/Benchmarks/VersaBench/ecbdes/ecbdes  :
+section           size         addr
+__text            1636   4294972964
+__stubs             72   4294974600
+__const           8736   4294974672
+__cstring          186   4294983408
+__unwind_info       80   4294983596
+__got               56   4294983680
+__data             272   4295000064
+Total            11038
+
+

@@ -1,0 +1,14 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/MultiSource/Applications/SPASS/SPASS  :
+section             size         addr
+__text            404352   4294978604
+__stubs              564   4295382956
+__const            43176   4295383520
+__cstring          14716   4295426696
+__unwind_info       1012   4295441412
+__got                416   4295442432
+__const             1976   4295442848
+__data                 8   4295458816
+__bss             330372   4295458832
+Total             796592
+
+

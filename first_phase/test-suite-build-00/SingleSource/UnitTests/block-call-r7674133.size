@@ -1,0 +1,12 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/SingleSource/UnitTests/block-call-r7674133  :
+section              size         addr
+__text                636   4294982876
+__stubs                36   4294983512
+__gcc_except_tab       24   4294983548
+__cstring               6   4294983572
+__unwind_info         100   4294983580
+__got                  40   4294983680
+__const                48   4294983720
+Total                 890
+
+

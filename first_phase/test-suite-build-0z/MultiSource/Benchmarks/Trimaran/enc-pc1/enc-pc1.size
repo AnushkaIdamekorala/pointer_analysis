@@ -1,0 +1,11 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/MultiSource/Benchmarks/Trimaran/enc-pc1/enc-pc1  :
+section           size         addr
+__text             836   4294982604
+__stubs             60   4294983440
+__cstring           92   4294983500
+__unwind_info       88   4294983592
+__got               40   4294983680
+__bss              108   4295000064
+Total             1224
+
+

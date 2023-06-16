@@ -1,0 +1,11 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/SingleSource/UnitTests/block-byref-test  :
+section           size         addr
+__text             456   4294983100
+__stubs             36   4294983556
+__cstring            6   4294983592
+__unwind_info       80   4294983600
+__got               32   4294983680
+__const             96   4294983712
+Total              706
+
+

@@ -1,0 +1,14 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/MultiSource/Benchmarks/MiBench/office-ispell/office-ispell  :
+section            size         addr
+__text            51016   4294971888
+__stubs             744   4295022904
+__const             464   4295023648
+__cstring          8487   4295024112
+__unwind_info       232   4295032600
+__got               536   4295032832
+__const             320   4295033368
+__data               40   4295049216
+__bss             39233   4295049264
+Total            101072
+
+

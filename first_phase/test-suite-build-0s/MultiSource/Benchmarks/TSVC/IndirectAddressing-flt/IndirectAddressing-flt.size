@@ -1,0 +1,13 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/MultiSource/Benchmarks/TSVC/IndirectAddressing-flt/IndirectAddressing-flt  :
+section              size         addr
+__text              26504   4294972248
+__stubs                96   4294998752
+__const               128   4294998848
+__cstring             985   4294998976
+__unwind_info          88   4294999964
+__got                  64   4295000064
+__data                  8   4295016448
+__bss             1951184   4295016464
+Total             1979057
+
+

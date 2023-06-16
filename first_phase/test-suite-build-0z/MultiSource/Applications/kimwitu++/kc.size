@@ -1,0 +1,18 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/MultiSource/Applications/kimwitu++/kc  :
+section                size         addr
+__text               334124   4294974144
+__stubs                1020   4295308268
+__init_offsets           24   4295309288
+__cstring            139512   4295309312
+__const               46926   4295448824
+__gcc_except_tab       3752   4295495752
+__unwind_info          7872   4295499504
+__eh_frame              592   4295507376
+__got                   952   4295507968
+__const               40608   4295508920
+__data                29496   4295557120
+__common               9616   4295586616
+__bss                  1678   4295596232
+Total                616172
+
+

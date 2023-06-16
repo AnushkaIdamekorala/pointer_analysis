@@ -1,0 +1,11 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/MultiSource/Benchmarks/FreeBench/neural/neural  :
+section           size         addr
+__text            5204   4294977640
+__stubs            180   4294982844
+__cstring          571   4294983024
+__unwind_info       84   4294983596
+__got              136   4294983680
+__bss               72   4295000064
+Total             6247
+
+

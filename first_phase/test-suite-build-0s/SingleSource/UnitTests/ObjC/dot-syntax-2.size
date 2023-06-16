@@ -1,0 +1,21 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/SingleSource/UnitTests/ObjC/dot-syntax-2  :
+section              size         addr
+__text                200   4294983228
+__stubs                36   4294983428
+__objc_methlist        56   4294983464
+__objc_classname        2   4294983520
+__objc_methname        25   4294983522
+__objc_methtype        42   4294983547
+__cstring               9   4294983589
+__unwind_info          80   4294983600
+__got                  24   4294983680
+__objc_classlist        8   4294983704
+__objc_imageinfo        8   4294983712
+__objc_const          256   4295000064
+__objc_selrefs         32   4295000320
+__objc_classrefs        8   4295000352
+__objc_ivar             8   4295000360
+__objc_data            80   4295000368
+Total                 874
+
+

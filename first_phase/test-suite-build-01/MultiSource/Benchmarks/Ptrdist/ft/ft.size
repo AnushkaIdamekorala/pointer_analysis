@@ -1,0 +1,12 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/MultiSource/Benchmarks/Ptrdist/ft/ft  :
+section            size         addr
+__text             2000   4294981204
+__stubs             132   4294983204
+__cstring           269   4294983336
+__unwind_info        72   4294983608
+__got                96   4294983680
+__data                4   4295000064
+__bss             80000   4295000072
+Total             82573
+
+

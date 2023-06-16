@@ -1,0 +1,13 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/SingleSource/Regression/C/gcc-c-torture/execute/GCC-C-execute-memchr-1  :
+section           size         addr
+__text            3744   4294977852
+__stubs             36   4294981596
+__const             29   4294981632
+__cstring         1933   4294981661
+__unwind_info       84   4294983596
+__got               24   4294983680
+__data              16   4295000064
+__bss                4   4295000080
+Total             5870
+
+

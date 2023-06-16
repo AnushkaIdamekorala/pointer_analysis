@@ -1,0 +1,11 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/SingleSource/UnitTests/matrix-types-spec  :
+section                size         addr
+__text               153820   4294976800
+__stubs                 216   4295130620
+__gcc_except_tab         92   4295130836
+__cstring                17   4295130928
+__unwind_info           188   4295130948
+__got                   176   4295131136
+Total                154509
+
+

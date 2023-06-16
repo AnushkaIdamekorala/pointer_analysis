@@ -1,0 +1,12 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/MultiSource/Benchmarks/Trimaran/enc-md5/enc-md5  :
+section           size         addr
+__text            3532   4294979960
+__stubs             60   4294983492
+__const             32   4294983552
+__cstring            5   4294983584
+__unwind_info       88   4294983592
+__got               48   4294983680
+__data              64   4295000064
+Total             3829
+
+

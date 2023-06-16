@@ -1,0 +1,11 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/MultiSource/Applications/sgefa/sgefa  :
+section            size         addr
+__text            10564   4294971988
+__stubs              72   4294982552
+__const              56   4294982624
+__cstring           871   4294982680
+__unwind_info       128   4294983552
+__got                56   4294983680
+Total             11747
+
+

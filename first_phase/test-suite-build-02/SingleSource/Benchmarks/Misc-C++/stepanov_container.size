@@ -1,0 +1,14 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/SingleSource/Benchmarks/Misc-C++/stepanov_container  :
+section               size         addr
+__text               18308   4294980752
+__stubs                276   4294999060
+__init_offsets           4   4294999336
+__gcc_except_tab       324   4294999340
+__const                 34   4294999664
+__cstring                7   4294999698
+__unwind_info          356   4294999708
+__got                  232   4295000064
+__common                24   4295016448
+Total                19565
+
+

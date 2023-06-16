@@ -1,0 +1,10 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/SingleSource/UnitTests/2003-08-20-FoldBug  :
+section           size         addr
+__text              32   4294983556
+__stubs             12   4294983588
+__cstring            7   4294983600
+__unwind_info       72   4294983608
+__got                8   4294983680
+Total              131
+
+

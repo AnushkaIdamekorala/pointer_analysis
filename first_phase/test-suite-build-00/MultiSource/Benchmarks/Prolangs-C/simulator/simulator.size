@@ -1,0 +1,15 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/MultiSource/Benchmarks/Prolangs-C/simulator/simulator  :
+section            size         addr
+__text            35364   4294976148
+__stubs             168   4295011512
+__const             136   4295011680
+__cstring          4425   4295011816
+__unwind_info       204   4295016244
+__got               136   4295016448
+__const            1288   4295016584
+__data               43   4295032832
+__common             25   4295032880
+__bss              4465   4295032912
+Total             46254
+
+

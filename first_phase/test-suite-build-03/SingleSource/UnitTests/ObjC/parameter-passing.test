@@ -1,0 +1,2 @@
+RUN: cd %S ; %S/parameter-passing 
+VERIFY: %b/fpcmp-target %o %S/parameter-passing.reference_output

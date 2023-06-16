@@ -1,0 +1,11 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/MultiSource/Benchmarks/FreeBench/mason/mason  :
+section           size         addr
+__text            3284   4294979688
+__stubs             96   4294982972
+__cstring          160   4294983068
+__const            360   4294983228
+__unwind_info       92   4294983588
+__got               80   4294983680
+Total             4072
+
+

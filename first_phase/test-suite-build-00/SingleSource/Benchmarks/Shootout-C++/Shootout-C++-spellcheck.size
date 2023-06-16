@@ -1,0 +1,13 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/SingleSource/Benchmarks/Shootout-C++/Shootout-C++-spellcheck  :
+section               size         addr
+__text               25364   4294971988
+__stubs                900   4294997352
+__gcc_except_tab       456   4294998252
+__const                336   4294998708
+__cstring               51   4294999044
+__unwind_info          968   4294999096
+__got                  720   4295000064
+__const                368   4295000784
+Total                29163
+
+

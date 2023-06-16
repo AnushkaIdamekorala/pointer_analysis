@@ -1,0 +1,13 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/SingleSource/Benchmarks/Misc-C++/stepanov_v1p2  :
+section            size         addr
+__text             1768   4294981428
+__stubs              84   4294983196
+__const              48   4294983280
+__cstring           253   4294983328
+__unwind_info        92   4294983584
+__got                56   4294983680
+__data              200   4295000064
+__common          32200   4295000264
+Total             34701
+
+

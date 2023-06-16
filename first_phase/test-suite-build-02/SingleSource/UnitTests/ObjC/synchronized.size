@@ -1,0 +1,23 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/SingleSource/UnitTests/ObjC/synchronized  :
+section              size         addr
+__text                588   4294982796
+__stubs                72   4294983384
+__objc_methlist        32   4294983456
+__gcc_except_tab       16   4294983488
+__objc_methname        49   4294983504
+__objc_classname        2   4294983553
+__objc_methtype        19   4294983555
+__cstring               9   4294983574
+__unwind_info          92   4294983584
+__got                  56   4294983680
+__objc_classlist        8   4294983736
+__objc_imageinfo        8   4294983744
+__objc_const          144   4295000064
+__objc_selrefs         40   4295000208
+__objc_classrefs       16   4295000248
+__objc_data            80   4295000264
+__data                  4   4295000344
+__bss                   4   4295000348
+Total                1239
+
+

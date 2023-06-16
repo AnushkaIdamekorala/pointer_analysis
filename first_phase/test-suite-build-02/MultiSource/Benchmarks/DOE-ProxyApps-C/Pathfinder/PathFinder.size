@@ -1,0 +1,12 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/MultiSource/Benchmarks/DOE-ProxyApps-C/Pathfinder/PathFinder  :
+section            size         addr
+__text            16444   4294978336
+__stubs             324   4294994780
+__const             216   4294995104
+__cstring          4560   4294995320
+__unwind_info       180   4294999880
+__got               264   4295000064
+__bss                16   4295016448
+Total             22004
+
+

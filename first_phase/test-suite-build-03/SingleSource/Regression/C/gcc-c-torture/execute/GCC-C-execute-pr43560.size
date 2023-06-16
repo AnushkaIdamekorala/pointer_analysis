@@ -1,0 +1,8 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/SingleSource/Regression/C/gcc-c-torture/execute/GCC-C-execute-pr43560  :
+section           size         addr
+__text              96   4294983484
+__const             20   4294983580
+__unwind_info       80   4294983600
+Total              196
+
+

@@ -1,0 +1,13 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/SingleSource/Regression/C++/EH/Regression-C++-inlined_cleanup  :
+section              size         addr
+__text               1076   4294982072
+__stubs               144   4294983148
+__gcc_except_tab      180   4294983292
+__cstring              60   4294983472
+__const                19   4294983532
+__unwind_info         128   4294983552
+__got                 144   4294983680
+__const                48   4294983824
+Total                1799
+
+

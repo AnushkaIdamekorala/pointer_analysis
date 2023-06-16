@@ -1,0 +1,13 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/SingleSource/Benchmarks/Shootout-C++/Shootout-C++-objinst  :
+section              size         addr
+__text               1484   4294981688
+__stubs               192   4294983172
+__gcc_except_tab      136   4294983364
+__cstring              11   4294983500
+__const                19   4294983511
+__unwind_info         148   4294983532
+__got                 168   4294983680
+__const               120   4294983848
+Total                2278
+
+

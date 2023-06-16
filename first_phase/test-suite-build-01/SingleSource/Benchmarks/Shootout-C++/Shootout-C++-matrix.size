@@ -1,0 +1,11 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/SingleSource/Benchmarks/Shootout-C++/Shootout-C++-matrix  :
+section              size         addr
+__text               1984   4294981180
+__stubs               252   4294983164
+__gcc_except_tab      116   4294983416
+__cstring               2   4294983532
+__unwind_info         144   4294983536
+__got                 192   4294983680
+Total                2690
+
+

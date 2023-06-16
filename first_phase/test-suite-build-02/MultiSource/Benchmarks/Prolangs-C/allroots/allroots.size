@@ -1,0 +1,11 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/MultiSource/Benchmarks/Prolangs-C/allroots/allroots  :
+section           size         addr
+__text            1072   4294982092
+__stubs             48   4294983164
+__cstring          388   4294983212
+__unwind_info       80   4294983600
+__got               32   4294983680
+__bss                8   4295000064
+Total             1628
+
+

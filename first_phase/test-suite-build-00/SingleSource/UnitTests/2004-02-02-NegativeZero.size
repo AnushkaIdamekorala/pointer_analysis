@@ -1,0 +1,11 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/SingleSource/UnitTests/2004-02-02-NegativeZero  :
+section           size         addr
+__text             148   4294983400
+__stubs             12   4294983548
+__const              8   4294983560
+__cstring           35   4294983568
+__unwind_info       72   4294983604
+__got                8   4294983680
+Total              283
+
+

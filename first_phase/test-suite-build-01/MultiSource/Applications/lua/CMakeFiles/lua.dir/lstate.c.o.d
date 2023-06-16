@@ -1,0 +1,33 @@
+MultiSource/Applications/lua/CMakeFiles/lua.dir/lstate.c.o: \
+  /Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/MultiSource/Applications/lua/lstate.c \
+  /opt/homebrew/Cellar/llvm@14/14.0.6/lib/clang/14.0.6/include/stddef.h \
+  /opt/homebrew/Cellar/llvm@14/14.0.6/lib/clang/14.0.6/include/__stddef_max_align_t.h \
+  /Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/MultiSource/Applications/lua/lua.h \
+  /opt/homebrew/Cellar/llvm@14/14.0.6/lib/clang/14.0.6/include/stdarg.h \
+  /Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/MultiSource/Applications/lua/luaconf.h \
+  /opt/homebrew/Cellar/llvm@14/14.0.6/lib/clang/14.0.6/include/limits.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/limits.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/sys/cdefs.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/sys/_symbol_aliasing.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/sys/_posix_availability.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/machine/limits.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/arm/limits.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/arm/_limits.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/sys/syslimits.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/math.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/Availability.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/AvailabilityVersions.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/AvailabilityInternal.h \
+  /Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/MultiSource/Applications/lua/ldebug.h \
+  /Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/MultiSource/Applications/lua/lstate.h \
+  /Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/MultiSource/Applications/lua/lobject.h \
+  /Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/MultiSource/Applications/lua/llimits.h \
+  /Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/MultiSource/Applications/lua/ltm.h \
+  /Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/MultiSource/Applications/lua/lzio.h \
+  /Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/MultiSource/Applications/lua/lmem.h \
+  /Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/MultiSource/Applications/lua/ldo.h \
+  /Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/MultiSource/Applications/lua/lfunc.h \
+  /Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/MultiSource/Applications/lua/lgc.h \
+  /Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/MultiSource/Applications/lua/llex.h \
+  /Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/MultiSource/Applications/lua/lstring.h \
+  /Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/MultiSource/Applications/lua/ltable.h

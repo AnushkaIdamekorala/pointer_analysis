@@ -1,0 +1,11 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/SingleSource/Benchmarks/Misc/ReedSolomon  :
+section           size         addr
+__text            3996   4294979556
+__stubs             48   4294983552
+__const              8   4294983600
+__unwind_info       72   4294983608
+__got               40   4294983680
+__bss             4164   4295000064
+Total             8328
+
+

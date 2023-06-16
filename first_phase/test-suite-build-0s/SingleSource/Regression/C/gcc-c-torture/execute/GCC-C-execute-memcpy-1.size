@@ -1,0 +1,10 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/SingleSource/Regression/C/gcc-c-torture/execute/GCC-C-execute-memcpy-1  :
+section           size         addr
+__text             372   4294983152
+__stubs             60   4294983524
+__const             16   4294983584
+__unwind_info       72   4294983600
+__got               40   4294983680
+Total              560
+
+

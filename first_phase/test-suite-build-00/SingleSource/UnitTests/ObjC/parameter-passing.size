@@ -1,0 +1,22 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/SingleSource/UnitTests/ObjC/parameter-passing  :
+section              size         addr
+__text               3776   4294977844
+__stubs                60   4294981620
+__objc_methlist       404   4294981680
+__cstring             599   4294982084
+__objc_methname       630   4294982683
+__objc_classname        2   4294983313
+__objc_methtype       242   4294983315
+__const                16   4294983560
+__unwind_info         100   4294983576
+__got                  40   4294983680
+__objc_classlist        8   4294983720
+__objc_imageinfo        8   4294983728
+__objc_const          544   4295000064
+__objc_selrefs        264   4295000608
+__objc_classrefs       16   4295000872
+__objc_ivar            32   4295000888
+__objc_data            80   4295000920
+Total                6821
+
+

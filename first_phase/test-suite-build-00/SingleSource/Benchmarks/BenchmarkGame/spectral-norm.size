@@ -1,0 +1,10 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/SingleSource/Benchmarks/BenchmarkGame/spectral-norm  :
+section           size         addr
+__text            1160   4294982388
+__stubs             36   4294983548
+__cstring            7   4294983584
+__unwind_info       88   4294983592
+__got               32   4294983680
+Total             1323
+
+

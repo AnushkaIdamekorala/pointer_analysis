@@ -1,0 +1,10 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/SingleSource/Regression/C/gcc-c-torture/execute/GCC-C-execute-cmpsi-2  :
+section           size         addr
+__text             304   4294980688
+__stubs             24   4294980992
+__const           2592   4294981016
+__unwind_info       72   4294983608
+__got               16   4294983680
+Total             3008
+
+

@@ -1,0 +1,12 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/MultiSource/Benchmarks/DOE-ProxyApps-C/RSBench/rsbench  :
+section           size         addr
+__text            9632   4294969836
+__stubs            228   4294979468
+__const           2072   4294979696
+__cstring         1810   4294981768
+__unwind_info       96   4294983580
+__got              168   4294983680
+__bss             1384   4295000064
+Total            15390
+
+

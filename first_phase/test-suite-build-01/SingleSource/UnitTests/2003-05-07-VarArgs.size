@@ -1,0 +1,11 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/SingleSource/UnitTests/2003-05-07-VarArgs  :
+section           size         addr
+__text             704   4294982668
+__stubs             12   4294983372
+__const             48   4294983384
+__cstring          165   4294983432
+__unwind_info       80   4294983600
+__got                8   4294983680
+Total             1017
+
+

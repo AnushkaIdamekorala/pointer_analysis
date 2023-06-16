@@ -1,0 +1,13 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/MultiSource/Benchmarks/TSVC/Searching-flt/Searching-flt  :
+section              size         addr
+__text              30964   4294984268
+__stubs                96   4295015232
+__const               128   4295015328
+__cstring             909   4295015456
+__unwind_info          80   4295016368
+__got                  64   4295016448
+__data                  8   4295032832
+__bss             1951176   4295032848
+Total             1983425
+
+

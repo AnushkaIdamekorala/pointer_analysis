@@ -1,0 +1,13 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/SingleSource/Benchmarks/Adobe-C++/stepanov_vector  :
+section               size         addr
+__text               17372   4294981200
+__stubs                276   4294998572
+__gcc_except_tab       100   4294998848
+__cstring              927   4294998948
+__unwind_info          188   4294999876
+__got                  240   4295000064
+__data                 272   4295016448
+__common             32032   4295016720
+Total                51407
+
+

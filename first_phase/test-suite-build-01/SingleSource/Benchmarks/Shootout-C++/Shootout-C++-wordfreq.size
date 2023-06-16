@@ -1,0 +1,12 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/SingleSource/Benchmarks/Shootout-C++/Shootout-C++-wordfreq  :
+section              size         addr
+__text               5928   4294977288
+__stubs               204   4294983216
+__gcc_except_tab       56   4294983420
+__const                12   4294983476
+__cstring              15   4294983488
+__unwind_info         176   4294983504
+__got                 192   4294983680
+Total                6583
+
+

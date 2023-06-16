@@ -1,0 +1,11 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/SingleSource/Benchmarks/Shootout-C++/Shootout-C++-hello  :
+section              size         addr
+__text                924   4294982304
+__stubs               192   4294983228
+__gcc_except_tab       96   4294983420
+__cstring              12   4294983516
+__unwind_info         152   4294983528
+__got                 152   4294983680
+Total                1528
+
+

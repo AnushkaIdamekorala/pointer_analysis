@@ -1,0 +1,18 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/SingleSource/UnitTests/ObjC/block-byref-aggr  :
+section              size         addr
+__text                488   4294982904
+__stubs                84   4294983392
+__gcc_except_tab       20   4294983476
+__const                 8   4294983496
+__objc_classname        1   4294983504
+__cstring              63   4294983505
+__objc_methname         6   4294983568
+__unwind_info         104   4294983576
+__got                  72   4294983680
+__const                48   4294983752
+__objc_imageinfo        8   4294983800
+__objc_selrefs          8   4295000064
+__objc_classrefs        8   4295000072
+Total                 918
+
+

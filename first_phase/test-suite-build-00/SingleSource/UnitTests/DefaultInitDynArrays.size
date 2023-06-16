@@ -1,0 +1,9 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/SingleSource/UnitTests/DefaultInitDynArrays  :
+section           size         addr
+__text             256   4294983316
+__stubs             36   4294983572
+__unwind_info       72   4294983608
+__got               24   4294983680
+Total              388
+
+

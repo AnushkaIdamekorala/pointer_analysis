@@ -1,0 +1,12 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/MultiSource/Benchmarks/SciMark2-C/scimark2  :
+section           size         addr
+__text            3936   4294978820
+__stubs            108   4294982756
+__const             48   4294982864
+__cstring          635   4294982912
+__unwind_info      124   4294983548
+__got               80   4294983680
+__bss               16   4295000064
+Total             4947
+
+

@@ -1,0 +1,16 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/MultiSource/Applications/JM/ldecod/ldecod  :
+section             size         addr
+__text            212024   4294977884
+__stubs              492   4295189908
+__const            43840   4295190400
+__cstring          11064   4295234240
+__unwind_info        428   4295245304
+__eh_frame            76   4295245736
+__got                352   4295245824
+__const              328   4295246176
+__data               964   4295262208
+__common            9632   4295263232
+__bss             395628   4295272864
+Total             674828
+
+

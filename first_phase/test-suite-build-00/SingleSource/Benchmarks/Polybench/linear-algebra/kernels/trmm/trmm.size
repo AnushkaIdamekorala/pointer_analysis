@@ -1,0 +1,11 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/SingleSource/Benchmarks/Polybench/linear-algebra/kernels/trmm/trmm  :
+section           size         addr
+__text            1536   4294981920
+__stubs             72   4294983456
+__const              8   4294983528
+__cstring           51   4294983536
+__unwind_info       92   4294983588
+__got               56   4294983680
+Total             1815
+
+

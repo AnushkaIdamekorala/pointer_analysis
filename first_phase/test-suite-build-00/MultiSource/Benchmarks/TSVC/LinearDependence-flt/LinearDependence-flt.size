@@ -1,0 +1,13 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/MultiSource/Benchmarks/TSVC/LinearDependence-flt/LinearDependence-flt  :
+section              size         addr
+__text              25424   4294973384
+__stubs                48   4294998808
+__const                16   4294998856
+__cstring            1089   4294998872
+__unwind_info          96   4294999964
+__got                  32   4295000064
+__data                  8   4295016448
+__bss             2591176   4295016464
+Total             2617889
+
+

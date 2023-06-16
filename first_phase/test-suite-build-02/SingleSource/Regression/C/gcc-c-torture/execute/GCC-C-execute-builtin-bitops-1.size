@@ -1,0 +1,10 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/SingleSource/Regression/C/gcc-c-torture/execute/GCC-C-execute-builtin-bitops-1  :
+section           size         addr
+__text            2112   4294980568
+__stubs             24   4294982680
+__const            896   4294982704
+__unwind_info       72   4294983600
+__got               16   4294983680
+Total             3120
+
+

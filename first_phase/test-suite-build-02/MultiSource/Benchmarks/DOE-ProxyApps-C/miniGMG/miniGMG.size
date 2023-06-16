@@ -1,0 +1,12 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/MultiSource/Benchmarks/DOE-ProxyApps-C/miniGMG/miniGMG  :
+section            size         addr
+__text            18512   4294979964
+__stubs             180   4294998476
+__const             348   4294998656
+__cstring           740   4294999004
+__unwind_info       128   4294999744
+__eh_frame          188   4294999872
+__got               136   4295000064
+Total             20232
+
+

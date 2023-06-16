@@ -1,0 +1,12 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/SingleSource/Benchmarks/Adobe-C++/functionobjects  :
+section            size         addr
+__text            12248   4294986928
+__stubs             192   4294999176
+__const              56   4294999368
+__cstring           331   4294999424
+__unwind_info       308   4294999756
+__got               128   4295000064
+__common             32   4295016448
+Total             13295
+
+

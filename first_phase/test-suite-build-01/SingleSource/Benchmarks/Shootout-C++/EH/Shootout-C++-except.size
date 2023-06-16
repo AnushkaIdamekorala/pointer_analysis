@@ -1,0 +1,14 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/SingleSource/Benchmarks/Shootout-C++/EH/Shootout-C++-except  :
+section              size         addr
+__text               1392   4294981584
+__stubs               252   4294982976
+__gcc_except_tab      204   4294983228
+__const                30   4294983432
+__cstring              47   4294983462
+__unwind_info         168   4294983512
+__got                 216   4294983680
+__const                32   4294983896
+__common               16   4295000064
+Total                2357
+
+

@@ -1,0 +1,11 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/MultiSource/Benchmarks/Olden/treeadd/treeadd  :
+section           size         addr
+__text             680   4294982764
+__stubs             48   4294983444
+__cstring          115   4294983492
+__unwind_info       72   4294983608
+__got               32   4294983680
+__bss                4   4295000064
+Total              951
+
+

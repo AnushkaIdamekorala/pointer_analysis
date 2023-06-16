@@ -1,0 +1,11 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/MultiSource/Benchmarks/FreeBench/analyzer/analyzer  :
+section           size         addr
+__text            3500   4294979292
+__stubs            192   4294982792
+__cstring          621   4294982984
+__unwind_info       72   4294983608
+__got              144   4294983680
+__bss               72   4295000064
+Total             4601
+
+

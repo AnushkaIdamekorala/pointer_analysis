@@ -1,0 +1,14 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/SingleSource/UnitTests/ObjC++/reference-in-block-args  :
+section              size         addr
+__text                308   4294983240
+__stubs                12   4294983548
+__const                 8   4294983560
+__cstring              22   4294983568
+__objc_classname        1   4294983590
+__unwind_info          84   4294983592
+__got                  16   4294983680
+__const                96   4294983696
+__objc_imageinfo        8   4294983792
+Total                 555
+
+

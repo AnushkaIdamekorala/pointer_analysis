@@ -1,0 +1,14 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/MultiSource/Benchmarks/Prolangs-C++/NP/np  :
+section            size         addr
+__text              568   4294982992
+__stubs              12   4294983560
+__init_offsets        4   4294983572
+__cstring             6   4294983576
+__const              13   4294983582
+__unwind_info        84   4294983596
+__got                16   4294983680
+__const              88   4294983696
+__common             72   4295000064
+Total               863
+
+

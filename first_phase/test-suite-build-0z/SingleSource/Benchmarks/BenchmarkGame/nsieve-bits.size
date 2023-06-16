@@ -1,0 +1,10 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/SingleSource/Benchmarks/BenchmarkGame/nsieve-bits  :
+section           size         addr
+__text             256   4294983280
+__stubs             48   4294983536
+__cstring           22   4294983584
+__unwind_info       72   4294983608
+__got               32   4294983680
+Total              430
+
+

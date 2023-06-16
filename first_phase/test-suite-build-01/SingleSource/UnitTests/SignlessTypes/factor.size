@@ -1,0 +1,11 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/SingleSource/UnitTests/SignlessTypes/factor  :
+section           size         addr
+__text             368   4294983212
+__stubs             24   4294983580
+__cstring            4   4294983604
+__unwind_info       72   4294983608
+__got               16   4294983680
+__bss               50   4295000064
+Total              534
+
+

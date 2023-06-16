@@ -1,0 +1,15 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/MultiSource/Applications/oggenc/oggenc  :
+section              size         addr
+__text              81728   4294975928
+__stubs               552   4295057656
+__const             29112   4295058208
+__cstring           10454   4295087320
+__unwind_info         500   4295097776
+__eh_frame             76   4295098280
+__got                 400   4295098368
+__const              1648   4295098768
+__data            1648664   4295114752
+__bss               30064   4296763416
+Total             1803198
+
+

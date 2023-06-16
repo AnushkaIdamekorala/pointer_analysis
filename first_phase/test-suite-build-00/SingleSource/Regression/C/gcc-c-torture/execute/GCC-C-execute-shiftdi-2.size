@@ -1,0 +1,10 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/SingleSource/Regression/C/gcc-c-torture/execute/GCC-C-execute-shiftdi-2  :
+section           size         addr
+__text             240   4294981820
+__stubs             12   4294982060
+__const           1536   4294982072
+__unwind_info       72   4294983608
+__got                8   4294983680
+Total             1868
+
+

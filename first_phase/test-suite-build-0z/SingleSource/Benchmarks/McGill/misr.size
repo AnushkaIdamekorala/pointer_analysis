@@ -1,0 +1,12 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/SingleSource/Benchmarks/McGill/misr  :
+section           size         addr
+__text            1032   4294982276
+__stubs            108   4294983308
+__const             24   4294983416
+__cstring          153   4294983440
+__unwind_info       80   4294983596
+__got               80   4294983680
+__bss                1   4295000064
+Total             1478
+
+

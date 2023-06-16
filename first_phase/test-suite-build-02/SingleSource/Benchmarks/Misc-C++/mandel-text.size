@@ -1,0 +1,9 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/SingleSource/Benchmarks/Misc-C++/mandel-text  :
+section           size         addr
+__text             388   4294983208
+__stubs             12   4294983596
+__unwind_info       72   4294983608
+__got                8   4294983680
+Total              480
+
+

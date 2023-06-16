@@ -1,0 +1,17 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/MicroBenchmarks/ImageProcessing/BilateralFiltering/BilateralFilter  :
+section                size         addr
+__text               441352   4294980188
+__stubs                1992   4295421540
+__init_offsets           80   4295423532
+__gcc_except_tab      11028   4295423612
+__const                4944   4295434640
+__cstring              4436   4295439584
+__unwind_info         14792   4295444020
+__got                  1640   4295458816
+__const                3904   4295460456
+__data                   40   4295475200
+__bss                  1688   4295475240
+__common                392   4295476928
+Total                486288
+
+

@@ -1,0 +1,13 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/MultiSource/Benchmarks/MiBench/automotive-bitcount/automotive-bitcount  :
+section           size         addr
+__text            1544   4294981404
+__stubs             60   4294982948
+__const            264   4294983008
+__cstring          298   4294983272
+__unwind_info      108   4294983572
+__got               48   4294983680
+__const            112   4294983728
+__data               8   4295000064
+Total             2442
+
+

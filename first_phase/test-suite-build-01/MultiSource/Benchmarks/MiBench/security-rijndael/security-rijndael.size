@@ -1,0 +1,13 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/MultiSource/Benchmarks/MiBench/security-rijndael/security-rijndael  :
+section            size         addr
+__text             8916   4294969968
+__stubs             144   4294978884
+__const           20596   4294979028
+__cstring           358   4294999624
+__unwind_info        80   4294999984
+__got               112   4295000064
+__data                8   4295016448
+__bss                28   4295016456
+Total             30242
+
+

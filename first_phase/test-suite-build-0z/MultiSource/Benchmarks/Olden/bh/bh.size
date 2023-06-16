@@ -1,0 +1,13 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/MultiSource/Benchmarks/Olden/bh/bh  :
+section           size         addr
+__text            5744   4294977392
+__stubs            144   4294983136
+__const            136   4294983280
+__cstring          120   4294983416
+__unwind_info      144   4294983536
+__got              112   4294983680
+__common            48   4295000064
+__bss               24   4295000112
+Total             6472
+
+

@@ -1,0 +1,11 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/SingleSource/Regression/C/gcc-c-torture/execute/GCC-C-execute-zero-struct-1  :
+section           size         addr
+__text              88   4294983508
+__stubs             12   4294983596
+__unwind_info       72   4294983608
+__got                8   4294983680
+__data              16   4295000064
+__bss                3   4295000080
+Total              199
+
+

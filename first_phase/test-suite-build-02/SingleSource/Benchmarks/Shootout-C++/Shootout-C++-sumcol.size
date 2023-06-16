@@ -1,0 +1,10 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/SingleSource/Benchmarks/Shootout-C++/Shootout-C++-sumcol  :
+section              size         addr
+__text               1088   4294982144
+__stubs               216   4294983232
+__gcc_except_tab      112   4294983448
+__unwind_info         120   4294983560
+__got                 184   4294983680
+Total                1720
+
+

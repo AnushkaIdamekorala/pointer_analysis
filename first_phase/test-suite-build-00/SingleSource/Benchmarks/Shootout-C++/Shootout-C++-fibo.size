@@ -1,0 +1,10 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/SingleSource/Benchmarks/Shootout-C++/Shootout-C++-fibo  :
+section              size         addr
+__text                604   4294982868
+__stubs                96   4294983472
+__gcc_except_tab       16   4294983568
+__unwind_info          96   4294983584
+__got                  96   4294983680
+Total                 908
+
+

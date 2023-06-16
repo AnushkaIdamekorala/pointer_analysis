@@ -1,0 +1,2 @@
+RUN: cd %S ; %S/property 
+VERIFY: %b/fpcmp-target %o %S/property.reference_output

@@ -1,0 +1,12 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/SingleSource/Benchmarks/Stanford/Oscar  :
+section           size         addr
+__text            1180   4294982336
+__stubs             36   4294983516
+__const             24   4294983552
+__cstring           15   4294983576
+__unwind_info       88   4294983592
+__got               32   4294983680
+__bss             5152   4295000064
+Total             6527
+
+

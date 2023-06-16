@@ -1,0 +1,10 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/SingleSource/Regression/C/gcc-c-torture/execute/GCC-C-execute-align-2  :
+section           size         addr
+__text             524   4294983032
+__stubs             12   4294983556
+__const             36   4294983568
+__unwind_info       72   4294983604
+__got                8   4294983680
+Total              652
+
+

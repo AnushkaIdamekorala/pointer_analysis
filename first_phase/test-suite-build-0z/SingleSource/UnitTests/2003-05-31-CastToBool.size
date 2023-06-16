@@ -1,0 +1,10 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/SingleSource/UnitTests/2003-05-31-CastToBool  :
+section           size         addr
+__text             460   4294983012
+__stubs             12   4294983472
+__cstring          108   4294983484
+__unwind_info       88   4294983592
+__got                8   4294983680
+Total              676
+
+

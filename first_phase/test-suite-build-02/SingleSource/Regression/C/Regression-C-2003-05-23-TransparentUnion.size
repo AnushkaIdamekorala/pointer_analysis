@@ -1,0 +1,10 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/SingleSource/Regression/C/Regression-C-2003-05-23-TransparentUnion  :
+section           size         addr
+__text              32   4294983560
+__stubs             12   4294983592
+__cstring            3   4294983604
+__unwind_info       72   4294983608
+__got                8   4294983680
+Total              127
+
+

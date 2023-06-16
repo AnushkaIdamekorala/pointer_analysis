@@ -1,0 +1,15 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/MultiSource/Applications/ClamAV/clamscan  :
+section             size         addr
+__text            350252   4294975028
+__stubs             1584   4295325280
+__const            22256   4295326864
+__cstring          91733   4295349120
+__unwind_info       1488   4295440856
+__eh_frame            76   4295442344
+__got               1096   4295442432
+__const            14264   4295443528
+__data             50152   4295458816
+__bss               4693   4295508968
+Total             537594
+
+

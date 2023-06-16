@@ -1,0 +1,11 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/SingleSource/Regression/C++/Regression-C++-2003-09-29-NonPODsByValue  :
+section              size         addr
+__text                228   4294983304
+__stubs                24   4294983532
+__gcc_except_tab       12   4294983556
+__cstring               4   4294983568
+__unwind_info         108   4294983572
+__got                  24   4294983680
+Total                 400
+
+

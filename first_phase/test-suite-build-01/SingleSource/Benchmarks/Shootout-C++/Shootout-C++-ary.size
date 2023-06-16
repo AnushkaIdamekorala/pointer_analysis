@@ -1,0 +1,11 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/SingleSource/Benchmarks/Shootout-C++/Shootout-C++-ary  :
+section              size         addr
+__text                648   4294982664
+__stubs               180   4294983312
+__gcc_except_tab       68   4294983492
+__cstring               7   4294983560
+__unwind_info         112   4294983568
+__got                 168   4294983680
+Total                1183
+
+

@@ -1,0 +1,13 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/MultiSource/Benchmarks/Prolangs-C++/deriv1/deriv1  :
+section              size         addr
+__text               2628   4294980136
+__stubs               192   4294982764
+__gcc_except_tab      196   4294982956
+__cstring             239   4294983152
+__const                80   4294983391
+__unwind_info         208   4294983472
+__got                 152   4294983680
+__const               400   4294983832
+Total                4095
+
+

@@ -1,0 +1,11 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/SingleSource/Benchmarks/Stanford/Perm  :
+section           size         addr
+__text             348   4294983216
+__stubs             24   4294983564
+__cstring           20   4294983588
+__unwind_info       72   4294983608
+__got               16   4294983680
+__bss               48   4295000064
+Total              528
+
+

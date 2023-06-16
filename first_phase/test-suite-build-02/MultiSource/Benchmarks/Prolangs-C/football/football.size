@@ -1,0 +1,13 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/MultiSource/Benchmarks/Prolangs-C/football/football  :
+section            size         addr
+__text            37480   4294973484
+__stubs             252   4295010964
+__const             416   4295011216
+__cstring          4642   4295011632
+__unwind_info       168   4295016276
+__got               200   4295016448
+__data              900   4295032832
+__bss             99581   4295033736
+Total            143639
+
+

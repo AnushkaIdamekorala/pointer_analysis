@@ -1,0 +1,12 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/MultiSource/Benchmarks/Prolangs-C/fixoutput/fixoutput  :
+section           size         addr
+__text            1948   4294980304
+__stubs            108   4294982252
+__const             38   4294982360
+__cstring         1201   4294982398
+__unwind_info       80   4294983600
+__got               80   4294983680
+__bss               41   4295000064
+Total             3496
+
+

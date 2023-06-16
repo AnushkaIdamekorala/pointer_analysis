@@ -1,0 +1,10 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/SingleSource/Benchmarks/Shootout/Shootout-objinst  :
+section           size         addr
+__text             888   4294982644
+__stubs             48   4294983532
+__cstring           12   4294983580
+__unwind_info       88   4294983592
+__got               32   4294983680
+Total             1068
+
+

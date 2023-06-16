@@ -1,0 +1,10 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/MultiSource/Benchmarks/McCat/01-qbsort/qbsort  :
+section           size         addr
+__text            2256   4294981064
+__stubs             96   4294983320
+__cstring          181   4294983416
+__unwind_info       80   4294983600
+__got               72   4294983680
+Total             2685
+
+

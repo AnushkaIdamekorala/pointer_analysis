@@ -1,0 +1,12 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/SingleSource/Benchmarks/BenchmarkGame/Large/fasta  :
+section           size         addr
+__text            1064   4294982060
+__stubs             96   4294983124
+__const              4   4294983220
+__cstring          368   4294983224
+__unwind_info       88   4294983592
+__got               80   4294983680
+__data             160   4295000064
+Total             1860
+
+

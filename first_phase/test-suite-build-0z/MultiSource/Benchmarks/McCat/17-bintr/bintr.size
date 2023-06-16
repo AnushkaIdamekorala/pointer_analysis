@@ -1,0 +1,10 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/MultiSource/Benchmarks/McCat/17-bintr/bintr  :
+section           size         addr
+__text             852   4294982320
+__stubs             60   4294983172
+__cstring          344   4294983232
+__unwind_info      104   4294983576
+__got               48   4294983680
+Total             1408
+
+

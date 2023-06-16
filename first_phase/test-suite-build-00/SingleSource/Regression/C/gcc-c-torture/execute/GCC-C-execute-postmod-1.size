@@ -1,0 +1,9 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/SingleSource/Regression/C/gcc-c-torture/execute/GCC-C-execute-postmod-1  :
+section           size         addr
+__text            1516   4294982084
+__unwind_info       80   4294983600
+__data               4   4294983680
+__bss              412   4294983684
+Total             2012
+
+

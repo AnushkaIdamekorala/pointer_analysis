@@ -1,0 +1,13 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/MultiSource/Benchmarks/VersaBench/8b10b/8b10b  :
+section           size         addr
+__text            1056   4294982060
+__stubs             96   4294983116
+__const            320   4294983212
+__cstring           58   4294983532
+__unwind_info       88   4294983592
+__got               72   4294983680
+__data               4   4295000064
+__bss                4   4295000068
+Total             1698
+
+

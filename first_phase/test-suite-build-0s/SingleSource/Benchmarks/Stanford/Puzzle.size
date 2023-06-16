@@ -1,0 +1,12 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/SingleSource/Benchmarks/Stanford/Puzzle  :
+section            size         addr
+__text             1612   4294981748
+__stubs              48   4294983360
+__const             112   4294983408
+__cstring            57   4294983520
+__unwind_info        88   4294983580
+__got                32   4294983680
+__bss             28812   4295000064
+Total             30761
+
+

@@ -1,0 +1,10 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/SingleSource/Regression/C/Regression-C-globalrefs  :
+section           size         addr
+__text             196   4294983288
+__stubs             24   4294983484
+__cstring          100   4294983508
+__unwind_info       72   4294983608
+__got               16   4294983680
+Total              408
+
+

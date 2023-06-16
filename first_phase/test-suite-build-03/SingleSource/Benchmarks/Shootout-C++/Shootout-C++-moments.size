@@ -1,0 +1,11 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/SingleSource/Benchmarks/Shootout-C++/Shootout-C++-moments  :
+section              size         addr
+__text               2292   4294980880
+__stubs               132   4294983172
+__gcc_except_tab       48   4294983304
+__cstring             199   4294983352
+__unwind_info         128   4294983552
+__got                 136   4294983680
+Total                2935
+
+

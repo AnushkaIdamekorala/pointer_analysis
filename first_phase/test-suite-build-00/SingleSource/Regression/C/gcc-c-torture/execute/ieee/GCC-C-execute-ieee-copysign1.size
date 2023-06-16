@@ -1,0 +1,10 @@
+/Users/anushkaidamekorala/Documents/UVA_coursework/Compilers/test-suite/test-suite-build/SingleSource/Regression/C/gcc-c-torture/execute/ieee/GCC-C-execute-ieee-copysign1  :
+section           size         addr
+__text             700   4294982392
+__stubs             12   4294983092
+__const            480   4294983104
+__unwind_info       96   4294983584
+__got                8   4294983680
+Total             1296
+
+
